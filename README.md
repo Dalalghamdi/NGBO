@@ -3,7 +3,7 @@
 
 # next-generation-biobanking-ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology addresses requirements for personalized medicine and scientific research by combining biomedical ontologies with biobanking ontologies and improve compliance of biobanks to accreditation requirements, thus this will generate a high-performance public biobanking smart system by the integration of (i) -omics data and (ii) clinical laboratory accreditation requirements
 
 ## Versions
 
