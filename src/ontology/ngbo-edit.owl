@@ -1535,6 +1535,8 @@ Declaration(Class(:NGBO_6000242))
 Declaration(Class(:NGBO_6000243))
 Declaration(Class(:NGBO_6000244))
 Declaration(Class(:NGBO_6000246))
+Declaration(Class(:NGBO_6000247))
+Declaration(Class(:NGBO_6000248))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -1551,7 +1553,6 @@ Declaration(Class(<http://semanticscience.org/resource/SIO_000184>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000651>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000653>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000675>))
-Declaration(Class(<http://semanticscience.org/resource/SIO_000750>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000785>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000811>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000942>))
@@ -8488,6 +8489,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000100> "group:OBI"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000100> "data set"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000104> (plan specification)
 
@@ -8524,7 +8526,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/IAO_0000109> "http://www.ebi.ac.uk/efo/EFO_0001444"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000109> "measurement datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000109> <http://purl.obolibrary.org/obo/IAO_0000027>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(:NGBO_6000245 :NGBO_6000246))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000129> (version number)
 
@@ -15480,8 +15481,11 @@ SubClassOf(:NGBO_6000000 <http://purl.obolibrary.org/obo/IAO_0000310>)
 
 # Class: :NGBO_6000001 (input data)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000001 "input data is a computer file that inputs data to a program or device")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000001 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000001 "https://www.collinsdictionary.com/dictionary/english/input-data")
 AnnotationAssertion(rdfs:label :NGBO_6000001 "input data"@en)
-EquivalentClasses(:NGBO_6000001 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0200000>) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
+EquivalentClasses(:NGBO_6000001 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0200000>) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000001 <http://purl.obolibrary.org/obo/IAO_0000027>)
 DisjointClasses(:NGBO_6000001 :NGBO_6000002)
 
@@ -15491,7 +15495,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000002 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000002 "Dalia Alghamdi"^^rdfs:Literal)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000002 "https://techterms.com/definition/output"^^rdfs:Literal)
 AnnotationAssertion(rdfs:label :NGBO_6000002 "output data"@en)
-EquivalentClasses(:NGBO_6000002 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200000>) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
+EquivalentClasses(:NGBO_6000002 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200000>) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000002 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: :NGBO_6000003 (file format)
@@ -15767,6 +15771,7 @@ SubClassOf(:NGBO_6000110 <http://purl.obolibrary.org/obo/OBI_0000973>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000112 "Data about DNA sequence variations that occur when a single nucleotide (A, T, C, or G) in the genome sequence is altered.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000112 "http://www.dnabaser.com/articles/SNP/SNP-single-nucleotide-polymorphism.html")
 AnnotationAssertion(rdfs:label :NGBO_6000112 "genetic variation data"@en)
+EquivalentClasses(:NGBO_6000112 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000124) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000112 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: :NGBO_6000114 (expression data)
@@ -15776,6 +15781,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000114 "
 AnnotationAssertion(rdfs:label :NGBO_6000114 "expression data"@en)
 EquivalentClasses(:NGBO_6000114 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000123)))
 SubClassOf(:NGBO_6000114 ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003))
+SubClassOf(:NGBO_6000114 ObjectAllValuesFrom(:NGBO_6000245 :NGBO_6000246))
 
 # Class: :NGBO_6000116 (sequence alignment report)
 
@@ -16018,6 +16024,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000161 "
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> :NGBO_6000161 "Personally identifiable information (PII) is any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.")
 AnnotationAssertion(rdfs:label :NGBO_6000161 "personally identifiable information"@en)
 SubClassOf(:NGBO_6000161 <http://purl.obolibrary.org/obo/IAO_0000027>)
+DisjointClasses(:NGBO_6000161 :NGBO_6000231)
 
 # Class: :NGBO_6000163 (next generation sequecing platform)
 
@@ -16093,8 +16100,11 @@ SubClassOf(:NGBO_6000174 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OB
 
 # Class: :NGBO_6000175 (biological database)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000175 "Biological databases are libraries of life sciences information, collected from scientific experiments, published literature, high-throughput experiment technology, and computational analysis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000175 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000175 "https://en.wikipedia.org/wiki/Biological_database")
 AnnotationAssertion(rdfs:label :NGBO_6000175 "biological database"@en)
-SubClassOf(:NGBO_6000175 <http://semanticscience.org/resource/SIO_000750>)
+SubClassOf(:NGBO_6000175 :NGBO_6000248)
 
 # Class: :NGBO_6000176 (nucleic acid database)
 
@@ -16396,12 +16406,12 @@ AnnotationAssertion(rdfs:label :NGBO_6000230 "sample anonymisation"@en)
 EquivalentClasses(:NGBO_6000230 ObjectIntersectionOf(:NGBO_6000177 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> :NGBO_6000231)))
 SubClassOf(:NGBO_6000230 :NGBO_6000177)
 
-# Class: :NGBO_6000231 (Anonymised sample)
+# Class: :NGBO_6000231 (anonymised specimen)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000231 "sample that have been gone through the process of irreversibly preventing the identification of the individual to whom it relates.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000231 "Dalia Alghamdi")
-AnnotationAssertion(rdfs:label :NGBO_6000231 "Anonymised sample"@en)
-EquivalentClasses(:NGBO_6000231 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000230)))
+AnnotationAssertion(rdfs:label :NGBO_6000231 "anonymised specimen"@en)
+EquivalentClasses(:NGBO_6000231 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000230)))
 
 # Class: :NGBO_6000232 (data validation)
 
@@ -16477,6 +16487,25 @@ SubClassOf(:NGBO_6000244 <http://purl.obolibrary.org/obo/IAO_0000027>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000246 "link to file is a defined linked resource relative to a path variable, where file is stored")
 AnnotationAssertion(rdfs:label :NGBO_6000246 "link to file"@en)
 SubClassOf(:NGBO_6000246 <http://semanticscience.org/resource/SIO_000811>)
+
+# Class: :NGBO_6000247 (depth of coverage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000247 "depth of coverage in DNA sequencing is the number of unique reads that include a given nucleotide in the reconstructed sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000247 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000247 "https://en.wikipedia.org/wiki/Coverage_(genetics)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> :NGBO_6000247 "Sequencing depth, read depth")
+AnnotationAssertion(rdfs:label :NGBO_6000247 "depth of coverage"@en)
+SubClassOf(:NGBO_6000247 <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(:NGBO_6000247 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000973>))
+SubClassOf(:NGBO_6000247 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000165))
+
+# Class: :NGBO_6000248 (database)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000248 "database is a structured set of data held in a computer, especially one that is accessible in various ways.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000248 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000248 "https://en.oxforddictionaries.com/definition/database")
+AnnotationAssertion(rdfs:label :NGBO_6000248 "database"@en)
+SubClassOf(:NGBO_6000248 <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
@@ -16594,13 +16623,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://semanti
 AnnotationAssertion(rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000675> <http://semanticscience.org/ontology/sio.owl>)
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000675> "unique identifier"@en)
 SubClassOf(<http://semanticscience.org/resource/SIO_000675> <http://semanticscience.org/resource/SIO_000115>)
-
-# Class: <http://semanticscience.org/resource/SIO_000750> (database)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://semanticscience.org/resource/SIO_000750> "SIO_000750")
-AnnotationAssertion(rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000750> <http://semanticscience.org/ontology/sio.owl>)
-AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000750> "database"@en)
-SubClassOf(<http://semanticscience.org/resource/SIO_000750> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://semanticscience.org/resource/SIO_000785> (answer)
 
