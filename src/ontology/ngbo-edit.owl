@@ -1313,9 +1313,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001043>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0001080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0025630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000010>))
@@ -8259,7 +8259,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/FLU_0001019> "WEB: http://en.wikipedia.org/wiki/Barcode")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FLU_0001019> <http://purl.obolibrary.org/obo/flu.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FLU_0001019> "specimen barcode"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/FLU_0001019> <http://purl.obolibrary.org/obo/OMIABIS_0001046>)
+SubClassOf(<http://purl.obolibrary.org/obo/FLU_0001019> <http://purl.obolibrary.org/obo/OBI_0001616>)
 
 # Class: <http://purl.obolibrary.org/obo/GAZ_00000448> (geographic location)
 
@@ -9189,7 +9189,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000204> "NCI BBRB, OBIB"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000204> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000204> "parent specimen ID"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000204> <http://purl.obolibrary.org/obo/OMIABIS_0001046>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000204> <http://purl.obolibrary.org/obo/OBI_0001616>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000205> (name of dissector of parent specimen)
 
@@ -9594,7 +9594,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000365> "OBIB"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000365> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000365> "FFPE tissue cassette ID"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000365> <http://purl.obolibrary.org/obo/OMIABIS_0001046>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000365> <http://purl.obolibrary.org/obo/OBI_0001616>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000368> (placement of tissue cassette in FFPE fixative delay duration)
 
@@ -10505,6 +10505,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000018> (material supplier role)
 
@@ -12273,6 +12274,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/OBI_0001616> "sample identifier"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001616> "specimen identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> <http://purl.obolibrary.org/obo/IAO_0000577>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> :NGBO_6000161))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> ObjectSomeValuesFrom(<http://semanticscience.org/resource/SIO_000672> <http://purl.obolibrary.org/obo/OBI_0100051>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100051>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001619> (specimen collection time measurement datum)
@@ -15012,15 +15015,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0001043> "time in formalin measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0001043> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
-# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001046> (specimen ID)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0001046> "A proper name that identifies a specimen and is usually in form of a label included in the specimen cassette."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMIABIS_0001046> "Alice Nzinga"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OMIABIS_0001046> "http://biospecimens.cancer.gov/resources/sops/GTEx_SOPs/II/A/GTEx%20Tissue%20Procurement%20SOP%20%28PR-0004%20v1.2.1%29.pdf"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0001046> "specimen ID"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0001046> <http://purl.obolibrary.org/obo/IAO_0020000>)
-SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0001046> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://edamontology.org/is_identifier_of> :NGBO_6000106) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>)))
-
 # Class: <http://purl.obolibrary.org/obo/OMIABIS_0001047> (case ID)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0001047> "An identifier that refers to a specimen donor who is participating in specimen collection process for tissue procurement purposes and is usually assigned at the time of donor procurement."@en)
@@ -15035,6 +15029,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0001054> "normal specimen"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OGMS_0000045>))))
 SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0001054> <http://purl.obolibrary.org/obo/OBI_0100051>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIABIS_0001079> (specimen donor)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMIABIS_0001079> "Alice Nzinga"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMIABIS_0001079> "Mathias Brochhausen"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OMIABIS_0001079> "sample donor"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OMIABIS_0001079> "A Homo sapiens who contributes specimen.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0001079> "specimen donor"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0001079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/OBI_0000659>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0001079> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 
 # Class: <http://purl.obolibrary.org/obo/OMIABIS_0001080> (sample handling)
 
@@ -15811,9 +15815,11 @@ SubClassOf(:NGBO_6000120 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: :NGBO_6000122 (bioinformatics analysis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000122 "The archival, curation, processing and analysis of complex biological data")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000122 "Bioinformatics analysis is the process of the archival, curation, processing and analysis of complex biological data")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000122 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000122 "bioinformatics analysis"@en)
 SubClassOf(:NGBO_6000122 <http://purl.obolibrary.org/obo/OBI_0200000>)
+SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/IAO_0000027>))
 
 # Class: :NGBO_6000123 (expression analysis)
 
