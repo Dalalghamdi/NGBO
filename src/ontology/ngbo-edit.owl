@@ -8329,7 +8329,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000027> "PERSON: Jonathan Rees"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/IAO_0000027> "data"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000079) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> :NGBO_6000078)))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000028> (symbol)
@@ -15788,6 +15787,9 @@ SubClassOf(:NGBO_6000141 :NGBO_6000003)
 
 # Class: :NGBO_6000142 (biological sequence)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000142 "A biological sequence is a materia entitiy that can be single, continuous molecule of nucleic acid or protein. It can be thought of as a multiple inheritance class hierarchy. One hierarchy is that of the underlying molecule type: DNA, RNA, or protein")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000142 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000142 "https://www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/BIOSEQ.HTML")
 AnnotationAssertion(rdfs:label :NGBO_6000142 "biological sequence"@en)
 SubClassOf(:NGBO_6000142 <http://purl.obolibrary.org/obo/BFO_0000040>)
 SubClassOf(:NGBO_6000142 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000011>))
@@ -16332,7 +16334,7 @@ SubClassOf(:NGBO_6000243 <http://purl.obolibrary.org/obo/IAO_0000088>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000244 "A reference genome (also known as a reference assembly) is a digital nucleic acid sequence database, assembled by scientists as a representative example of a species' set of genes.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000244 "https://en.wikipedia.org/wiki/Reference_genome")
 AnnotationAssertion(rdfs:label :NGBO_6000244 "reference genome"@en)
-EquivalentClasses(:NGBO_6000244 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0002567>) ObjectSomeValuesFrom(<http://semanticscience.org/resource/SIO_000671> <http://purl.obolibrary.org/obo/GENEPIO_0001562>) ObjectExactCardinality(1 :NGBO_0000200 :NGBO_6000003)))
+EquivalentClasses(:NGBO_6000244 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0002567>) ObjectSomeValuesFrom(<http://semanticscience.org/resource/SIO_000671> <http://purl.obolibrary.org/obo/GENEPIO_0001562>) ObjectExactCardinality(1 :NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000244 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: :NGBO_6000246 (link to file)
@@ -16408,6 +16410,7 @@ SubClassOf(:NGBO_6000258 <http://purl.obolibrary.org/obo/OBI_0000094>)
 # Class: :NGBO_6000259 (compressed file)
 
 AnnotationAssertion(rdfs:label :NGBO_6000259 "compressed file"@en)
+EquivalentClasses(:NGBO_6000259 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000079) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> :NGBO_6000078)))
 SubClassOf(:NGBO_6000259 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
