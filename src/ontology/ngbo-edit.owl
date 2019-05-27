@@ -758,14 +758,20 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000053>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000054>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000204>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000205>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000220>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000222>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000232>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000243>))
@@ -784,6 +790,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000275>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000285>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000286>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000287>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000288>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000292>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000293>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000294>))
@@ -795,11 +802,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000302>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000304>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000309>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000313>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000315>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000318>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000319>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000321>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000334>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000341>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000342>))
@@ -818,6 +829,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000408>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000410>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000413>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000414>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000419>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000445>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000474>))
@@ -905,6 +917,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000093>))
@@ -933,6 +946,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000415>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000423>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000424>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000436>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000444>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000448>))
@@ -985,12 +999,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000740>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000747>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000784>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000810>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000811>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000828>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000832>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000835>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000836>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000839>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000844>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000848>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000849>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000855>))
@@ -1047,10 +1063,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001235>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001271>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001307>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001335>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001361>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001463>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001479>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001615>))
@@ -1059,7 +1081,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001619>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001622>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001625>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001673>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001850>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001852>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001864>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001865>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001869>))
@@ -1073,6 +1099,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001893>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001897>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001900>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001901>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001922>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001926>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001928>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001936>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001942>))
@@ -1090,6 +1118,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002023>))
@@ -1098,18 +1127,30 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002114>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002190>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002192>))
@@ -1140,6 +1181,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002399>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002400>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002445>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002469>))
@@ -1206,7 +1249,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002566>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002570>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002571>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002574>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002580>))
@@ -1263,7 +1309,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0666666>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0666667>))
@@ -1314,6 +1362,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OPMI_0000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000122>))
@@ -1344,9 +1393,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/REO_0000171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000148>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000353>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001248>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000465>))
-Declaration(Class(:NGBO_6000000))
 Declaration(Class(:NGBO_6000001))
 Declaration(Class(:NGBO_6000002))
 Declaration(Class(:NGBO_6000003))
@@ -1361,7 +1415,6 @@ Declaration(Class(:NGBO_6000012))
 Declaration(Class(:NGBO_6000014))
 Declaration(Class(:NGBO_6000019))
 Declaration(Class(:NGBO_6000021))
-Declaration(Class(:NGBO_6000022))
 Declaration(Class(:NGBO_6000024))
 Declaration(Class(:NGBO_6000025))
 Declaration(Class(:NGBO_6000026))
@@ -1370,7 +1423,6 @@ Declaration(Class(:NGBO_6000028))
 Declaration(Class(:NGBO_6000029))
 Declaration(Class(:NGBO_6000030))
 Declaration(Class(:NGBO_6000031))
-Declaration(Class(:NGBO_6000033))
 Declaration(Class(:NGBO_6000057))
 Declaration(Class(:NGBO_6000058))
 Declaration(Class(:NGBO_6000078))
@@ -1395,7 +1447,6 @@ Declaration(Class(:NGBO_6000101))
 Declaration(Class(:NGBO_6000103))
 Declaration(Class(:NGBO_6000105))
 Declaration(Class(:NGBO_6000106))
-Declaration(Class(:NGBO_6000109))
 Declaration(Class(:NGBO_6000110))
 Declaration(Class(:NGBO_6000112))
 Declaration(Class(:NGBO_6000114))
@@ -1423,25 +1474,18 @@ Declaration(Class(:NGBO_6000138))
 Declaration(Class(:NGBO_6000139))
 Declaration(Class(:NGBO_6000140))
 Declaration(Class(:NGBO_6000141))
-Declaration(Class(:NGBO_6000142))
 Declaration(Class(:NGBO_6000144))
 Declaration(Class(:NGBO_6000145))
-Declaration(Class(:NGBO_6000146))
 Declaration(Class(:NGBO_6000147))
 Declaration(Class(:NGBO_6000148))
 Declaration(Class(:NGBO_6000150))
 Declaration(Class(:NGBO_6000151))
-Declaration(Class(:NGBO_6000152))
-Declaration(Class(:NGBO_6000153))
-Declaration(Class(:NGBO_6000154))
-Declaration(Class(:NGBO_6000155))
 Declaration(Class(:NGBO_6000156))
 Declaration(Class(:NGBO_6000157))
 Declaration(Class(:NGBO_6000158))
 Declaration(Class(:NGBO_6000160))
 Declaration(Class(:NGBO_6000161))
 Declaration(Class(:NGBO_6000163))
-Declaration(Class(:NGBO_6000164))
 Declaration(Class(:NGBO_6000165))
 Declaration(Class(:NGBO_6000166))
 Declaration(Class(:NGBO_6000169))
@@ -1460,7 +1504,6 @@ Declaration(Class(:NGBO_6000183))
 Declaration(Class(:NGBO_6000184))
 Declaration(Class(:NGBO_6000185))
 Declaration(Class(:NGBO_6000186))
-Declaration(Class(:NGBO_6000187))
 Declaration(Class(:NGBO_6000188))
 Declaration(Class(:NGBO_6000189))
 Declaration(Class(:NGBO_6000190))
@@ -1527,6 +1570,7 @@ Declaration(Class(:NGBO_6000256))
 Declaration(Class(:NGBO_6000257))
 Declaration(Class(:NGBO_6000258))
 Declaration(Class(:NGBO_6000259))
+Declaration(Class(:NGBO_6000260))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -1546,7 +1590,6 @@ Declaration(Class(<http://semanticscience.org/resource/SIO_000675>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000785>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000811>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000942>))
-Declaration(Class(<http://semanticscience.org/resource/SIO_000964>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_001041>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_001166>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_001196>))
@@ -1604,8 +1647,6 @@ Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001464>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001468>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001470>))
 Declaration(Class(<http://www.w3.org/2006/vcard/ns#Address>))
-Declaration(ObjectProperty(<http://edamontology.org/has_input>))
-Declaration(ObjectProperty(<http://edamontology.org/has_output>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
@@ -1764,6 +1805,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000231>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000233>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000234>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000424>))
@@ -1775,6 +1817,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0010000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0001847>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0001886>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_9991118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_GSCID_BRC_Field_ID>))
 Declaration(AnnotationProperty(:NGBO_6000149))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#homologous_in>))
@@ -2280,7 +2323,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/BFO_0000060> "Please note that, as stated on one of the RO documentation pages (https://code.google.com/p/obo-relations/wiki/ROAndBFO), some of the relations RO makes use are either uncontroversial (non-temporalized) parts of BFO2, or will be incorporated in the future. In the case of BFO_0000063, it is not currently in BFO2, but may be in the future. The RO ontologists assume this is the transitive form. For a full definition, refer to the inverse of this property, BFO_0000060. (Allyson Lister)"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000060> "preceded by")
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000062> (preceded by)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000062> (preceded_by)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000062> "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000062> "is preceded by"@en)
@@ -2292,7 +2335,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.ob
 InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000063>)
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000063> (followed by)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000063> (precedes)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/BFO_0000063> "precedes"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000063> "The assertion P 'followed by' P1 tells us something about Ps in general: that is, it tells us something about what happened later, given what we know about what happened earlier. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be preceded by some instance of P. Note that assertions using this property only are rather weak. Typically we will be interested in stronger relations, for example in the relation 'directly followed by'."^^xsd:string)
@@ -2810,7 +2853,7 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (has_participant)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (has participant)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000057> "has participant"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000057> "this blood coagulation has participant this blood clot"@en)
@@ -2911,7 +2954,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obo
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has_role)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000087> "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000087> "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
@@ -3089,7 +3132,7 @@ ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002206> <http://purl.ob
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002206> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000040>))
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002206> <http://purl.obolibrary.org/obo/CARO_0000006>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002222> (temporal relation)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002222> (temporally related to)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0002222> "temporal relation"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0002222> "move to BFO?")
@@ -8398,7 +8441,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000033> "PERSON: Bjoern Peters"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000033> "directive information entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000033> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000011>)))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000064> (algorithm)
 
@@ -9090,6 +9132,46 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000068> "collection packet identifier"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000068> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000070> (standard operating procedure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000070> "A protocol that is a set of step-by-step instructions compiled by an organization for carrying out routine operations."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000070> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBIB_0000070> "SOP"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000070> "https://en.wikipedia.org/wiki/Standard_operating_procedure"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000070> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000070> "standard operating procedure"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000070> <http://purl.obolibrary.org/obo/IAO_0000310>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000070> <http://purl.obolibrary.org/obo/OBI_0000272>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000011>))
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000071> (specimen transport SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000071> "A standard operating procedure for the transportation of specimens."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000071> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000071> "OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000071> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000071> "specimen transport SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000071> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000072> (tissue procurement SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000072> "A standard operating procedure for collecting specimens from organism."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000072> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000072> "OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000072> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000072> "tissue procurement SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000072> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000073> (case report form completion SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000073> "A standard operating procedure for properly and completely filling out a case report form."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000073> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBIB_0000073> "CRF completion protocol"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000073> "OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000073> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000073> "case report form completion SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000073> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000086> (specimen collected with specific collection packet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBIB_0000086> "specimen collected with GTEx Pink Kit"^^xsd:string)
@@ -9128,6 +9210,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000150> "Duration of fasting by specimen donor prior to surgery"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000150> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000200> (receipt and dissection of surgical specimen SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBIB_0000200> "BPV SOP governing receipt and dissection of surgical tissue in the Tissue Bank"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000200> "A standard operating procedure for the receipt and dissection of surgical tissue in a biobank."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000200> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000200> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000200> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000200> "receipt and dissection of surgical specimen SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000200> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000202> (name of biobank person receiving specimen)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000202> "A personal name that designates the person who received a specimen in the biobank."^^xsd:string)
@@ -9164,6 +9256,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000220> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000220> "buffered formalin condition"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000220> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000222> (blood specimen collection and processing SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000222> "A standard operating procedure for collection and processing of blood specimens."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000222> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000222> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000222> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000222> "blood specimen collection and processing SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000222> <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000232> (name of person performing blood draw)
 
@@ -9334,6 +9435,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000287> "name of team leader for filling out tissue recovery form"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000287> <http://purl.obolibrary.org/obo/IAO_0020015>)
 
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000288> (FFPE tissue processing SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000288> "A standard operating procedure for fixation of a tissue to the state where it is completely infiltrated with a suitable histological wax and can be embedded ready for section cutting on the microtome for a formalin-fixed paraffin-embedded (FFPE) process."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000288> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000288> "http://www.leicabiosystems.com/pathologyleaders/an-introduction-to-specimen-processing/"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000288> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000288> "FFPE tissue processing SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000288> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000292> (adherence of alcohol stage duration to FFPE tissue processing SOP)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000292> "An information content entity that indicates whether duration of the alcohol stage followed that prescribed in the FFPE tissue processing SOP."^^xsd:string)
@@ -9433,6 +9543,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000306> "adherence of paraffin temperature to FFPE tissue processing SOP"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000306> :NGBO_6000148)
 
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000309> (FFPE tissue paraffin embedding SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000309> "A standard operating procedure for the paraffin embedding of a formalin-fixed paraffin-embedded (FFPE) tissue."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000309> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000309> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000309> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000309> "FFPE tissue paraffin embedding SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000309> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000313> (total time FFPE freshly poured blocks were cooled)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000313> "A time measurement datum that is the result of measuring the total time that freshly poured blocks were cooled in the formalin-fixed paraffin-embedded (FFPE) process."^^xsd:string)
@@ -9441,6 +9560,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000313> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000313> "total time FFPE freshly poured blocks were cooled"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000313> <http://purl.obolibrary.org/obo/IAO_0000416>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000314> (FFPE tissue block handling, tracking, and storage SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000314> "A standard operating procedure for the handling, tracking, and storing of a formalin-fixed paraffin-embedded (FFPE) tissue block."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000314> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000314> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000314> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000314> "FFPE tissue block handling, tracking, and storage SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000314> <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000315> (adherence to FFPE tissue block storage SOP)
 
@@ -9461,6 +9589,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000318> "name of specimen slide preparation technician"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000318> <http://purl.obolibrary.org/obo/IAO_0020015>)
 
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000319> (FFPE tissue section preparation SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000319> "A standard operating procedure for the preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000319> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000319> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000319> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000319> "FFPE tissue section preparation SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000319> <http://purl.obolibrary.org/obo/OBIB_0000070>)
+
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000320> (microtome blade age)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000320> "An age that inheres in a microtome blade."^^xsd:string)
@@ -9478,6 +9615,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000321> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000321> "fresh microtome blade"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000321> <http://purl.obolibrary.org/obo/OBIB_0000320>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000334> (FFPE tissue section H&E staining and mounting SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000334> "A standard operating procedure for the hematoxylin and eosin (H&E) staining and slide mounting of a formalin-fixed paraffin-embedded (FFPE) tissue section."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000334> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000334> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000334> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000334> "FFPE tissue section H&E staining and mounting SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000334> <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000335> (FFPE tissue section H&E staining in oven duration)
 
@@ -9643,6 +9789,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000413> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000413> "name of person in gross room receiving OR specimen"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000413> <http://purl.obolibrary.org/obo/IAO_0020015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBIB_0000414> (specimen transport from OR to gross room SOP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000414> "A specimen transport SOP governing the transport of tissue from the operating room (OR) to the pathology gross room."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000414> "Person: Chris Stoeckert, Helena Ellis, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBIB_0000414> "NCI BBRB, OBIB"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBIB_0000414> "NCI BBRB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000414> "specimen transport from OR to gross room SOP"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBIB_0000414> <http://purl.obolibrary.org/obo/OBIB_0000071>)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000419> (name of performer of gross evaluation of resected tissue specimen)
 
@@ -10401,7 +10556,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000018> (material supplier role)
 
@@ -10459,6 +10613,23 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000052> "mic
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000052> <http://purl.obolibrary.org/obo/OBI_0002089>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0400147>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000401>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000070> "assay"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000070> "Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000070> "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000070> "12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000070> "PlanAndPlannedProcess Branch"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000070> "measuring"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000070> "scientific observation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000070> "OBI branch derived"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001847> <http://purl.obolibrary.org/obo/OBI_0000070> "study assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_9991118> <http://purl.obolibrary.org/obo/OBI_0000070> "any method"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000070> "assay"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0000011>)
+DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000084> (polystyrene tube)
 
@@ -10835,6 +11006,21 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000423> "extract"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000423> <http://purl.obolibrary.org/obo/OBI_0000047>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0302884>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000424> (transcription profiling assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000424> "transcription profiling assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000424> "Whole genome transcription profiling of Anaplasma phagocytophilum in human and tick host cells by tiling array analysis. BMC Genomics. 2008 Jul 31;9:364. PMID: 18671858"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000424> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000424> "An assay that determines gene expression and transcription activity using ribonucleic acids collected from a material entity."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000424> "This term should encompass transcription and post-transcription, but before translation into protein. So 'gene expression' itself is too broad, and we use 'transcription profiling identification objective' to constrain the scope of this term."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000424> "Philippe Rocca-Serra"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000424> "gene expression profiling"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000424> "transcription profiling"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000424> "OBI"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000424> "transcription profiling assay"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000424> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> :NGBO_6000114)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000424> <http://purl.obolibrary.org/obo/OBI_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000436> (needle)
 
@@ -11318,6 +11504,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000711> "library preparation"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000711> <http://purl.obolibrary.org/obo/OBI_0000094>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000711> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> :NGBO_6000165)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> :NGBO_6000237))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000713> (GenePattern software)
 
@@ -11403,6 +11590,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000810> "informed consent process"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000810> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000811> (primary structure of DNA macromolecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000811> "primary structure of DNA macromolecule"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000811> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000811> "a quality of a DNA molecule that inheres in its bearer due to the order of its DNA nucleotide residues."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000811> "placeholder for SO"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000811> "BP et al"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000811> "primary structure of DNA macromolecule"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000811> <http://purl.obolibrary.org/obo/SO_0000001>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0000828> (research organization)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000828> "research organization"^^xsd:string)
@@ -11469,6 +11666,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000844> "2009/09/28 Alan Ruttenberg. Fucoidan-use-case"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000844> "hospital"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000844> <http://purl.obolibrary.org/obo/OBI_0000245>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000845> (primary structure of RNA molecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000845> "primary structure of RNA molecule"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000845> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000845> "The primary structure of an RNA molecule that is completely defined by the set of its nucleic residue parts and the linear order induced by the peptide bonds that hold them together"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000845> "Person:Bjoern Peters"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000845> "primary structure of RNA molecule"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000845> <http://purl.obolibrary.org/obo/SO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000848> (polyA RNA extraction)
 
@@ -11684,7 +11890,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000973> "GROUP: OBI"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000973> "sequence data"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000973> <http://purl.obolibrary.org/obo/IAO_0000109>)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000973> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SO_0000001>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000973> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000040>)))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000989> (PCR instrument)
 
@@ -12086,6 +12292,31 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001204> "SNP microarray"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001204> <http://purl.obolibrary.org/obo/OBI_0400148>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0001235> (transcription profiling by tiling array assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001235> "transcription profiling by tiling array assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001235> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001235> "A transcription profiling by array assay that uses a tiling path array."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001235> "James Malone"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001235> "EFO:0002769"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001235> "transcription profiling by tiling array assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001235> <http://purl.obolibrary.org/obo/OBI_0001463>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001235> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0001307>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0001307>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001271> (RNA-seq assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001271> "RNA-seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001271> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001271> "An transcription profiling assay that determines an RNA sequence by analyzing the transcibed regions of the genome and or to quantitate transcript abundance."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001271> "James Malone"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001271> "transcription profiling by high throughput sequencing"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001271> "EFO:0002770"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001271> "RNA-seq assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001271> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001271> <http://purl.obolibrary.org/obo/OBI_0600047>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001271> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001271> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000973>))
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0001307> (tiling microarray)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001307> "tiling microarray"@en)
@@ -12095,6 +12326,42 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001307> "EFO_0002704: tiling array"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001307> "tiling microarray"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001307> <http://purl.obolibrary.org/obo/OBI_0400148>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001335> (microRNA profiling by array assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001335> "microRNA profiling by array assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001335> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001335> "An assay that analyses the microRNA component of the transcriptome using a microRNA array."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001335> "James Malone"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001335> "EFO:0000753"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001335> "microRNA profiling by array assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001335> <http://purl.obolibrary.org/obo/OBI_0001926>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001335> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400148>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400148>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SO_0000276>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001361> (transcription profiling by RT-PCR assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001361> "transcription profiling by RT-PCR assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001361> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001361> "A transcription profiling assay that uses reverse transcription PCR (RT-PCR)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001361> "Anna Farne"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001361> "EFO:0002943"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001361> "transcription profiling by RT-PCR assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001361> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001361> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0000989>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000989>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001463> (transcription profiling by array assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001463> "transcription profiling by array assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001463> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001463> "A transcription profiling assay that uses array technology."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001463> "James Malone"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001463> "RNA profiling by array assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001463> "EFO:0002768"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0001463> "https://sourceforge.net/p/obi/obi-terms/757/"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001463> "transcription profiling by array assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001463> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001463> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400148>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400148>)))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001472> (specimen with known storage state)
 
@@ -12126,6 +12393,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001483> "cel
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001483> <http://purl.obolibrary.org/obo/OBI_0600014>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> :NGBO_6000106))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> <http://purl.obolibrary.org/obo/CL_0000000>))))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001494> (linear amplification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001494> "linear amplification"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001494> "An example is the use of the T7 promoter for amplification by transcribing many RNA copies."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001494> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001494> "An enzymatic amplification which amplifies nucleic acid sequence by making many copies off the same template."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001494> "PERSON: Chris Stoeckert, Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001494> "MO_997 linear_amplification"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001494> "linear amplification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001494> <http://purl.obolibrary.org/obo/OBI_0600058>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001522> (sequence assembly algorithm)
 
@@ -12238,6 +12516,58 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001626> "Bioinformatics Resource Center"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001626> <http://purl.obolibrary.org/obo/OBI_0000245>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0001673> (nano-cap analysis of gene expression assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001673> "nano-cap analysis of gene expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001673> "Linking promoters to functional transcripts in small samples with nanoCAGE and CAGEscan._PMID:20543846"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001673> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001673> "A transcription profiling assay that is performed using a very low amount (nanogram scale) of mRNA samples using Cap analysis gene expression (CAGE)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001673> "Marcus Chibucos"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001673> "Philippe Rocca-Serra"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001673> "nano-CAGE"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001673> "PMID:20543846"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001673> "nano-cap analysis of gene expression assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001673> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001673> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000880>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001673> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000027>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001674> (cap analysis of gene expression assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001674> "cap analysis of gene expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001674> "5' end-centered expression profiling using cap-analysis gene expression and next-generation sequencing. PMID:22362160"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001674> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001674> "A transcription profiling assay which measures RNA transcript abundances in biological samples by extracting 5' ends of capped transcripts, RTPCR and sequence those. Copy numbers of CAGE tags provide a way of quantification and provide a measure of expression of the transcriptome"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001674> "Marcus Chibucos"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001674> "Philippe Rocca-Serra"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001674> "CAGE"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001674> "PMID:14663149"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001674> "cap analysis of gene expression assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001674> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001674> <http://purl.obolibrary.org/obo/OBI_0600047>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001674> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000880>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000973>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001850> (transcript analysis by paired-end tag sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001850> "transcript analysis by paired-end tag sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001850> "Ruan, et al. Genome wide full-length transcript analysis using 5' and 3' paired-end-tag next generation sequencing (RNA-PET). Methods Mol Biol. 2012;809:535-62. [PMID:22113299]"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001850> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001850> "A transcription profiling assay that determines transcripts, gene structures, and gene expressions using Paired-End Tags and sequencing technology."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001850> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001850> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001850> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001850> "RNA-PET"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001850> "RNA-PET assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001850> "PMID:22113299"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001850> "transcript analysis by paired-end tag sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> <http://purl.obolibrary.org/obo/OBI_0600047>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0001177>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0001852>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001850> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001573>))
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0001852> (paired-end library preparation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001852> "paired-end library preparation"@en)
@@ -12249,6 +12579,25 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001852> "paired-end library preparation"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0001852> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000722>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001852> <http://purl.obolibrary.org/obo/OBI_0000711>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001864> (RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001864> "RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001864> "Batut et al. High-fidelity promoter profiling reveals widespread alternative promoter usage and transposon-driven developmental gene expression. Genome Research. 2013 Jan;23(1):169-80. [PMID:22936248]"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001864> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001864> "An transcription profiling assay that identifies transcription start sites (TSS), the quantification of their expression and the characterization of their transcripts using high throughput sequencing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001864> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001864> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001864> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001864> "RAMPAGE"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001864> "PMID:22936248"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001864> "RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> <http://purl.obolibrary.org/obo/OBI_0600047>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000711>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0600047>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001864> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001573>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001865> (assay array)
 
@@ -12411,6 +12760,42 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001901> "specimen identifier assigned by sequencing facility"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001901> <http://purl.obolibrary.org/obo/OBI_0001616>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001901> :NGBO_6000161)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001922> (microRNA profiling by high throughput sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001922> "microRNA profiling by high throughput sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001922> "Juhlia et al. MicroRNA expression profiling reveals miRNA families regulating_specific biological pathways in mouse frontal cortex and hippocampus. PLoS One. 2011;6(6). PMID: 21731767"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001922> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001922> "A microRNA profiling assay that analyzes the microRNA component of the transcriptome using high throughput sequencing technology."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001922> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001922> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001922> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001922> "miRNA-HTS"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001922> "miRNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001922> "microRNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001922> "microRNA-seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001922> "url:http://www.ebi.ac.uk/efo/EFO_0002896"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001922> "microRNA profiling by high throughput sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001922> <http://purl.obolibrary.org/obo/OBI_0001926>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001922> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001922> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000711>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001922> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0600047>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001922> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SO_0000276>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001926> (microRNA profiling assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001926> "microRNA profiling assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001926> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001926> "A transcription profiling assay that quantifies the microRNA species within a biological sample."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001926> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001926> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001926> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001926> "miRNA expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0001926> "microRNA expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001926> "PMID: 23382819"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001926> "microRNA profiling assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001926> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001926> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SO_0000276>)))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001928> (selection)
 
@@ -12698,6 +13083,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002012> "3-s
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002012> "PacBio RS II")
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002012> <http://purl.obolibrary.org/obo/OBI_0400103>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0002015> (transcription profiling by MPSS assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002015> "transcription profiling by MPSS assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002015> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002015> "A transcription profiling assay that uses Massive Parallel Signature Sequencing (MPSS)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002015> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002015> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002015> "expression MPSS"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002015> "url:http://en.wikipedia.org/wiki/Massively_parallel_signature_sequencing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002015> "transcription profiling by MPSS assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002015> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000626>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000711>))
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0002021> (NextSeq 500)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002021> "NextSeq 500")
@@ -12795,6 +13194,115 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002028> "SAGE ditag library preparation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002028> <http://purl.obolibrary.org/obo/OBI_0000711>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0002029> (serial analysis of gene expression assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002029> "serial analysis of gene expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002029> "PMID:15905473"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002029> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002029> "A transcription profiling assay that quantifies RNA through creating short signature tags of the messages and ligating them into a larger molecule than was sequenced."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002029> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002029> "Janos Demeter"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002029> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002029> "SAGE"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002029> "PMID:7570003"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002029> "https://sourceforge.net/p/obi/obi-terms/720/"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002029> "serial analysis of gene expression assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002029> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002029> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0400103>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0400103>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0002028>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0600047>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002033> (translation-associated transcript leader sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002033> "translation-associated transcript leader sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002033> "pmid:23580730"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002033> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002033> "An RNA-seq assay that combines TL-seq with polysome fractionation"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002033> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002033> "Janos Demeter"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002033> "TATL-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002033> "PMID:23580730"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002033> "https://sourceforge.net/p/obi/obi-terms/725/"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002033> "translation-associated transcript leader sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002033> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002034> (transcript leader sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002034> "transcript leader sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002034> "pmid:23580730"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002034> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002034> "An RNA-seq assay that combines enzymatic capture of m(7)G-capped mRNA 5' ends with high-throughput sequencing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002034> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002034> "Janos Demeter"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002034> "TL-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002034> "PMID:23580730"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002034> "https://sourceforge.net/p/obi/obi-terms/725/"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002034> "transcript leader sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002034> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002038> (ribosomal profiling by sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002038> "ribosomal profiling by sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002038> "Aspden et al., (August 2014). \"Extensive translation of small open reading frames revealed by poly-ribo-seq.\" eLIFE 2014;3:e03528"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002038> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002038> "A RNA-seq assay that sequences only mRNA protected by the ribosome during translation."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002038> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002038> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002038> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002038> "Ribo-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002038> "Ribo-seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002038> "ribosomal profiling"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002038> "PMID:24468696"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002038> "ribosomal profiling by sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002038> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002041> (self-transcribing active regulatory region sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002041> "self-transcribing active regulatory region sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002041> "Bohla et al., (September 2014). \"A functional insulator screen identifies NURF and dREAM components to be required for enhancer-blocking.\" PLoS One 9(9):e107765. doi: 10.1371/journal.pone.0107765."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002041> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002041> "An RNA-seq assay that identifies the sequences that act as transcriptional enhancers in a direct, quantitative, and genome-wide manner from sheared genomic DNA."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002041> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002041> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002041> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002041> "STARR-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002041> "STARR-seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002041> "self-transcribing active regulatory region sequencing"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002041> "PMID:23328393"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002041> "self-transcribing active regulatory region sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002041> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002044> (RNA Bind-n-Seq assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002044> "RNA Bind-n-Seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002044> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002044> "An RNA-seq assay that comprehensively characterizes sequence and structural specificity of RNA binding proteins (RBPs)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002044> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002044> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002044> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002044> "RBNS"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002044> "RNA Bind-n-Seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002044> "RNBS assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002044> "doi: 10.1016/j.molcel.2014.04.016"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002044> "RNA Bind-n-Seq assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002044> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002045> (poly(A)-site sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002045> "poly(A)-site sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002045> "Wu et al., (July 2014). \"Genome-wide determination of poly(A) sites in Medicago truncatula: evolutionary conservation of alternative poly(A) site choice. BMC Genomics. 2014 Jul 21;15:615. doi: 10.1186/1471-2164-15-615."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002045> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002045> "A RNA-seq assay that quantitatively profiles RNA polyadenylation at the transcriptome level."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002045> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002045> "Jie Zheng"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002045> "Venkat Malladi"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002045> "PAS-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002045> "PAS-seq assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002045> "Poly(A)-site sequencing"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002045> "doi: 10.1261/rna.2581711"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002045> "poly(A)-site sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002045> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0002048> (Illumina HiSeq 3000)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002048> "Illumina HiSeq 3000")
@@ -12866,6 +13374,46 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002109> "Human 6x630K CGH Whole Genome Tiling Array")
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002109> <http://purl.obolibrary.org/obo/OBI_0001307>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0002112> (small RNA sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002112> "small RNA sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002112> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002112> "An RNA-seq assay which is targeting small RNA (< 200 bp) sequences such as, but not exclusive to, miRNAs using, for example, small RNA library preparation kits."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002112> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002112> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002112> "Mark A. Miller"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002112> "short RNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002112> "small RNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002112> "url:http://science.sciencemag.org/content/316/5830/1484.full"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002112> "url:http://www.illumina.com/techniques/sequencing/rna-sequencing/small-rna-seq.html"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002112> "https://github.com/obi-ontology/obi/issues/859"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002112> "small RNA sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002112> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002113> (bromouridine labeling and sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002113> "bromouridine labeling and sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002113> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002113> "An RNA-seq assay to identify spans of nascent transcription in the genome through isolation of recent bromouridine (Bru) labelled RNAs."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002113> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002113> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002113> "Bru-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002113> "PMC:4009065"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002113> "bromouridine labeling and sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002113> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002114> (bromouridine pulse-chase and sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002114> "bromouridine pulse-chase and sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002114> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002114> "An RNA-seq assay to identify RNA populations of specific ages through isolation of RNAs first labelled with bromouridine (Bru) followed by chasing in uridine for different periods of time."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002114> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002114> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002114> "BruChase-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002114> "PMC:4009065"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002114> "bromouridine pulse-chase and sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002114> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0002125> (H&E-stained fixed tissue slide specimen)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002125> "H&E-stained fixed tissue slide specimen"@en)
@@ -12926,6 +13474,35 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OBI_0002131> "ENCODE project"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002131> "Illumina Infinium MethylationEPIC BeadChip"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002131> <http://purl.obolibrary.org/obo/OBI_0001870>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002142> (Nanostring nCounter miRNA expression assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002142> "Nanostring nCounter miRNA expression assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002142> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002142> "A microRNA profiling assay using digital molecular barcoding technology to quantify target microRNA molecules without the need for amplification."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002142> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002142> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002142> "microRNA counts"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002142> "PMID:26729350"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002142> "url:http://www.nanostring.com/applications/technology"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002142> "https://github.com/obi-ontology/obi/issues/806"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBI_0002142> "ENCODE DCC"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002142> "Nanostring nCounter miRNA expression assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002142> <http://purl.obolibrary.org/obo/OBI_0001926>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002143> (bromouride labeling and sequencing after UV exposure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002143> "bromouride labeling and sequencing after UV exposure"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002143> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002143> "An RNA-seq assay to identify transcription start sites and active enhancer elements through isolation of bromouridine (Bru) labelled RNAs after UV light exposure introduces transcription-blocking lesions."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002143> "Chris Stoeckert"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002143> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002143> "BruUV-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002143> "PMC:4675984"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002143> "https://github.com/obi-ontology/obi/issues/827"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBI_0002143> "ENCODE DCC"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002143> "bromouride labeling and sequencing after UV exposure"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002143> <http://purl.obolibrary.org/obo/OBI_0001271>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0002190> (courier organization)
 
@@ -13234,6 +13811,32 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBI_0002405> "NCI BBRB"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002405> "hormonal replacement therapy history"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002405> <http://purl.obolibrary.org/obo/OGMS_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002445> (transcription start site mapping by primer extension assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002445> "transcription start site mapping by primer extension assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002445> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002445> "A transcription profiling assay in which the transcription start site for a gene is determined by identifying the 5' end of mRNA. A radio-labeled primer is annealed to a complementary mRNA sequence near the 3' end, then cDNA is synthesized until the 5' end is reached."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002445> "Rebecca Tauber"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002445> "PMID:23378648"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002445> "url:https://en.wikipedia.org/wiki/Primer_extension"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002445> "transcription start site mapping by primer extension assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002445> <http://purl.obolibrary.org/obo/OBI_0000424>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002445> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000880>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002445> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000973>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002457> (precision nuclear run-on sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002457> "precision nuclear run-on sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002457> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002457> "An RNA-seq assay that maps the genome-wide distribution of transcriptionally-engaged Pol II at base-pair resolution by using biotin-labeled ribonucleotide triphosphate analogs (biotin-NTP) for nuclear run-on reactions, allowing the efficient affinity purification of nascent RNAs for high throughput sequencing from their 3' ends."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002457> "Rebecca Tauber"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002457> "PRO-Seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002457> "precision nuclear run-on and sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002457> "PMID:23430654"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OBI_0002457> "https://github.com/obi-ontology/obi/issues/876"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002457> "precision nuclear run-on sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002457> <http://purl.obolibrary.org/obo/OBI_0001271>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0002466> (alignment counting algorithm)
 
@@ -13854,6 +14457,33 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002570> "nCounter Mouse miRNA Expression array")
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002570> <http://purl.obolibrary.org/obo/OBI_0001865>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0002571> (polyA-selected RNA sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002571> "polyA-selected RNA sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002571> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002571> "An RNA-seq assay to study transcriptomes through the enrichment of polyadenylated transcripts or removal of ribosomal RNA prior to high-throughput sequencing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002571> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002571> "Mark A. Miller"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002571> "mRNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002571> "url:https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-419"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBI_0002571> "ENCODE"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002571> "polyA-selected RNA sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002571> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002572> (polyA-depleted RNA sequencing assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002572> "polyA-depleted RNA sequencing assay"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002572> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002572> "An RNA-seq assay to study non-polyadenylated transcripts, such as, but not exclusive to unspliced and circular isoforms, through the depletion of polyadenylated transcripts prior to high-throughput sequencing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002572> "Jason Hilton"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0002572> "Mark A. Miller"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002572> "polyA-depleted RNA-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002572> "url:http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030733"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002572> "url:http://www.tandfonline.com/doi/full/10.1080/15476286.2015.1110676"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OBI_0002572> "ENCODE"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002572> "polyA-depleted RNA sequencing assay"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002572> <http://purl.obolibrary.org/obo/OBI_0001271>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0002574> (RNA extraction with polyA depletion)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002574> "RNA extraction with polyA depletion"^^xsd:string)
@@ -13864,6 +14494,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/OBI_0002574> "2018-05-11T15:01:14Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002574> "RNA extraction with polyA depletion")
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002574> <http://purl.obolibrary.org/obo/OBI_0666666>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002575> (isoform sequencing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0002575> "isoform sequencing"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0002575> "Novel transcript forms were assessed by isoform sequencing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002575> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002575> "A method for sequencing isoforms by enriching a cDNA library for full-length reads spanning entire transcript isoforms."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0002575> "ISO-seq"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0002575> "url:http://www.pacb.com/blog/intro-to-iso-seq-method-full-leng/"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002575> "isoform sequencing"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002575> <http://purl.obolibrary.org/obo/OBI_0001271>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0002578> (adapter sequence data)
 
@@ -13920,7 +14561,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0002585> <http://purl.obolibrary.org/obo/IAO_0000123>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002585> "A data transformation in which subsequences of a molecular sequence are cut (removed)."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002585> "sequence trimming"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002585> <http://purl.obolibrary.org/obo/OBI_0200000>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002585> :NGBO_6000122)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0100016> (blood plasma specimen)
 
@@ -14023,8 +14664,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0200000> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0200000> "data transformation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://edamontology.org/has_input> <http://purl.obolibrary.org/obo/IAO_0000027>))
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://edamontology.org/has_output> <http://purl.obolibrary.org/obo/IAO_0000027>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0200111> (data visualization)
 
@@ -14579,6 +15218,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600047> "seq
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600047> "sequencing assay"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600047> :NGBO_6000165)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0600049> (DNA polymerase amplification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0600049> "DNA polymerase amplification"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0600049> "The use of taq polymerase to amplify a DNA fragment during a PCR."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0600049> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0600049> "DNA polymerase amplification is an enzymatic amplification which uses DNA polymerase enzyme to make copies of a DNA contained in biomaterial used as input"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0600049> "PERSON:Kevin Clancy"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0600049> "Philippe Rocca-Serra"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0600049> "OBI branch derived"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600049> "DNA polymerase amplification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600049> <http://purl.obolibrary.org/obo/OBI_0600058>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0600052> (dialysis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0600052> "dialysis"@en)
@@ -14588,6 +15239,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0600052> "OBI branch derived"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600052> "dialysis"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600052> <http://purl.obolibrary.org/obo/OBI_0600014>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0600057> (enzymatic DNA replication)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0600057> "enzymatic DNA replication"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0600057> "the use of enzymes to duplicate DNA molecules"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0600057> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0600057> "the use of enzymes to duplicate DNA molecule any process used to make additional copies of a biomaterial"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0600057> "PERSON:Kevin Clancy"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0600057> "OBI branch derived"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0600057> "enzymatic DNA replication"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600057> <http://purl.obolibrary.org/obo/OBI_0600058>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0600058> (enzymatic amplification)
 
@@ -15010,6 +15672,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMRSE_00000135> "gender identification process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OMRSE_00000135> <http://purl.obolibrary.org/obo/OMRSE_00000134>)
 
+# Class: <http://purl.obolibrary.org/obo/OPMI_0000045> (paper form)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OPMI_0000045> "Fred Down, Oliver He")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OPMI_0000045> "paper form"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OPMI_0000045> :NGBO_6000156)
+
 # Class: <http://purl.obolibrary.org/obo/PATO_0000011> (age)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/PATO_0000011> "age"^^xsd:string)
@@ -15019,7 +15687,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000011> "ag
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000011> <http://purl.obolibrary.org/obo/PATO_0001018>)
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000011> <http://purl.obolibrary.org/obo/PATO_0001237>)
 
-# Class: <http://purl.obolibrary.org/obo/PATO_0000047> (sex)
+# Class: <http://purl.obolibrary.org/obo/PATO_0000047> (biological sex)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/PATO_0000047> "biological sex"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000047> "An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved."^^xsd:string)
@@ -15324,6 +15992,55 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000001> "region"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/SO_0000001> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
+# Class: <http://purl.obolibrary.org/obo/SO_0000104> (polypeptide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0000104> "polypeptide"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000104> "A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000104> "polypeptide sequence"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000104> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000104> "polypeptide"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000104> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000148> (supercontig)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0000148> "supercontig"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000148> "One or more contigs that have been ordered and oriented using end-read information. Contains gaps that are filled with N's."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000148> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000148> "supercontig"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000148> <http://purl.obolibrary.org/obo/SO_0000353>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000149> (contig)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0000149> "contig"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000149> "A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N's from unavailable bases."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000149> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000149> "contig"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000149> <http://purl.obolibrary.org/obo/SO_0000353>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000276> (miRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0000276> "miRNA"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000276> "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000276> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000276> "miRNA"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000276> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000353> (sequence_assembly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0000353> "sequence_assembly"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000353> "A sequence of nucleotides that has been algorithmically derived from an alignment of two or more different sequences."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000353> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000353> "sequence_assembly"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000353> <http://purl.obolibrary.org/obo/SO_0001248>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001248> (assembly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/SO_0001248> "assembly"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001248> "A region of the genome of known length that is composed by ordering and aligning two or more different regions."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001248> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001248> "assembly"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001248> <http://purl.obolibrary.org/obo/SO_0000001>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000016> (endocrine pancreas)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000016> "A pancreatic cell that produces and secretes hormones such as insulin and glucagon."^^xsd:string)
@@ -15354,13 +16071,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: :NGBO_6000000 (protocol)
-
-AnnotationAssertion(rdfs:comment :NGBO_6000000 "Replace it with OBI term
-OBI: 0000272")
-AnnotationAssertion(rdfs:label :NGBO_6000000 "protocol"@en)
-SubClassOf(:NGBO_6000000 <http://purl.obolibrary.org/obo/IAO_0000310>)
-
 # Class: :NGBO_6000001 (input data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000001 "input data is a computer file that inputs data to a program or device")
@@ -15371,12 +16081,12 @@ EquivalentClasses(:NGBO_6000001 ObjectIntersectionOf(<http://purl.obolibrary.org
 SubClassOf(:NGBO_6000001 <http://purl.obolibrary.org/obo/IAO_0000027>)
 DisjointClasses(:NGBO_6000001 :NGBO_6000002)
 
-# Class: :NGBO_6000002 (output data)
+# Class: :NGBO_6000002 (output data file)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000002 "Data generated by a computer is referred to as output. ... The most commonly used output device is the computer's monitor, which displays data on a screen. Devices such as the printer and computer speakers are some other common output devices"^^rdfs:Literal)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000002 "File that contain data generated by a computer is referred to as output. ... The most commonly used output device is the computer's monitor, which displays data on a screen. Devices such as the printer and computer speakers are some other common output devices"^^rdfs:Literal)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000002 "Dalia Alghamdi"^^rdfs:Literal)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000002 "https://techterms.com/definition/output"^^rdfs:Literal)
-AnnotationAssertion(rdfs:label :NGBO_6000002 "output data"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000002 "output data file"@en)
 EquivalentClasses(:NGBO_6000002 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0200000>) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000002 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
@@ -15442,56 +16152,45 @@ SubClassOf(:NGBO_6000019 :NGBO_6000003)
 AnnotationAssertion(rdfs:label :NGBO_6000021 "BAM"@en)
 SubClassOf(:NGBO_6000021 :NGBO_6000003)
 
-# Class: :NGBO_6000022 (standard operating procedure)
-
-AnnotationAssertion(rdfs:label :NGBO_6000022 "standard operating procedure"@en)
-SubClassOf(:NGBO_6000022 :NGBO_6000000)
-SubClassOf(:NGBO_6000022 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000011>))
-
 # Class: :NGBO_6000024 (Equipment monitoring, maintenance and repair SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000024 "Equipment monitoring, maintenance and repair SOP"@en)
-SubClassOf(:NGBO_6000024 :NGBO_6000022)
+SubClassOf(:NGBO_6000024 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000025 (Control of supplies used for biospecimen collection SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000025 "Control of supplies used for biospecimen collection SOP"@en)
-SubClassOf(:NGBO_6000025 :NGBO_6000022)
+SubClassOf(:NGBO_6000025 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000026 (Biospecimen identification and labeling SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000026 "Biospecimen identification and labeling SOP"@en)
-SubClassOf(:NGBO_6000026 :NGBO_6000022)
+SubClassOf(:NGBO_6000026 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000027 (Methods for biospecimen collection and processig SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000027 "Methods for biospecimen collection and processig SOP"@en)
-SubClassOf(:NGBO_6000027 :NGBO_6000022)
+SubClassOf(:NGBO_6000027 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000028 (Sample storage and retrieval SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000028 "Sample storage and retrieval SOP"@en)
-SubClassOf(:NGBO_6000028 :NGBO_6000022)
+SubClassOf(:NGBO_6000028 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000029 (Shipping and receiving of samples SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000029 "Shipping and receiving of samples SOP"@en)
-SubClassOf(:NGBO_6000029 :NGBO_6000022)
+SubClassOf(:NGBO_6000029 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000030 (Laboratory tests performed in-house including QC testing SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000030 "Laboratory tests performed in-house including QC testing SOP"@en)
-SubClassOf(:NGBO_6000030 :NGBO_6000022)
+SubClassOf(:NGBO_6000030 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000031 (Biospecimen data collection and management SOP)
 
 AnnotationAssertion(rdfs:label :NGBO_6000031 "Biospecimen data collection and management SOP"@en)
-SubClassOf(:NGBO_6000031 :NGBO_6000022)
-
-# Class: :NGBO_6000033 (Biosafety SOP)
-
-AnnotationAssertion(rdfs:label :NGBO_6000033 "Biosafety SOP"@en)
-SubClassOf(:NGBO_6000033 :NGBO_6000022)
+SubClassOf(:NGBO_6000031 <http://purl.obolibrary.org/obo/OBIB_0000070>)
 
 # Class: :NGBO_6000057 (reference genome version number)
 
@@ -15621,17 +16320,14 @@ SubClassOf(:NGBO_6000103 <http://purl.obolibrary.org/obo/BFO_0000038>)
 AnnotationAssertion(rdfs:label :NGBO_6000105 "adaptor ligation"@en)
 SubClassOf(:NGBO_6000105 <http://purl.obolibrary.org/obo/OBI_0000094>)
 
-# Class: :NGBO_6000106 (sample derivative from specimen)
+# Class: :NGBO_6000106 (specimen derivative)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000106 "Any recognizable part or product taken from specimen")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000106 "Dalia Alghamdi")
-AnnotationAssertion(rdfs:label :NGBO_6000106 "sample derivative from specimen"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000106 "specimen derivative"@en)
 EquivalentClasses(:NGBO_6000106 ObjectIntersectionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000112>)) ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/OBI_0100051>))))
-
-# Class: :NGBO_6000109 (nucleic acid sequence)
-
-AnnotationAssertion(rdfs:label :NGBO_6000109 "nucleic acid sequence"@en)
-SubClassOf(:NGBO_6000109 <http://purl.obolibrary.org/obo/OBI_0000973>)
+SubClassOf(:NGBO_6000106 <http://purl.obolibrary.org/obo/OBI_0000047>)
+SubClassOf(:NGBO_6000106 <http://purl.obolibrary.org/obo/OBI_0100051>)
 
 # Class: :NGBO_6000110 (protein sequence)
 
@@ -15646,14 +16342,12 @@ AnnotationAssertion(rdfs:label :NGBO_6000112 "genetic variation data"@en)
 EquivalentClasses(:NGBO_6000112 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000124) ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003)))
 SubClassOf(:NGBO_6000112 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: :NGBO_6000114 (expression data)
+# Class: :NGBO_6000114 (expression level data)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000114 "expression data is the data that describe the process by which information from a gene is used in the synthesis of a functional gene product.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000114 "expression level data is measurment datum that describe the process by which information from a gene is used in the synthesis of a functional gene product.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000114 "Dalia Alghamdi")
-AnnotationAssertion(rdfs:label :NGBO_6000114 "expression data"@en)
-EquivalentClasses(:NGBO_6000114 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000123)))
-SubClassOf(:NGBO_6000114 ObjectSomeValuesFrom(:NGBO_0000200 :NGBO_6000003))
-SubClassOf(:NGBO_6000114 ObjectAllValuesFrom(:NGBO_6000245 :NGBO_6000246))
+AnnotationAssertion(rdfs:label :NGBO_6000114 "expression level data"@en)
+SubClassOf(:NGBO_6000114 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000040>))
 
 # Class: :NGBO_6000116 (sequence alignment report)
 
@@ -15683,6 +16377,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000122 "
 AnnotationAssertion(rdfs:label :NGBO_6000122 "bioinformatics analysis"@en)
 SubClassOf(:NGBO_6000122 <http://purl.obolibrary.org/obo/OBI_0200000>)
 SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/IAO_0000027>))
+SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000027>))
 
 # Class: :NGBO_6000123 (expression analysis)
 
@@ -15785,37 +16480,23 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000141 "
 AnnotationAssertion(rdfs:label :NGBO_6000141 "genePred"@en)
 SubClassOf(:NGBO_6000141 :NGBO_6000003)
 
-# Class: :NGBO_6000142 (biological sequence)
+# Class: :NGBO_6000144 (amino acid sequence data)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000142 "A biological sequence is a materia entitiy that can be single, continuous molecule of nucleic acid or protein. It can be thought of as a multiple inheritance class hierarchy. One hierarchy is that of the underlying molecule type: DNA, RNA, or protein")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000142 "Dalia Alghamdi")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000142 "https://www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/BIOSEQ.HTML")
-AnnotationAssertion(rdfs:label :NGBO_6000142 "biological sequence"@en)
-SubClassOf(:NGBO_6000142 <http://purl.obolibrary.org/obo/BFO_0000040>)
-SubClassOf(:NGBO_6000142 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000011>))
-
-# Class: :NGBO_6000144 (amino acide sequence)
-
-AnnotationAssertion(rdfs:label :NGBO_6000144 "amino acide sequence"@en)
-SubClassOf(:NGBO_6000144 :NGBO_6000142)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000144 "data about amino acid sequence of proteins (or peptides) and analysis of the sequence,")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000144 "Dalia Alghamdi")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> :NGBO_6000144 "protein sequence")
+AnnotationAssertion(rdfs:label :NGBO_6000144 "amino acid sequence data"@en)
+SubClassOf(:NGBO_6000144 <http://purl.obolibrary.org/obo/OBI_0000973>)
 
 # Class: :NGBO_6000145 (nucleotide sequence)
 
 AnnotationAssertion(rdfs:label :NGBO_6000145 "nucleotide sequence"@en)
-SubClassOf(:NGBO_6000145 :NGBO_6000142)
 
-# Class: :NGBO_6000146 (DNA sequence)
+# Class: :NGBO_6000147 (RNA sequence data)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000146 "DNA sequence is the first determinant of chromatin organization and cross-talks between the DNA sequence, the protein complexes involved in the chromatin architecture and the structural components of the nucleus provide a proper subnuclear environment that ensures correct spatial and temporal gene expression.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000146 "Dalia Alghamdi")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000146 "https://www.sciencedirect.com/topics/medicine-and-dentistry/dna-sequence")
-AnnotationAssertion(rdfs:label :NGBO_6000146 "DNA sequence"@en)
-SubClassOf(:NGBO_6000146 :NGBO_6000145)
-
-# Class: :NGBO_6000147 (RNA sequences)
-
-AnnotationAssertion(rdfs:label :NGBO_6000147 "RNA sequences"@en)
-SubClassOf(:NGBO_6000147 :NGBO_6000145)
+AnnotationAssertion(rdfs:label :NGBO_6000147 "RNA sequence data"@en)
+SubClassOf(:NGBO_6000147 <http://purl.obolibrary.org/obo/OBI_0000973>)
+SubClassOf(:NGBO_6000147 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000845>))
 
 # Class: :NGBO_6000148 (paraffin embedding and Fixation quality check data)
 
@@ -15833,39 +16514,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000150 "
 AnnotationAssertion(rdfs:label :NGBO_6000150 "remnant specimens"@en)
 SubClassOf(:NGBO_6000150 <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: :NGBO_6000151 (CAP checklist assessment)
+# Class: :NGBO_6000151 (CAP checklist document)
 
-AnnotationAssertion(rdfs:label :NGBO_6000151 "CAP checklist assessment"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000151 "The College of American Pathologists (CAP) checklists contain the accreditation program requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000151 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000151 "https://www.cap.org/laboratory-improvement/accreditation/accreditation-checklists")
+AnnotationAssertion(rdfs:label :NGBO_6000151 "CAP checklist document"@en)
 SubClassOf(:NGBO_6000151 <http://purl.obolibrary.org/obo/IAO_0000310>)
-
-# Class: :NGBO_6000152 (CAP requirement checklist section)
-
-AnnotationAssertion(rdfs:label :NGBO_6000152 "CAP requirement checklist section"@en)
-SubClassOf(:NGBO_6000152 <http://purl.obolibrary.org/obo/IAO_0000314>)
-SubClassOf(:NGBO_6000152 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> :NGBO_6000151))
-
-# Class: :NGBO_6000153 (procedure manual)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> :NGBO_6000153 "A complete procedure manual is available at the workbench or in the work area."^^rdfs:Literal)
-AnnotationAssertion(:NGBO_6000149 :NGBO_6000153 "BAP.01000"^^rdfs:Literal)
-AnnotationAssertion(rdfs:label :NGBO_6000153 "procedure manual"@en)
-SubClassOf(:NGBO_6000153 :NGBO_6000152)
-
-# Class: :NGBO_6000154 (electronic document form)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000154 "Electronic forms are online web pages or electronic documents designed to capture, validate, and submit data in forms processing."^^rdfs:Literal)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000154 "Dalia Alghamdi"^^rdfs:Literal)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000154 "https://www.documentlocator.com/resources/knowledge/what-are-electronic-forms.htm"^^rdfs:Literal)
-AnnotationAssertion(rdfs:label :NGBO_6000154 "electronic document form"@en)
-SubClassOf(:NGBO_6000154 :NGBO_6000156)
-SubClassOf(:NGBO_6000154 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000310>))
-
-# Class: :NGBO_6000155 (paper document form)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000155 "a document that is printed on a paper medium"^^rdfs:Literal)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000155 "Dalia Alghamdi"^^rdfs:Literal)
-AnnotationAssertion(rdfs:label :NGBO_6000155 "paper document form"@en)
-SubClassOf(:NGBO_6000155 :NGBO_6000156)
+SubClassOf(:NGBO_6000151 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0000011>))
 
 # Class: :NGBO_6000156 (document form)
 
@@ -15908,14 +16564,6 @@ AnnotationAssertion(rdfs:label :NGBO_6000163 "next generation sequecing platform
 EquivalentClasses(:NGBO_6000163 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> :NGBO_6000165)))
 SubClassOf(:NGBO_6000163 <http://purl.obolibrary.org/obo/OBI_0000968>)
 
-# Class: :NGBO_6000164 (DNA amplification)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000164 "The production of multiple copies of a sequence of DNA. Repeated copying of a piece of DNA.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000164 "https://www.medicinenet.com/script/main/art.asp?articlekey=16832")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#comment> :NGBO_6000164 "Replace to GO term")
-AnnotationAssertion(rdfs:label :NGBO_6000164 "DNA amplification"@en)
-SubClassOf(:NGBO_6000164 <http://purl.obolibrary.org/obo/OBI_0000094>)
-
 # Class: :NGBO_6000165 (molecular sequencing)
 
 AnnotationAssertion(rdfs:label :NGBO_6000165 "molecular sequencing"@en)
@@ -15942,7 +16590,6 @@ SubClassOf(:NGBO_6000170 <http://purl.obolibrary.org/obo/OBI_0000094>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#comment> :NGBO_6000171 "check definition of NCIT term.")
 AnnotationAssertion(rdfs:label :NGBO_6000171 "restriction fragment length polymorphism"@en)
-SubClassOf(:NGBO_6000171 :NGBO_6000146)
 
 # Class: :NGBO_6000172 (biological sequence annotation)
 
@@ -15984,11 +16631,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000179 "
 AnnotationAssertion(rdfs:label :NGBO_6000179 "alignment"@en)
 SubClassOf(:NGBO_6000179 :NGBO_6000122)
 
-# Class: :NGBO_6000180 (Structural alignment)
+# Class: :NGBO_6000180 (structural alignment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000180 "Structural alignment attempts to establish homology between two or more polymer structures based on their shape and three-dimensional conformation.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000180 "https://en.wikipedia.org/wiki/Structural_alignment")
-AnnotationAssertion(rdfs:label :NGBO_6000180 "Structural alignment"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000180 "structural alignment"@en)
 SubClassOf(:NGBO_6000180 :NGBO_6000179)
 
 # Class: :NGBO_6000181 (database index)
@@ -16000,9 +16647,10 @@ SubClassOf(:NGBO_6000181 <http://purl.obolibrary.org/obo/OBI_0200000>)
 
 # Class: :NGBO_6000182 (genome indexing)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000182 "the process of compressing genome to make it easier to query it.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000182 "the process of compressing genome file")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000182 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000182 "genome indexing"@en)
+SubClassOf(:NGBO_6000182 :NGBO_6000122)
 SubClassOf(:NGBO_6000182 :NGBO_6000181)
 
 # Class: :NGBO_6000183 (database searching)
@@ -16012,10 +16660,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000183 "
 AnnotationAssertion(rdfs:label :NGBO_6000183 "database searching"@en)
 SubClassOf(:NGBO_6000183 <http://purl.obolibrary.org/obo/OBI_0200000>)
 
-# Class: :NGBO_6000184 (Allele-specific expression for SNPs and INDELs)
+# Class: :NGBO_6000184 (Allele-specific expression for SNPs and INDELs data)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> :NGBO_6000184 "ASE_SNP_Expression, Allele-Specific Expression")
-AnnotationAssertion(rdfs:label :NGBO_6000184 "Allele-specific expression for SNPs and INDELs"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000184 "Allele-specific expression for SNPs and INDELs data"@en)
 SubClassOf(:NGBO_6000184 :NGBO_6000114)
 
 # Class: :NGBO_6000185 (Allele-specific expression data)
@@ -16024,22 +16672,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> :N
 AnnotationAssertion(rdfs:label :NGBO_6000185 "Allele-specific expression data"@en)
 SubClassOf(:NGBO_6000185 :NGBO_6000114)
 
-# Class: :NGBO_6000186 (microarray CNV genotypes)
+# Class: :NGBO_6000186 (microarray CNV genotypes data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000186 "Copy number variation (CNV) obtained by microarray")
-AnnotationAssertion(rdfs:label :NGBO_6000186 "microarray CNV genotypes"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000186 "microarray CNV genotypes data"@en)
 SubClassOf(:NGBO_6000186 :NGBO_6000114)
 
-# Class: :NGBO_6000187 (Genome-wide DNA methylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000187 "Genome-wide DNA methylation profiling using methylation arrays, quantitative methylation measurements at the single-CpG-site level")
-AnnotationAssertion(rdfs:label :NGBO_6000187 "Genome-wide DNA methylation"@en)
-SubClassOf(:NGBO_6000187 :NGBO_6000114)
-
-# Class: :NGBO_6000188 (SNP genotypes)
+# Class: :NGBO_6000188 (SNP genotypes data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000188 "Single nucleotide polymorphisms (SNP) genotypes obtained using standard or custom microarrays")
-AnnotationAssertion(rdfs:label :NGBO_6000188 "SNP genotypes"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000188 "SNP genotypes data"@en)
 SubClassOf(:NGBO_6000188 :NGBO_6000114)
 
 # Class: :NGBO_6000189 (mRNA expression data)
@@ -16064,72 +16706,72 @@ SubClassOf(:NGBO_6000191 :NGBO_6000114)
 AnnotationAssertion(rdfs:label :NGBO_6000192 "Expression levels derived from RNA sequences"@en)
 SubClassOf(:NGBO_6000192 :NGBO_6000191)
 
-# Class: :NGBO_6000193 (gene expression profile)
+# Class: :NGBO_6000193 (gene expression profile data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000193 "is the measurement of the activity (the expression) of thousands of genes at once, to create a global picture of cellular function.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000193 "https://en.wikipedia.org/wiki/Gene_expression_profiling")
-AnnotationAssertion(rdfs:label :NGBO_6000193 "gene expression profile"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000193 "gene expression profile data"@en)
 SubClassOf(:NGBO_6000193 :NGBO_6000114)
 
-# Class: :NGBO_6000194 (target exome sequence)
+# Class: :NGBO_6000194 (target exome sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000194 "target exome sequence"@en)
-SubClassOf(:NGBO_6000194 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000194 "target exome sequence data"@en)
+SubClassOf(:NGBO_6000194 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000195 (whole exome sequence)
+# Class: :NGBO_6000195 (whole exome sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000195 "whole exome sequence"@en)
-SubClassOf(:NGBO_6000195 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000195 "whole exome sequence data"@en)
+SubClassOf(:NGBO_6000195 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000196 (chromatin sequence)
+# Class: :NGBO_6000196 (chromatin sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000196 "chromatin sequence"@en)
-SubClassOf(:NGBO_6000196 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000196 "chromatin sequence data"@en)
+SubClassOf(:NGBO_6000196 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000197 (methylome sequence)
+# Class: :NGBO_6000197 (methylome sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000197 "methylome sequence"@en)
-SubClassOf(:NGBO_6000197 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000197 "methylome sequence data"@en)
+SubClassOf(:NGBO_6000197 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000198 (single molecule real time sequencing)
+# Class: :NGBO_6000198 (single molecule real time sequencing data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000198 "single molecule real time sequencing"@en)
-SubClassOf(:NGBO_6000198 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000198 "single molecule real time sequencing data"@en)
+SubClassOf(:NGBO_6000198 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000199 (whole genome sequence)
+# Class: :NGBO_6000199 (whole genome sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000199 "whole genome sequence"@en)
-SubClassOf(:NGBO_6000199 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000199 "whole genome sequence data"@en)
+SubClassOf(:NGBO_6000199 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000200 (metagenomics sequence)
+# Class: :NGBO_6000200 (metagenomics sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000200 "metagenomics sequence"@en)
-SubClassOf(:NGBO_6000200 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000200 "metagenomics sequence data"@en)
+SubClassOf(:NGBO_6000200 <http://purl.obolibrary.org/obo/OBI_0001573>)
 
-# Class: :NGBO_6000201 (whole transcriptome sequence)
+# Class: :NGBO_6000201 (whole transcriptome sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000201 "whole transcriptome sequence"@en)
-SubClassOf(:NGBO_6000201 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000201 "whole transcriptome sequence data"@en)
+SubClassOf(:NGBO_6000201 :NGBO_6000147)
 
-# Class: :NGBO_6000202 (exome capture RNA sequence)
+# Class: :NGBO_6000202 (exome capture RNA sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000202 "exome capture RNA sequence"@en)
-SubClassOf(:NGBO_6000202 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000202 "exome capture RNA sequence data"@en)
+SubClassOf(:NGBO_6000202 :NGBO_6000147)
 
-# Class: :NGBO_6000203 (target RNA sequence)
+# Class: :NGBO_6000203 (target RNA sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000203 "target RNA sequence"@en)
-SubClassOf(:NGBO_6000203 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000203 "target RNA sequence data"@en)
+SubClassOf(:NGBO_6000203 :NGBO_6000147)
 
-# Class: :NGBO_6000204 (16s RNA sequence)
+# Class: :NGBO_6000204 (16s RNA sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000204 "16s RNA sequence"@en)
-SubClassOf(:NGBO_6000204 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000204 "16s RNA sequence data"@en)
+SubClassOf(:NGBO_6000204 :NGBO_6000147)
 
-# Class: :NGBO_6000205 (microRNA sequence)
+# Class: :NGBO_6000205 (microRNA sequence data)
 
-AnnotationAssertion(rdfs:label :NGBO_6000205 "microRNA sequence"@en)
-SubClassOf(:NGBO_6000205 :NGBO_6000109)
+AnnotationAssertion(rdfs:label :NGBO_6000205 "microRNA sequence data"@en)
+SubClassOf(:NGBO_6000205 :NGBO_6000147)
 
 # Class: :NGBO_6000206 (gene-set enrichment analysis)
 
@@ -16180,11 +16822,17 @@ SubClassOf(:NGBO_6000215 <http://purl.obolibrary.org/obo/OBI_0002567>)
 
 # Class: :NGBO_6000216 (global sequence alignment)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000216 "Global sequence alignments is the process to attempt to align every residue in every sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000216 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000216 "https://en.wikipedia.org/wiki/Sequence_alignment")
 AnnotationAssertion(rdfs:label :NGBO_6000216 "global sequence alignment"@en)
 SubClassOf(:NGBO_6000216 <http://purl.obolibrary.org/obo/OBI_0002567>)
 
 # Class: :NGBO_6000217 (local sequence alignment)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000217 "Local alignments is process for aligning dissimilar sequences that are suspected to contain regions of similarity or similar sequence motifs within their larger sequence context")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000217 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000217 "https://en.wikipedia.org/wiki/Sequence_alignment#Global_and_local_alignments")
 AnnotationAssertion(rdfs:label :NGBO_6000217 "local sequence alignment"@en)
 SubClassOf(:NGBO_6000217 <http://purl.obolibrary.org/obo/OBI_0002567>)
 
@@ -16287,11 +16935,13 @@ SubClassOf(:NGBO_6000234 :NGBO_6000232)
 AnnotationAssertion(rdfs:label :NGBO_6000235 "sequence quality control"@en)
 SubClassOf(:NGBO_6000235 :NGBO_6000232)
 
-# Class: :NGBO_6000236 (kit)
+# Class: :NGBO_6000236 (assay kit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000236 "a set of articles or equipment needed for a specific purpose.")
-AnnotationAssertion(rdfs:label :NGBO_6000236 "kit"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000236 "Dalia Alghamdi")
+AnnotationAssertion(rdfs:label :NGBO_6000236 "assay kit"@en)
 SubClassOf(:NGBO_6000236 <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(:NGBO_6000236 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>))
 
 # Class: :NGBO_6000237 (DNA library)
 
@@ -16299,12 +16949,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000237 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000237 "Dalia Alghamdi")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000237 "https://www.thermofisher.com/ca/en/home/life-science/cloning/cloning-applications/library-construction.html")
 AnnotationAssertion(rdfs:label :NGBO_6000237 "DNA library"@en)
-EquivalentClasses(:NGBO_6000237 ObjectIntersectionOf(:NGBO_6000106 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000711>)))
-EquivalentClasses(:NGBO_6000237 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0000011>))
-SubClassOf(:NGBO_6000237 :NGBO_6000106)
+EquivalentClasses(:NGBO_6000237 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000711>)))
+EquivalentClasses(:NGBO_6000237 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OBI_0100051>))
+SubClassOf(:NGBO_6000237 <http://purl.obolibrary.org/obo/OBI_0000047>)
 
 # Class: :NGBO_6000238 (DNA extraction kit)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000238 "kit used for the technique of isolating DNA in a biological sample")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000238 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000238 "DNA extraction kit"@en)
 EquivalentClasses(:NGBO_6000238 ObjectIntersectionOf(:NGBO_6000236 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> :NGBO_6000254)))
 SubClassOf(:NGBO_6000238 :NGBO_6000236)
@@ -16412,6 +17064,14 @@ SubClassOf(:NGBO_6000258 <http://purl.obolibrary.org/obo/OBI_0000094>)
 AnnotationAssertion(rdfs:label :NGBO_6000259 "compressed file"@en)
 EquivalentClasses(:NGBO_6000259 ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> :NGBO_6000079) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> :NGBO_6000078)))
 SubClassOf(:NGBO_6000259 <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: :NGBO_6000260 (electronic form)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000260 "electronic form is a computer program version of a paper form")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000260 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000260 "https://searchcio.techtarget.com/definition/e-form")
+AnnotationAssertion(rdfs:label :NGBO_6000260 "electronic form"@en)
+SubClassOf(:NGBO_6000260 :NGBO_6000156)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
@@ -16551,13 +17211,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://semanti
 AnnotationAssertion(rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000942> <http://semanticscience.org/ontology/sio.owl>)
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000942> "numeric label"@en)
 SubClassOf(<http://semanticscience.org/resource/SIO_000942> <http://semanticscience.org/resource/SIO_000179>)
-
-# Class: <http://semanticscience.org/resource/SIO_000964> (standard operating procedure)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://semanticscience.org/resource/SIO_000964> "SIO_000964")
-AnnotationAssertion(rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000964> <http://semanticscience.org/ontology/sio.owl>)
-AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000964> "standard operating procedure"@en)
-SubClassOf(<http://semanticscience.org/resource/SIO_000964> <http://purl.obolibrary.org/obo/IAO_0000310>)
 
 # Class: <http://semanticscience.org/resource/SIO_001041> (study design)
 
