@@ -770,6 +770,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000274>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000338>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000345>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000371>))
@@ -920,6 +921,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001893>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001897>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001900>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001901>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001922>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001926>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001928>))
@@ -1372,6 +1374,13 @@ Declaration(Class(:NGBO_6000356))
 Declaration(Class(:NGBO_6000357))
 Declaration(Class(:NGBO_6000358))
 Declaration(Class(:NGBO_6000359))
+Declaration(Class(:NGBO_6000360))
+Declaration(Class(:NGBO_6000361))
+Declaration(Class(:NGBO_6000362))
+Declaration(Class(:NGBO_6000363))
+Declaration(Class(:NGBO_6000364))
+Declaration(Class(:NGBO_6000365))
+Declaration(Class(:NGBO_6000366))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -2093,7 +2102,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/BFO_0000055> "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process")
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/iao.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000055> "realizes"@en)
-EquivalentObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000054>))
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
@@ -9320,6 +9328,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000018> (material supplier role)
@@ -9561,6 +9570,20 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000274> "branch derived"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000274> "adding a material entity into a target"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000274> <http://purl.obolibrary.org/obo/OBI_0000652>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000338> (drawing a conclusion based on data)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000338> "interpreting data"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000338> "Concluding that a gene is upregulated in a tissue sample based on the band intensity in a western blot.  Concluding that a patient has a infection based on measurement of an elevated body temperature and reported headache. Concluding that there were problems in an investigation because data from PCR and microarray are conflicting. Concluding that 'defects in gene XYZ cause cancer due to improper DNA repair' based on data from experiments in that study that gene XYZ is involved in DNA repair, and the conclusion of a previous study that cancer patients have an increased number of mutations in this gene. "^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000338> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000338> "A planned process in which data gathered in an investigation is evaluated in the context of existing knowledge with the objective to generate more general conclusions or to conclude that the data does not allow one to draw general conclusion"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000338> "PERSON: Bjoern Peters"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000338> "PERSON: Jennifer Fostel"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000338> "Bjoern Peters"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000338> "drawing a conclusion based on data"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000027>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001909>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000345> (mass analyzer)
 
@@ -11235,6 +11258,21 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolib
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001901> "specimen identifier assigned by sequencing facility"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001901> <http://purl.obolibrary.org/obo/OBI_0001616>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001901> :NGBO_6000161)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001909> (conclusion based on data)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001909> "conclusion based on data")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0001909> "The conclusion that a gene is upregulated in a tissue sample based on the band intensity in a western blot. The conclusion that a patient has a infection based on measurement of an elevated body temperature and reported headache. The conclusion that there were problems in an investigation because data from PCR and microarray are conflicting.
+The following are NOT conclusions based on data: data themselves; results from pure mathematics, e.g. \"13 is prime\".")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001909> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001909> "An information content entity that is inferred from data.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0001909> "In the Philly 2013 workshop, we recognized the limitations of \"conclusion textual entity\", and we introduced this as more general. The need for the 'textual entity' term going forward is up for future debate. ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001909> "Group:2013 Philly Workshop group")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001909> "Group:2013 Philly Workshop group")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001909> "conclusion based on data")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001909> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001909> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000124> <http://purl.obolibrary.org/obo/IAO_0000027>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001909> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000338>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001922> (microRNA profiling by high throughput sequencing assay)
 
@@ -14412,6 +14450,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000105 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000105 "https://www.ebi.ac.uk/training/online/glossary/adapter-ligation")
 AnnotationAssertion(rdfs:label :NGBO_6000105 "adapter ligation process"@en)
 SubClassOf(:NGBO_6000105 <http://purl.obolibrary.org/obo/OBI_0000094>)
+SubClassOf(:NGBO_6000105 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000047>))
+SubClassOf(:NGBO_6000105 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000953>))
 
 # Class: :NGBO_6000106 (specimen derivative)
 
@@ -14446,6 +14486,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000122 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000122 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000122 "bioinformatics analysis"@en)
 SubClassOf(:NGBO_6000122 <http://purl.obolibrary.org/obo/OBI_0200000>)
+SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000109>))
+SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000027>))
+SubClassOf(:NGBO_6000122 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001909>))
 
 # Class: :NGBO_6000123 (gene expression level analysis)
 
@@ -14798,6 +14841,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000230 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000230 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000230 "data anonymisation process"@en)
 SubClassOf(:NGBO_6000230 :NGBO_6000177)
+SubClassOf(:NGBO_6000230 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000027>))
+SubClassOf(:NGBO_6000230 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> :NGBO_6000231))
 
 # Class: :NGBO_6000231 (anonymised data)
 
@@ -14841,7 +14886,7 @@ SubClassOf(:NGBO_6000235 :NGBO_6000232)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000236 "processed material that contatin a set of articles or equipment needed for a specific purpose.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000236 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000236 "assay kit"@en)
-SubClassOf(:NGBO_6000236 <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(:NGBO_6000236 <http://purl.obolibrary.org/obo/OBI_0000047>)
 
 # Class: :NGBO_6000237 (DNA library)
 
@@ -14953,10 +14998,13 @@ SubClassOf(:NGBO_6000261 :NGBO_6000122)
 AnnotationAssertion(rdfs:label :NGBO_6000262 "storage information section"@en)
 SubClassOf(:NGBO_6000262 <http://purl.obolibrary.org/obo/IAO_0000314>)
 
-# Class: :NGBO_6000264 (variant validation assay)
+# Class: :NGBO_6000264 (validation of known variant assay)
 
-AnnotationAssertion(rdfs:label :NGBO_6000264 "variant validation assay"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000264 "validation of known variant assay"@en)
 SubClassOf(:NGBO_6000264 <http://purl.obolibrary.org/obo/OBI_0000070>)
+SubClassOf(:NGBO_6000264 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000953>))
+SubClassOf(:NGBO_6000264 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000109>))
+SubClassOf(:NGBO_6000264 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000047>))
 
 # Class: :NGBO_6000265 (allele specific PCR)
 
@@ -15289,10 +15337,13 @@ SubClassOf(:NGBO_6000352 <http://purl.obolibrary.org/obo/OBI_0200000>)
 
 # Class: :NGBO_6000353 (OMICS data generation assay)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000353 "An assay that generate OMICS data such as sequencing techniques.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000353 "An assay that generate OMICS data through a wet bench process such as sequencing techniques.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000353 "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label :NGBO_6000353 "OMICS data generation assay"@en)
 SubClassOf(:NGBO_6000353 <http://purl.obolibrary.org/obo/OBI_0000070>)
 SubClassOf(:NGBO_6000353 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000953>))
+SubClassOf(:NGBO_6000353 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000968>))
+SubClassOf(:NGBO_6000353 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> :NGBO_6000236))
 SubClassOf(:NGBO_6000353 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000109>))
 
 # Class: :NGBO_6000354 (variant interpretation protocol)
@@ -15325,6 +15376,48 @@ SubClassOf(:NGBO_6000358 <http://purl.obolibrary.org/obo/BFO_0000034>)
 
 AnnotationAssertion(rdfs:label :NGBO_6000359 "Burrows-Wheeler Aligner algorithm"@en)
 SubClassOf(:NGBO_6000359 <http://purl.obolibrary.org/obo/IAO_0000064>)
+
+# Class: :NGBO_6000360 (adapter ligation protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000360 "a protocol that describe the process of attaching synthetic oligonucleotides with known sequences to both or either ends of complementary DNA (cDNA) fragments as a prepration for sequencing"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000360 "Dalia Alghamdi"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000360 "adapter ligation protocol"@en)
+SubClassOf(:NGBO_6000360 <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: :NGBO_6000361 (adapter ligation function)
+
+AnnotationAssertion(rdfs:label :NGBO_6000361 "adapter ligation function"@en)
+SubClassOf(:NGBO_6000361 <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(:NGBO_6000361 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> :NGBO_6000105))
+SubClassOf(:NGBO_6000361 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> :NGBO_6000360))
+
+# Class: :NGBO_6000362 (validation of known variant protocol)
+
+AnnotationAssertion(rdfs:label :NGBO_6000362 "validation of known variant protocol"@en)
+SubClassOf(:NGBO_6000362 <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: :NGBO_6000363 (detection of point mutation by PCR function)
+
+AnnotationAssertion(rdfs:label :NGBO_6000363 "detection of point mutation by PCR function"@en)
+SubClassOf(:NGBO_6000363 <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(:NGBO_6000363 ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> :NGBO_6000265) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> :NGBO_6000364)))
+
+# Class: :NGBO_6000364 (allele specific PCR protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000364 "Protocol that describe the process of Allele-specific polymerase chain reaction (PCR)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000364 "Dalia Alghamdi"@en)
+AnnotationAssertion(rdfs:label :NGBO_6000364 "allele specific PCR protocol"@en)
+SubClassOf(:NGBO_6000364 <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: :NGBO_6000365 (data anonymization protocol)
+
+AnnotationAssertion(rdfs:label :NGBO_6000365 "data anonymization protocol"@en)
+SubClassOf(:NGBO_6000365 <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: :NGBO_6000366 (anonymization function)
+
+AnnotationAssertion(rdfs:label :NGBO_6000366 "anonymization function"@en)
+SubClassOf(:NGBO_6000366 <http://purl.obolibrary.org/obo/BFO_0000034>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
