@@ -1091,9 +1091,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302884>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302885>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302886>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302888>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302893>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302903>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302908>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0302914>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400103>))
@@ -1127,10 +1129,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000024>))
@@ -1362,8 +1366,6 @@ Declaration(Class(:NGBO_6000317))
 Declaration(Class(:NGBO_6000318))
 Declaration(Class(:NGBO_6000319))
 Declaration(Class(:NGBO_6000320))
-Declaration(Class(:NGBO_6000321))
-Declaration(Class(:NGBO_6000322))
 Declaration(Class(:NGBO_6000323))
 Declaration(Class(:NGBO_6000324))
 Declaration(Class(:NGBO_6000352))
@@ -1587,6 +1589,13 @@ Declaration(ObjectProperty(<http://www.obofoundry.org/ro/ro.owl#derives_from>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000004>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/OBI_0001937>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
+Declaration(NamedIndividual(:NGBO_6000367))
+Declaration(NamedIndividual(:NGBO_6000368))
+Declaration(NamedIndividual(:NGBO_6000369))
+Declaration(NamedIndividual(:NGBO_6000370))
+Declaration(NamedIndividual(:NGBO_6000375))
+Declaration(NamedIndividual(:NGBO_6000382))
+Declaration(NamedIndividual(:NGBO_6000383))
 Declaration(AnnotationProperty(<http://edamontology.org/comment_handle>))
 Declaration(AnnotationProperty(<http://edamontology.org/created_in>))
 Declaration(AnnotationProperty(<http://edamontology.org/documentation>))
@@ -13564,6 +13573,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000045> "disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
+# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000000> (biobank)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0000000> "A biobank is a collections of samples of biological substances
+(e.g. tissue, blood, DNA) which are linked to data about the samples and their donors. They have a dual nature as collections of samples and data."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMIABIS_0000000> "Mathias Brochhausen")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OMIABIS_0000000> "definition derived from the definition of 'human biobank', based on http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0000000> "biobank"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OMIABIS_0000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/OBI_0302893>))))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000178> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0302914> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000027> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000109>) ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0100051>))))))))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://purl.obolibrary.org/obo/OMIABIS_0000010>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0000000> <http://purl.obolibrary.org/obo/BFO_0000027>)
+
 # Class: <http://purl.obolibrary.org/obo/OMIABIS_0000003> (biobank proper name)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0000003> "An identifier in natural language referring  to a biobank."@en)
@@ -15308,16 +15327,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000320 "
 AnnotationAssertion(rdfs:label :NGBO_6000320 "data availability"@en)
 SubClassOf(:NGBO_6000320 <http://purl.obolibrary.org/obo/BFO_0000019>)
 
-# Class: :NGBO_6000321 (data available)
-
-AnnotationAssertion(rdfs:label :NGBO_6000321 "data available"@en)
-SubClassOf(:NGBO_6000321 :NGBO_6000320)
-
-# Class: :NGBO_6000322 (data not available)
-
-AnnotationAssertion(rdfs:label :NGBO_6000322 "data not available"@en)
-SubClassOf(:NGBO_6000322 :NGBO_6000320)
-
 # Class: :NGBO_6000323 (target region enrichment assay)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000323 "An assay that capture specific regions of interest after library preparation for next generation sequencing")
@@ -15934,6 +15943,49 @@ SubClassOf(<http://www.ebi.ac.uk/efo/EFO_1001470> <http://www.ebi.ac.uk/efo/EFO_
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/2006/vcard/ns#Address> <http://purl.obolibrary.org/obo/arg/isf-dev.owl>)
 AnnotationAssertion(rdfs:label <http://www.w3.org/2006/vcard/ns#Address> "address"@en)
 SubClassOf(<http://www.w3.org/2006/vcard/ns#Address> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :NGBO_6000367 (Saudi human genome project)
+
+AnnotationAssertion(rdfs:label :NGBO_6000367 "Saudi human genome project"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/OMIABIS_0000000> :NGBO_6000367)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000051> :NGBO_6000367 :NGBO_6000368)
+
+# Individual: :NGBO_6000368 (SHGM0123)
+
+AnnotationAssertion(rdfs:label :NGBO_6000368 "SHGM0123"@en)
+ClassAssertion(:NGBO_6000199 :NGBO_6000368)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000051> :NGBO_6000368 :NGBO_6000368)
+
+# Individual: :NGBO_6000369 (Saudi Diagnostic Lab)
+
+AnnotationAssertion(rdfs:label :NGBO_6000369 "Saudi Diagnostic Lab"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/OMIABIS_0000000> :NGBO_6000369)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000051> :NGBO_6000369 :NGBO_6000370)
+
+# Individual: :NGBO_6000370 (SDL01)
+
+AnnotationAssertion(rdfs:label :NGBO_6000370 "SDL01"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0001573> :NGBO_6000370)
+
+# Individual: :NGBO_6000375 (data available)
+
+AnnotationAssertion(rdfs:label :NGBO_6000375 "data available"@en)
+ClassAssertion(:NGBO_6000320 :NGBO_6000375)
+
+# Individual: :NGBO_6000382 (data not available)
+
+AnnotationAssertion(rdfs:label :NGBO_6000382 "data not available"@en)
+ClassAssertion(:NGBO_6000320 :NGBO_6000382)
+
+# Individual: :NGBO_6000383 (no sequence)
+
+AnnotationAssertion(rdfs:label :NGBO_6000383 "no sequence"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/OMIABIS_0000000> :NGBO_6000383)
 
 
 DisjointClasses(Annotation(rdf:type owl:AllDisjointClasses) <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)
