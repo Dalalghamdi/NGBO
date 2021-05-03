@@ -1383,6 +1383,8 @@ Declaration(Class(:NGBO_6000363))
 Declaration(Class(:NGBO_6000364))
 Declaration(Class(:NGBO_6000365))
 Declaration(Class(:NGBO_6000366))
+Declaration(Class(:NGBO_6000384))
+Declaration(Class(:NGBO_6000385))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -1457,6 +1459,7 @@ Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1000615>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001464>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001468>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001470>))
+Declaration(Class(<http://www.ebi.ac.uk/swo/SWO_0000143>))
 Declaration(Class(<http://www.w3.org/2006/vcard/ns#Address>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
@@ -9590,7 +9593,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000338> "PERSON: Jennifer Fostel"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000338> "Bjoern Peters"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000338> "drawing a conclusion based on data"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> :NGBO_6000122)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000027>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001909>))
 
@@ -14647,10 +14650,11 @@ SubClassOf(:NGBO_6000175 :NGBO_6000248)
 
 # Class: :NGBO_6000177 (data management)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000177 "Data management is the practice of organizing and maintaining data processes to meet ongoing information lifecycle needs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000177 "Data management is the process that involve processes used to collect, store, and share the data.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000177 "https://searchdatamanagement.techtarget.com/definition/data-management")
 AnnotationAssertion(rdfs:label :NGBO_6000177 "data management"@en)
-SubClassOf(:NGBO_6000177 <http://purl.obolibrary.org/obo/BFO_0000015>)
+EquivalentClasses(:NGBO_6000177 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
+SubClassOf(:NGBO_6000177 <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: :NGBO_6000178 (electronic health records management)
 
@@ -14868,6 +14872,7 @@ SubClassOf(:NGBO_6000230 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OB
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000231 "Unidentified (i.e., personally identifiable information was not collected, or if collected, identifiers were not retained and cannot be retrieved); information or materials (e.g., data or specimens) that cannot be linked directly or indirectly by anyone to their source(s).")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000231 "Dalia Alghamdi")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000231 "http://orrp.osu.edu/knowledge-base/what-is-the-difference-between-the-terms-coded-de-identified-and-anonymous/")
+AnnotationAssertion(rdfs:comment :NGBO_6000231 "Replace with Genepio term")
 AnnotationAssertion(rdfs:label :NGBO_6000231 "anonymised data"@en)
 SubClassOf(:NGBO_6000231 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
@@ -15339,9 +15344,10 @@ SubClassOf(:NGBO_6000323 <http://purl.obolibrary.org/obo/OBI_0000094>)
 AnnotationAssertion(rdfs:label :NGBO_6000324 "target enrichment platform"@en)
 SubClassOf(:NGBO_6000324 <http://purl.obolibrary.org/obo/OBI_0000968>)
 
-# Class: :NGBO_6000352 (raw data editing)
+# Class: :NGBO_6000352 (raw sequence editing)
 
-AnnotationAssertion(rdfs:label :NGBO_6000352 "raw data editing"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000352 "Raw sequence editing is the process that involve edit or change to a molecular sequence.")
+AnnotationAssertion(rdfs:label :NGBO_6000352 "raw sequence editing"@en)
 SubClassOf(:NGBO_6000352 <http://purl.obolibrary.org/obo/OBI_0200000>)
 
 # Class: :NGBO_6000353 (OMICS data generation assay)
@@ -15427,6 +15433,17 @@ SubClassOf(:NGBO_6000365 <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 AnnotationAssertion(rdfs:label :NGBO_6000366 "anonymization function"@en)
 SubClassOf(:NGBO_6000366 <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: :NGBO_6000384 (data transfer process)
+
+AnnotationAssertion(rdfs:comment :NGBO_6000384 "A data transfer process (DTP) is a process that perform data transfer between two persistent objects (source and target).")
+AnnotationAssertion(rdfs:label :NGBO_6000384 "data transfer process"@en)
+SubClassOf(:NGBO_6000384 :NGBO_6000177)
+
+# Class: :NGBO_6000385 (data storage datum)
+
+AnnotationAssertion(rdfs:label :NGBO_6000385 "data storage datum"@en)
+SubClassOf(:NGBO_6000385 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
@@ -15937,6 +15954,12 @@ SubClassOf(<http://www.ebi.ac.uk/efo/EFO_1001468> <http://www.ebi.ac.uk/efo/EFO_
 
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/efo/EFO_1001470> "merkel cell"@en)
 SubClassOf(<http://www.ebi.ac.uk/efo/EFO_1001470> <http://www.ebi.ac.uk/efo/EFO_0000324>)
+
+# Class: <http://www.ebi.ac.uk/swo/SWO_0000143> (data storage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/swo/SWO_0000143> "The storing of digital information. Often this is done for archiving and retrieval purposes.")
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/swo/SWO_0000143> "data storage")
+SubClassOf(<http://www.ebi.ac.uk/swo/SWO_0000143> :NGBO_6000177)
 
 # Class: <http://www.w3.org/2006/vcard/ns#Address> (address)
 
