@@ -521,6 +521,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000448>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GENEPIO_0001562>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GENEPIO_0001800>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GENEPIO_0001888>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GENO_0000815>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GENO_0000902>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
@@ -587,7 +589,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C40978>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42614>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42775>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C81229>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBIB_0000034>))
@@ -765,6 +766,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000131>))
@@ -844,6 +846,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000659>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000671>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000675>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000678>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000679>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000686>))
@@ -937,6 +940,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001615>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001619>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001622>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001623>))
@@ -1220,7 +1224,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000024>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000028>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMIABIS_0000039>))
@@ -1312,7 +1315,6 @@ Declaration(Class(:NGBO_6000105))
 Declaration(Class(:NGBO_6000106))
 Declaration(Class(:NGBO_6000110))
 Declaration(Class(:NGBO_6000112))
-Declaration(Class(:NGBO_6000114))
 Declaration(Class(:NGBO_6000122))
 Declaration(Class(:NGBO_6000123))
 Declaration(Class(:NGBO_6000124))
@@ -1323,7 +1325,6 @@ Declaration(Class(:NGBO_6000140))
 Declaration(Class(:NGBO_6000148))
 Declaration(Class(:NGBO_6000150))
 Declaration(Class(:NGBO_6000157))
-Declaration(Class(:NGBO_6000158))
 Declaration(Class(:NGBO_6000160))
 Declaration(Class(:NGBO_6000161))
 Declaration(Class(:NGBO_6000166))
@@ -1336,7 +1337,6 @@ Declaration(Class(:NGBO_6000182))
 Declaration(Class(:NGBO_6000185))
 Declaration(Class(:NGBO_6000186))
 Declaration(Class(:NGBO_6000190))
-Declaration(Class(:NGBO_6000191))
 Declaration(Class(:NGBO_6000193))
 Declaration(Class(:NGBO_6000195))
 Declaration(Class(:NGBO_6000198))
@@ -1404,8 +1404,6 @@ Declaration(Class(:NGBO_6000306))
 Declaration(Class(:NGBO_6000307))
 Declaration(Class(:NGBO_6000313))
 Declaration(Class(:NGBO_6000314))
-Declaration(Class(:NGBO_6000316))
-Declaration(Class(:NGBO_6000317))
 Declaration(Class(:NGBO_6000318))
 Declaration(Class(:NGBO_6000319))
 Declaration(Class(:NGBO_6000320))
@@ -1427,6 +1425,7 @@ Declaration(Class(:NGBO_6000394))
 Declaration(Class(:NGBO_6000395))
 Declaration(Class(:NGBO_6000397))
 Declaration(Class(:NGBO_6000399))
+Declaration(Class(:NGBO_6000400))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -2734,7 +2733,7 @@ EquivalentObjectProperties(<http://purl.obolibrary.org/obo/RO_0000086> ObjectInv
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has_role)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000087> "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000087> "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
@@ -7186,6 +7185,35 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GENEPIO_0001888> "Canada postal code"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GENEPIO_0001888> <http://purl.obolibrary.org/obo/NCIT_C25621>)
 
+# Class: <http://purl.obolibrary.org/obo/GENO_0000815> (sequence feature location)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GENO_0000815> "The location of a sequence feature as defined by its start and end position on some reference coordinate system.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GENO_0000815> "1. A sequence feature location is defined by its begin and end coordinates on a reference sequence, but it is not identified by a particular sequence that may reside there. The same location, as defined on a particular reference, may be occupied by different sequences in the genome of organism 1 vs that of organism 2 (e.g. if a SNV exists within this location in only one of the organisms).
+
+2. The notion of a sequence feature location in the realm of biological sequences is analogous to a BFO:spatiotemporal region in the realm of physical entities. A spatiotemporal region can be 'occupied by' physical objects, while a genomic location is 'occupied by' sequence features. Just as a spatiotemporal region is distinct from an object that occupies it, so too a genomic location is distinct from a sequence feature that occupies it. As a more concrete example, consider the distinction between a street address and the building that occupies it as analogous to the relationship between a genomic locus and the sequence feature that resides there.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GENO_0000815> "sequence feature location"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000815> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/GENO_0000902> (genomic feature location)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GENO_0000902> "The location of a sequence feature in a genome, defined by its start and end position on some reference genomic coordinate system")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GENO_0000902> "In GENO, the notion of a Genomic Location (aka Genomic Locus) plays the same role as that of a FALDO:Region in the design pattern for describing the location of a feature of interest.  We define this specific GENO class because the ontological nature of FALDO:Region class is not clear in the context of the BFO and SO-based GENO model. We will work to resolve these questions and ideally converge these concepts in the future.
+
+We don't link a Genomic Location to a specific reference sequence because in the FALDO model (which GENO adopts with the exception of swapping GENO:Genomic Locus for FALDO:Region), allows the start and end positions of a region to be defined on separate reference sequences. So while a given Location is conceptually associated with a single reference, in practice it can be pragmatic to define start and stop on different references sequences.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GENO_0000902> "In practice, GENO advocates describing biology at the level of genomic features - i.e. define specific terms for genes as genomic features, and not duplicate representation of the loci where each gene resides. So we might define a class representing the human Shh gene as a 'genomic feature', but not parallel this with a 'human Shh gene locus' class.   The utility of the 'genomic locus' class in the ontology is primarily to be clear about the distinction, but we would only use it in modeling data if absolutely needed.
+
+For example, we would define an  'HLA gene block' as a subclass of 'genomic feature', and assert that  HLA-A, HLA-B, and HLA-C genes are part/subsequences of this HLA gene block (as opposed to modeling this as an 'HLA locus'  and asserting that the HLA-A, HLA-B, and HLA-C genes occupy this locus).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GENO_0000902> "genomic location")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GENO_0000902> "genomic locus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GENO_0000902> "VMC:Location")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GENO_0000902> "1. A genomic location (aka locus) is defined by its begin and end coordinates on a reference genome, independent of a particular sequence that may reside there.  In GENO, we say that a genomic location is occupied_by a 'sequence feature' - where the identity of this feature depends on both it sequence, and its location in the genome (i.e. the locus it occupies).  For example, the 'ATG' sequence beginning the ORF of the human SHH gene shares the *same sequence* as the 'ATG' beginning the ORF of the human AKT gene. But these are *distinct sequence features* because they occupy different genomic locations. 
+	
+2. A given genomic location (e.g. the human SHH gene locus) may be occupied by different alleles (e.g. different alleles of the SHH gene). Within the genome of a single diploid organism, there is potential for two alleles to exist at such a locus (i.e. two different versions of the SHH gene).  And across genomes of all members of a species, many more alleles of the SHH gene may exist and occupy this same locus.
+
+3. The notion of a genomic location in the realm of biological sequences is analogous to a BFO:spatiotemporal region in the realm of physical entities. A spatiotemporal region can be occupied_by physical objects, while a genomic location is occupied_by sequence features. Just as a spatiotemporal region is distinct from an object that occupies it, so too a genomic locus is distinct from a sequence feature that occupies it.  As a more concrete example, consider the distinction between a street address and the building that occupies it as analogous to the relationship between a genomic location and the feature that resides there.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GENO_0000902> "genomic feature location"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000902> <http://purl.obolibrary.org/obo/GENO_0000815>)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000005> (objective specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000005> "objective specification"@en)
@@ -7647,7 +7675,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0020000> "Mathias Brochhausen"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0020000> "identifier"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0020000> "proper name"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> <http://purl.obolibrary.org/obo/OBIB_0000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0020015> (personal name)
 
@@ -7883,12 +7911,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C81229> <http://purl.obolibrary.org/obo/ncit.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C81229> "Alcohol Use History")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C81229> <http://semanticscience.org/resource/SIO_001196>)
-
-# Class: <http://purl.obolibrary.org/obo/OBIB_0000001> (sample collection identifier)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBIB_0000001> "A proper name that refers to a sample collection."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBIB_0000001> "Mathias Brochhausen"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBIB_0000001> "sample collection identifier"@en)
 
 # Class: <http://purl.obolibrary.org/obo/OBIB_0000029> (medication material)
 
@@ -9560,6 +9582,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000096> "protocol testing objective"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000096> <http://purl.obolibrary.org/obo/OBI_0000208>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000101> (measured expression level)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000101> "measured expression level"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000101> "Examples are quantified data from an expression microarray experiment, PCR measurements, etc."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000101> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000101> "A measurement datum that is the outcome of the quantification of an assay for the activity of a gene, or the number of RNA transcripts."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000101> "person:Chris Stoeckert"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000101> "OBI Data Transformation branch"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000101> "measured expression level"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000101> <http://purl.obolibrary.org/obo/IAO_0000109>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0000112> (specimen role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000112> "specimen role"^^xsd:string)
@@ -10459,6 +10492,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000678> "por
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000678> <http://purl.obolibrary.org/obo/OBI_0000639>)
 DisjointClasses(<http://purl.obolibrary.org/obo/OBI_0000678> <http://purl.obolibrary.org/obo/OBI_0000681>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000679> (average value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000679> "average value"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000679> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000679> "A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000679> "PERSON: James Malone"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000679> "PERSON: Monnie McGee"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000679> "arithmetic mean"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000679> "average value"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000679> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0000681> (separation into different composition objective)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000681> "separation into different composition objective"^^xsd:string)
@@ -10573,6 +10617,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000711> "library construction"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000711> "library preparation"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000711> <http://purl.obolibrary.org/obo/OBI_0000094>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000713> (GenePattern software)
 
@@ -11462,6 +11507,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> <http://semanticscience.org/resource/SIO_000115>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001616> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100051>))
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0001618> (average depth of sequence coverage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001618> "average depth of sequence coverage"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001618> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001618> "An average value of the depth of sequence coverage based both on external (e.g. Cot-based size estimates) and internal (average coverage in the assembly) measures of genome size."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001618> "Person: Chris Stoeckert, Jie Zheng"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001618> "NIAID GSCID-BRC metadata working group"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001886> <http://purl.obolibrary.org/obo/OBI_0001618> "Depth of Coverage - Average")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OBI_0001618> "NIAID GSCID-BRC")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001618> "average depth of sequence coverage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001618> <http://purl.obolibrary.org/obo/OBI_0000679>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0001619> (specimen collection time measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001619> "specimen collection time measurement datum"@en)
@@ -11622,6 +11679,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001852> "Venkat Malladi, Jie Zheng")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OBI_0001852> "ENCODE project")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001852> "paired-end library preparation"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0001852> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000711> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000722>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001852> <http://purl.obolibrary.org/obo/OBI_0000711>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001853> (DNase I hypersensitive sites sequencing assay)
@@ -14698,13 +14756,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0000028> "ISO 3166-1 alpha-2 code for biobank contact person"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0000028> <http://purl.obolibrary.org/obo/OMIABIS_0000004>)
 
-# Class: <http://purl.obolibrary.org/obo/OMIABIS_0000034> (name of hosted study collection)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0000034> "The proper name that designates a hosted study collection."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMIABIS_0000034> "Mathias Brochhausen")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIABIS_0000034> "name of hosted study collection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OMIABIS_0000034> <http://purl.obolibrary.org/obo/OBIB_0000001>)
-
 # Class: <http://purl.obolibrary.org/obo/OMIABIS_0000037> (study proper name)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMIABIS_0000037> "A proper name that designates a study."@en)
@@ -15507,13 +15558,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000112 "
 AnnotationAssertion(rdfs:label :NGBO_6000112 "genetic variation data"@en)
 SubClassOf(:NGBO_6000112 <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: :NGBO_6000114 (expression level data)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000114 "expression level data is measurment datum that describe the process by which information from a gene is used in the synthesis of a functional gene product.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000114 "Dalia Alghamdi")
-AnnotationAssertion(rdfs:label :NGBO_6000114 "expression level data"@en)
-SubClassOf(:NGBO_6000114 <http://purl.obolibrary.org/obo/IAO_0000109>)
-
 # Class: :NGBO_6000122 (bioinformatics analysis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000122 "process with the objective of curation, processing and analysis of complex biological data")
@@ -15588,13 +15632,6 @@ SubClassOf(:NGBO_6000150 <http://purl.obolibrary.org/obo/OBI_0100051>)
 
 AnnotationAssertion(rdfs:label :NGBO_6000157 "specimen with potentially infectious materials"@en)
 SubClassOf(:NGBO_6000157 <http://purl.obolibrary.org/obo/OBI_0100051>)
-
-# Class: :NGBO_6000158 (quality control assessment)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000158 "quality control assesment is a continuous process based on identifying quality problems for a given health delivery, and determining criteria and standards in relation to this. Quality assessment is the data collection and analysis through which the degree of conformity to predetermined standards and criteria are exemplified.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000158 "Dalia Alghamdi")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000158 "https://www.ncbi.nlm.nih.gov/m/pubmed/1604740/")
-AnnotationAssertion(rdfs:label :NGBO_6000158 "quality control assessment"@en)
 
 # Class: :NGBO_6000160 (training manual)
 
@@ -15677,26 +15714,21 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000185 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000185 "https://www.pnas.org/content/116/12/5653"^^rdfs:Literal)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> :NGBO_6000185 "ASE_SNP_CNV_Expression, Allele-Specific Expression")
 AnnotationAssertion(rdfs:label :NGBO_6000185 "Allele-specific expression data"@en)
-SubClassOf(:NGBO_6000185 :NGBO_6000114)
+SubClassOf(:NGBO_6000185 <http://purl.obolibrary.org/obo/OBI_0000101>)
 
 # Class: :NGBO_6000186 (microarray CNV genotypes data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000186 "measurement datum represent copy number variation (CNV) obtained by microarray")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000186 "Dalia Alghamdi"@en)
 AnnotationAssertion(rdfs:label :NGBO_6000186 "microarray CNV genotypes data"@en)
-SubClassOf(:NGBO_6000186 :NGBO_6000114)
+SubClassOf(:NGBO_6000186 <http://purl.obolibrary.org/obo/OBI_0000101>)
 
 # Class: :NGBO_6000190 (microRNA expression data)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000190 "A measurement datum that represent small non-coding RNAs of 19-24 nucleotides in length that downregulate gene expression during various crucial cell processes such as apoptosis, differentiation and development.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000190 "Dalia Alghamdi"@en)
 AnnotationAssertion(rdfs:label :NGBO_6000190 "microRNA expression data"@en)
-SubClassOf(:NGBO_6000190 :NGBO_6000191)
-
-# Class: :NGBO_6000191 (gene expression data)
-
-AnnotationAssertion(rdfs:label :NGBO_6000191 "gene expression data"@en)
-SubClassOf(:NGBO_6000191 :NGBO_6000114)
+SubClassOf(:NGBO_6000190 <http://purl.obolibrary.org/obo/OBI_0000101>)
 
 # Class: :NGBO_6000193 (gene expression profile data)
 
@@ -15704,7 +15736,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000193 "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000193 "Dalia Alghamdi"^^rdfs:Literal)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000193 "https://en.wikipedia.org/wiki/Gene_expression_profiling")
 AnnotationAssertion(rdfs:label :NGBO_6000193 "gene expression profile data"@en)
-SubClassOf(:NGBO_6000193 :NGBO_6000114)
+SubClassOf(:NGBO_6000193 <http://purl.obolibrary.org/obo/OBI_0000101>)
 
 # Class: :NGBO_6000195 (whole exome sequence data)
 
@@ -16207,23 +16239,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000314 "
 AnnotationAssertion(rdfs:label :NGBO_6000314 "metagenomics sequence data"@en)
 SubClassOf(:NGBO_6000314 <http://purl.obolibrary.org/obo/OBI_0000973>)
 
-# Class: :NGBO_6000316 (genomic site)
-
-AnnotationAssertion(rdfs:label :NGBO_6000316 "genomic site"@en)
-SubClassOf(:NGBO_6000316 <http://purl.obolibrary.org/obo/BFO_0000029>)
-
-# Class: :NGBO_6000317 (locus)
-
-AnnotationAssertion(rdfs:label :NGBO_6000317 "locus"@en)
-SubClassOf(:NGBO_6000317 :NGBO_6000316)
-
 # Class: :NGBO_6000318 (expression quantitative trait loci)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000318 "A genomic site that represent the expression quantitative trait loci are genomic loci that explain all or a fraction of variation in expression levels of mRNAs"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000318 "Dalia Alghamdi"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000318 "https://en.wikipedia.org/wiki/Expression_quantitative_trait_loci"@en)
 AnnotationAssertion(rdfs:label :NGBO_6000318 "expression quantitative trait loci"@en)
-SubClassOf(:NGBO_6000318 :NGBO_6000317)
+SubClassOf(:NGBO_6000318 <http://purl.obolibrary.org/obo/GENO_0000902>)
 
 # Class: :NGBO_6000319 (messenger RNA sequence data)
 
@@ -16379,6 +16401,15 @@ SubClassOf(:NGBO_6000397 <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 AnnotationAssertion(rdfs:label :NGBO_6000399 "information about data storage location"@en)
 SubClassOf(:NGBO_6000399 <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: :NGBO_6000400 (On-bead tagmentation library prepration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> :NGBO_6000400 "inferred from use case")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :NGBO_6000400 "On-bead tagmentation library prep uses bead-linked transposomes for a more uniform tagmentation reaction compared to in-solution tagmentation reactions")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :NGBO_6000400 "Dalia Alghamdi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> :NGBO_6000400 "https://www.illumina.com/techniques/sequencing/ngs-library-prep/tagmentation.html")
+AnnotationAssertion(rdfs:label :NGBO_6000400 "On-bead tagmentation library prepration"@en)
+SubClassOf(:NGBO_6000400 <http://purl.obolibrary.org/obo/OBI_0000711>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
