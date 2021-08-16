@@ -1424,8 +1424,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000400>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000627>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000687>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000688>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000026>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000078>))
 Declaration(Class(<http://semanticscience.org/resource/SIO_000079>))
@@ -1630,9 +1629,11 @@ Declaration(ObjectProperty(<http://www.ebi.ac.uk/swo/SWO_0000132>))
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/swo/SWO_0004002>))
 Declaration(ObjectProperty(<http://www.obofoundry.org/ro/ro.owl#contained_in>))
 Declaration(ObjectProperty(<http://www.obofoundry.org/ro/ro.owl#derives_from>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000004>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/OBI_0001937>))
-Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000690>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000691>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000692>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000693>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695>))
 Declaration(AnnotationProperty(<http://edamontology.org/comment_handle>))
 Declaration(AnnotationProperty(<http://edamontology.org/created_in>))
 Declaration(AnnotationProperty(<http://edamontology.org/documentation>))
@@ -3444,6 +3445,26 @@ SubObjectPropertyOf(<http://www.ebi.ac.uk/swo/SWO_0004002> <http://www.ebi.ac.uk
 ObjectPropertyDomain(<http://www.ebi.ac.uk/swo/SWO_0004002> <http://purl.obolibrary.org/obo/IAO_0000030>)
 ObjectPropertyRange(<http://www.ebi.ac.uk/swo/SWO_0004002> <http://purl.obolibrary.org/obo/IAO_0000098>)
 
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000690> (userEmailId)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000690> "userEmailId"@en)
+
+# Data Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000691> (userID)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000691> "userID"@en)
+
+# Data Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000692> (userPassword)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000692> "userPassword"@en)
+
+# Data Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000693> (userName)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000693> "userName"@en)
 
 
 
@@ -16429,15 +16450,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "bioinformatics pipeline"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> <http://purl.obolibrary.org/obo/OBI_0001943>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000687> (username)
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689> (user information)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000687> "username"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000687> <http://semanticscience.org/resource/SIO_000115>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000688> (user password)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000688> "user password"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000688> <http://semanticscience.org/resource/SIO_000115>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689> "user information"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://semanticscience.org/resource/SIO_000026> (object quality)
 
@@ -16475,7 +16491,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/identifier> <http://semanti
 AnnotationAssertion(rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000116> <http://semanticscience.org/ontology/sio.owl>)
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000116> "name"@en)
 SubClassOf(<http://semanticscience.org/resource/SIO_000116> <http://semanticscience.org/resource/SIO_000179>)
-SubClassOf(<http://semanticscience.org/resource/SIO_000116> DataSomeValuesFrom(<http://semanticscience.org/resource/SIO_000300> xsd:string))
 
 # Class: <http://semanticscience.org/resource/SIO_000119> (brand name)
 
@@ -16960,6 +16975,16 @@ SubClassOf(<http://www.ebi.ac.uk/swo/SWO_0000143> <http://purl.obolibrary.org/ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/2006/vcard/ns#Address> <http://purl.obolibrary.org/obo/arg/isf-dev.owl>)
 AnnotationAssertion(rdfs:label <http://www.w3.org/2006/vcard/ns#Address> "address"@en)
 SubClassOf(<http://www.w3.org/2006/vcard/ns#Address> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695> (User01)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695> "User01"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695>)
 
 
 DisjointClasses(Annotation(rdf:type owl:AllDisjointClasses) <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)
