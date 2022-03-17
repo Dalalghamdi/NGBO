@@ -1322,7 +1322,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000089>))
@@ -1349,7 +1348,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000175>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000182>))
@@ -1372,7 +1370,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000219>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000227>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000229>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000232>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000233>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000235>))
@@ -1434,7 +1431,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000395>))
@@ -1520,7 +1516,6 @@ Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1000615>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001464>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001468>))
 Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_1001470>))
-Declaration(Class(<http://www.ebi.ac.uk/swo/SWO_0000143>))
 Declaration(Class(<http://www.w3.org/2006/vcard/ns#Address>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
@@ -15624,15 +15619,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_600
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000244>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> <http://semanticscience.org/resource/SIO_000811>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> (file compressing)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> "inferred from College of American Pathologists (CAP) requirments"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> "A data management planned process with the objective of reducing overall file size to make large files more manageable"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> "Dalia Alghamdi"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> "file compressing"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> <http://purl.obolibrary.org/obo/OBI_0200000>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000079> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177>)
-
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000081> (information about local data storage)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000081> "Information about data storage location information content entity which represent any physical hardware such as external hard drives, flash drives, and CD")
@@ -15838,17 +15824,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000175> "biological database"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000175> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000248>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> (data management)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> "A planned process process which includes acquiring, validating, storing, protecting, and processing required data to ensure the accessibility, reliability, and timeliness of the data for its users")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> "Dalia Alghamdi"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> "https://www.blue-pencil.ca/what-is-data-management-and-why-it-is-important/")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> "BWA assembly process"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> "data management"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/STATO_0000102> <http://purl.obolibrary.org/obo/IAO_0000104>))
-
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000179> (alignment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000179> "A bioinformatics analysis data transformation which two or more things are positioned in a straight line or parallel to each other"@en)
@@ -16027,16 +16002,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000229> "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000229> "functional annotation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000229> <http://purl.obolibrary.org/obo/OBI_0001944>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> (data anonymization process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> "a data management process with the objective to reduce the likelihood that data can identify an individual.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> "Dalia Alghamdi")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> "inferred from ISBER"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> "data anonymization process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/GENEPIO_0001795>))
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/STATO_0000102> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000365>))
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000232> (data validation)
 
@@ -16504,13 +16469,6 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377> "BWA assembly process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000227>))
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> (data transfer process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> "Dalia Alghamdi"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> "A data management process that perform data transfer between two persistent objects (source and target)."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> "data transfer process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177>)
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> (data storage datum)
 
@@ -17098,12 +17056,6 @@ SubClassOf(<http://www.ebi.ac.uk/efo/EFO_1001468> <http://www.ebi.ac.uk/efo/EFO_
 
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/efo/EFO_1001470> "merkel cell"@en)
 SubClassOf(<http://www.ebi.ac.uk/efo/EFO_1001470> <http://www.ebi.ac.uk/efo/EFO_0000324>)
-
-# Class: <http://www.ebi.ac.uk/swo/SWO_0000143> (data storage)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/swo/SWO_0000143> "The storing of digital information. Often this is done for archiving and retrieval purposes.")
-AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/swo/SWO_0000143> "data storage")
-SubClassOf(<http://www.ebi.ac.uk/swo/SWO_0000143> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000177>)
 
 # Class: <http://www.w3.org/2006/vcard/ns#Address> (address)
 
