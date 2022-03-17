@@ -1629,6 +1629,8 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0040035>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/STATO_0000102>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000249>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000250>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000381>))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000001>))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000008>))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000011>))
@@ -2442,6 +2444,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input"@en)
 EquivalentObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000295>))
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/RO_0000057>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Object Property: <http://purl.obolibrary.org/obo/OBI_0000295> (is_specified_input_of)
@@ -2469,6 +2472,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000299> "has_specified_output"@en)
 EquivalentObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000312>))
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/RO_0000057>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380>)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000312>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -2560,6 +2564,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001950> "performer relation covers the need to report on who performed a planned processed. it has to cover processes done by People or Devices (such as a robot controlled by software  WF management system)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001950> "has performer"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0001950> <http://purl.obolibrary.org/obo/RO_0000057>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0001950> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0001950> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Object Property: <http://purl.obolibrary.org/obo/OMIABIS_0000008> (owns)
@@ -2753,7 +2758,7 @@ EquivalentObjectProperties(<http://purl.obolibrary.org/obo/RO_0000086> ObjectInv
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has_role)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000087> (has role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000087> "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000087> "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
@@ -3342,6 +3347,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/STATO_0000102> "Philippe Rocca-Serra")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/STATO_0000102> "AGB")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/STATO_0000102> "executes")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/STATO_0000102> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380>)
 
 # Object Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000249> (has_version)
 
@@ -3350,6 +3356,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_600
 # Object Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000250> (is_version_of)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000250> "is_version_of"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380> (trace_from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380> "trace_from"@en)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000380> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000381>)
+
+# Object Property: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000381> (track_to)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000381> "track_to"@en)
 
 # Object Property: <http://semanticscience.org/resource/SIO_000001> (is related to)
 
