@@ -1990,7 +1990,7 @@ AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/contributo
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor")
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor"@en-us)
 
-# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (Creator)
+# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (creator)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/elements/1.1/creator> "Examples of a Creator include a person, an organisation,
          or a service.  Typically, the name of a Creator should 
