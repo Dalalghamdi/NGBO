@@ -18,6 +18,10 @@ homepage: https://github.com/Dalalghamdi/next-generation-biobanking-ontology
 products:
   - id: ngbo.owl
   - id: ngbo.obo
+contact:
+ email: dal.alghamdi92@gmail.com
+ label: Dalia Alghamdi
+ github: dalalghamdi
 dependencies:
  - id: ro
  - id: po
