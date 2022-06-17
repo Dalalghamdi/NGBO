@@ -1406,12 +1406,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000296>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000298>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000299>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000318>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000319>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000320>))
@@ -1428,7 +1422,17 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000383>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000386>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000395>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000397>))
@@ -1990,7 +1994,7 @@ AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/contributo
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor")
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor"@en-us)
 
-# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (creator)
+# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (Creator)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/elements/1.1/creator> "Examples of a Creator include a person, an organisation,
          or a service.  Typically, the name of a Creator should 
@@ -9883,7 +9887,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000338> "Bjoern Peters"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000338> "drawing a conclusion based on data"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000027>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0001909>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000345> (mass analyzer)
@@ -15531,13 +15534,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000066> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000067> "ACMG supporting classification criteria"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000067> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000355>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> (file format)
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> (data file format)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "inferred from the College of American Pathologists (CAP) requirements")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "Information content entity that is a standard way that information is encoded for storage in a computer file.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "data file format is a standard way that information is encoded for storage in a computer file.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "Dalia Alghamdi")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "https://en.wikipedia.org/wiki/File_format")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "file format"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> "data file format"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000003> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000004> (VCF format)
@@ -15622,12 +15625,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_600
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000057> <http://purl.obolibrary.org/obo/IAO_0000129>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000057> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000244>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> (reference genome URI)
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> (reference genome download URI)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> "inferred from College of American Pathologists (CAP) requirments")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> "A reference genome datum which represent a location where reference genome can be accessed online")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> "Dalia Alghamdi")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> "reference genome URI"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> "reference genome download URI"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000244>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000058> <http://semanticscience.org/resource/SIO_000811>)
 
@@ -15716,8 +15719,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> "bioinformatics analysis"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> <http://purl.obolibrary.org/obo/OBI_0200000>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://nmrML.org/nmrCV#NMR:1400267>))
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000027>))
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/STATO_0000102> <http://purl.obolibrary.org/obo/IAO_0000104>))
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000123> (gene expression level analysis)
@@ -15736,13 +15737,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000124> "variant calling assay"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000124> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> (variant classification assay)
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> (clinical variant interpretation assay)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "A genetic variation analysis which assign a formal classification to a detected genetic variant.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "variant interpretation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "variant classification assay"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000261>)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "The drawing of a conclusion regarding a variant’s significance in relation to a disease or phenotype.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "clinical variant impact")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "derived from PMID: 24033266")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> "clinical variant interpretation assay"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> <http://purl.obolibrary.org/obo/OBI_0000338>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/STATO_0000102> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000354>))
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000128> (sequence clustring)
@@ -16274,54 +16275,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000299> "specimen culling"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000299> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302> (Clinical variant interpretation)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302> "A data item representing a variant’s significance in relation to a disease or phenotype.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302> "Clinical variant interpretation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302> <http://purl.obolibrary.org/obo/IAO_0000027>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> (pathogenic variant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> "inferred from College of American Pathologists (CAP) requirments")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> "disease causing mutation
-predisposing variant
-sasceptibility gene
-susceptibility gene mutation")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> "a clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> "pathogenic variant"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000303> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> (likely pathogenic variant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> "inferred from College of American Pathologists (CAP) requirments")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> "likely pathogenic variant"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> ObjectUnionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000063>) ObjectMinCardinality(1 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000066>)) ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000063>) ObjectMinCardinality(2 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000067>)) ObjectIntersectionOf(ObjectMinCardinality(1 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000065>) ObjectMinCardinality(4 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000067>)) ObjectIntersectionOf(ObjectMinCardinality(2 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000065>) ObjectMinCardinality(2 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000067>)) ObjectMinCardinality(3 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000065>) ObjectExactCardinality(1 <http://www.obofoundry.org/ro/ro.owl#derives_from> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000066>)))
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000304> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> (variant of unknown significance)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> "inferred from College of American Pathologists (CAP) requirments")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> "VUS
-variant of uncertain significance")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> "variant of unknown significance"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000305> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306> (likely benign variant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306> "inferred from College of American Pathologists (CAP) requirments")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is probably not causative of disease")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306> "likely benign variant"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000306> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>)
-
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307> (benign variant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307> "inferred from College of American Pathologists (CAP) requirements")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307> "a clinical variant interpretation that represents a sequence variant previously classified or reported as a recognized neutral variant")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307> "benign variant"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000307> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302>)
-
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000318> (expression quantitative trait loci)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000318> "A genomic feature location which represent the expression quantitative trait loci are genomic loci that explain all or a fraction of variation in expression levels of mRNAs"@en)
@@ -16375,6 +16328,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000352> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> "An assay which generate OMICS data through a wet bench process such as sequencing techniques.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> "Dalia Alghamdi")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> "omics data generation assay"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> <http://purl.obolibrary.org/obo/OBI_0600047>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000953>))
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0001879>))
@@ -16457,6 +16411,21 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_600
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000122>)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000377> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000227>))
 
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382> (bioinformatics analysis software)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382> "bioinformatics analysis software"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382> <http://purl.obolibrary.org/obo/IAO_0000104>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000383> (software run ID)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000383> "software run ID"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000383> <http://semanticscience.org/resource/SIO_000115>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> (Bioinformatics analysis vendor software)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> "Bioinformatics analysis vendor software"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000384> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382>)
+
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> (data storage datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> "inferred from College of American Pathologists (CAP) requirments"@en)
@@ -16464,6 +16433,54 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> "Dalia Alghamdi"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> "data storage datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000385> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000386> (Bioinformatics analysis open source software)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000386> "Bioinformatics analysis open source software"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000386> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> (Clinical variant interpretation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> "A conclusion based on data representing a variant’s significance in relation to a disease or phenotype.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> "clinical variant impact")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> "derived from PMID: 24033266")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> "Clinical variant interpretation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388> <http://purl.obolibrary.org/obo/OBI_0001909>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389> (benign variant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389> "inferred from College of American Pathologists (CAP) requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389> "a clinical variant interpretation that represents a sequence variant previously classified or reported as a recognized neutral variant")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389> "benign variant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000389> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390> (likely benign variant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390> "inferred from College of American Pathologists (CAP) requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is probably not causative of disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390> "likely benign variant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000390> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391> (likely pathogenic variant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391> "inferred from College of American Pathologists (CAP) requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391> "likely pathogenic variant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000391> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392> (pathogenic variant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392> "inferred from College of American Pathologists (CAP) requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392> "a clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392> "pathogenic variant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000392> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>)
+
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393> (variant of unknown significance)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/GENEPIO_0000005> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393> "inferred from College of American Pathologists (CAP) requirements")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393> "a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393> "variant of unknown significance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000393> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000388>)
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000394> (ligation objective)
 
@@ -16517,13 +16534,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000627> "target enrichment kit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000627> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000236>)
 
-# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> (bioinformatics pipeline)
+# Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> (bioinformatics analysis pipeline)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "A software pipeline that is composed of a wide array of software algorithms to process biological raw data.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "Dalia Alghamdi")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "https://www.sciencedirect.com/science/article/pii/S1525157817303732")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "bioinformatics pipeline"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> <http://purl.obolibrary.org/obo/OBI_0001943>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> "bioinformatics analysis pipeline"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000685> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000382>)
 
 # Class: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000689> (user information)
 
@@ -17058,7 +17074,6 @@ SubClassOf(<http://www.w3.org/2006/vcard/ns#Address> <http://purl.obolibrary.org
 # Individual: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000053> (likely pathogenic)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000053> "likely pathogenic"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000302> <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000053>)
 
 # Individual: <http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695> (User01)
 

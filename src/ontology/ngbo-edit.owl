@@ -10,7 +10,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://purl.obolibrary.org/obo/ngbo.owl>
 Import(<http://purl.obolibrary.org/obo/ngbo/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ngbo/imports/ro_import.owl>)
-Annotation(rdfs:comment "Next generation biobanking ontology (NGBO)")
+Annotation(<http://purl.org/dc/elements/1.1/description> "The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.")
+Annotation(<http://purl.org/dc/elements/1.1/license> "")
+Annotation(<http://purl.org/dc/elements/1.1/title> "Next generation biobanking ontology (NGBO)")
+Annotation(owl:versionInfo "2022-06-14")
 
 Declaration(Class(<http://edamontology.org/data_1093>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400267>))
@@ -1990,7 +1993,7 @@ AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/contributo
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor")
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/contributor> "Contributor"@en-us)
 
-# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (Creator)
+# Annotation Property: <http://purl.org/dc/elements/1.1/creator> (creator)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/elements/1.1/creator> "Examples of a Creator include a person, an organisation,
          or a service.  Typically, the name of a Creator should 
