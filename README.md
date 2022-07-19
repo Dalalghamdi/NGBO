@@ -12,8 +12,7 @@ This work is licensed under a
 
 
 
-[![Build Status](https://travis-ci.org/Dalalghamdi/next-generation-biobanking-ontology.svg?branch=master)](https://travis-ci.org/Dalalghamdi/next-generation-biobanking-ontology)
-[![DOI](https://zenodo.org/badge/13996/Dalalghamdi/next-generation-biobanking-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/Dalalghamdi/next-generation-biobanking-ontology)
+
 
 # next-generation-biobanking-ontology
 
