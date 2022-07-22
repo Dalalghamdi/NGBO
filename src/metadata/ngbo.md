@@ -41,6 +41,7 @@ license: http://creativecommons.org/licenses/by/4.0/.
 web application for end-users with appropriate functions to discover and request the
 specimen-derived data from SPARQL endpoints using a data federation approach
 
+data-version: 2022-06-14
 ---
 
 Enter a detailed description of your ontology here
