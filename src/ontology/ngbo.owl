@@ -21,8 +21,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
-        <Literal>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by/4.0/.</Literal>
+        <Literal>http://creativecommons.org/licenses/by/4.0/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
@@ -1770,19 +1769,10 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/NCIT_C81229"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000035"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000036"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000037"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000038"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000054"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000055"/>
@@ -1906,9 +1896,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000128"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000139"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000140"/>
@@ -2145,9 +2132,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000323"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000337"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000352"/>
     </Declaration>
     <Declaration>
@@ -2158,9 +2142,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000355"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000358"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000359"/>
@@ -2232,7 +2213,22 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000413"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000626"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000415"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000417"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000419"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000627"/>
@@ -2242,9 +2238,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000689"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6005731"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBIB_0000029"/>
@@ -4629,12 +4622,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0020018"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000249"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000250"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000380"/>
     </Declaration>
     <Declaration>
@@ -5121,6 +5108,9 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://schema.org/comment"/>
     </Declaration>
     <Declaration>
@@ -5337,13 +5327,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
                 <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000066"/>
             </ObjectExactCardinality>
         </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000358"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-            <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000323"/>
-        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000639"/>
@@ -7623,13 +7606,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000010"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000249"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IAO_0000129"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
@@ -7894,24 +7870,12 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://semanticscience.org/resource/SIO_001196"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000035"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000036"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000037"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000038"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000953"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000054"/>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000066"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_0000055"/>
@@ -8146,10 +8110,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0200187"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000139"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200111"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000140"/>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000003"/>
     </SubClassOf>
@@ -8322,13 +8282,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000248"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000248"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000249"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IAO_0000129"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000255"/>
@@ -8533,10 +8486,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000337"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000352"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
     </SubClassOf>
@@ -8597,10 +8546,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000355"/>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000354"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000358"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000359"/>
@@ -8715,8 +8660,28 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000409"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000626"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000414"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000416"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000415"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000416"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000417"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000418"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000419"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000314"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000627"/>
@@ -8729,10 +8694,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000689"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/NGBO_6005731"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBIB_0000029"/>
@@ -10602,13 +10563,6 @@ http://creativecommons.org/licenses/by/4.0/.</Literal>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="http://purl.obolibrary.org/obo/NGBO_6000248"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001943"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/NGBO_6000249"/>
-            <Class IRI="http://purl.obolibrary.org/obo/IAO_0000129"/>
-        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001944"/>
@@ -22924,11 +22878,6 @@ Previous. An information content entity is a non-realizable information entity t
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000030</IRI>
-        <Literal>information content entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000030</IRI>
         <Literal xml:lang="en">information content entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -25615,14 +25564,9 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal>Alcohol Use History</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_0000035</IRI>
-        <Literal xml:lang="en">Age range</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_0000036</IRI>
-        <Literal xml:lang="en">Vital status</Literal>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000037</IRI>
+        <Literal>Data item which represents a normalized probability of observing the new amino acid at that position and ranges from 0 to 1.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25650,9 +25594,10 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">likely pathogenic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_0000054</IRI>
-        <Literal xml:lang="en">PVS1 criteria</Literal>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000055</IRI>
+        <Literal>Same amino acid change as a previously established pathogenic variant
+regardless of nucleotide change</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25660,9 +25605,21 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">PS1 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000056</IRI>
+        <Literal>De novo (both maternity and paternity confirmed) in a patient with the
+disease and no family history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000056</IRI>
         <Literal xml:lang="en">PS2 criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000057</IRI>
+        <Literal>The prevalence of the variant in affected individuals is significantly
+increased compared to the prevalence in controls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25670,9 +25627,21 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">PS4 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000058</IRI>
+        <Literal>Located in a mutational hot spot and/or critical and well-established
+functional domain (e.g. active site of an enzyme) without benign variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000058</IRI>
         <Literal xml:lang="en">PM1 criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000059</IRI>
+        <Literal>Absent from controls (or at extremely low frequency if recessive) 
+in Exome Sequencing Project, 1000 Genomes or ExAC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25680,9 +25649,19 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">PM2 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000060</IRI>
+        <Literal>Assumed de novo, but without confirmation of paternity and maternity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000060</IRI>
         <Literal xml:lang="en">PM6 criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000061</IRI>
+        <Literal>For recessive disorders, detected in trans with a pathogenic variant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25690,14 +25669,30 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">PM3 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000062</IRI>
+        <Literal>Protein length changes due to in-frame deletions/insertions in a non-repeat region or stop-loss variants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000062</IRI>
         <Literal xml:lang="en">PM4 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000063</IRI>
+        <Literal>ACMG guidelines for classification of variants of strong variants classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000063</IRI>
-        <Literal xml:lang="en">ACMG strong classification criteria</Literal>
+        <Literal xml:lang="en">ACMG strong variants classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000064</IRI>
+        <Literal>Well-established in vitro or in vivo functional studies supportive of a
+damaging effect on the gene or gene product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25705,14 +25700,29 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">PS3 criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000065</IRI>
+        <Literal>ACMG guidelines for classification of variants of moderate classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000065</IRI>
         <Literal xml:lang="en">ACMG moderate classification criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000066</IRI>
+        <Literal>ACMG guidelines for classification of variants of very strong classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_0000066</IRI>
         <Literal xml:lang="en">ACMG very strong classification criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_0000067</IRI>
+        <Literal>ACMG guidelines for classification of variants of spporting classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25745,14 +25755,14 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">data file format</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/GENEPIO_0000005"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000004</IRI>
-        <Literal>A file format which represent represent the format of a text file used in bioinformatics for storing gene sequence variations</Literal>
+        <Literal>inferred from https://en.wikipedia.org/wiki/Variant_Call_Format</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000004</IRI>
-        <Literal>inferred from https://en.wikipedia.org/wiki/Variant_Call_Format</Literal>
+        <Literal>A file format which represent represent the format of a text file used in bioinformatics for storing gene sequence variations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -25823,6 +25833,11 @@ Add as annotation triples in the granting ontology</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000007</IRI>
         <Literal xml:lang="en">FASTQ format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000009</IRI>
+        <Literal>fixed tissue slide specimen that is contain unstained tissue section(s)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -25915,12 +25930,17 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">BAM format</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000029</IRI>
+        <Literal>standard operating procedure for shipping and receiving of sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000029</IRI>
         <Literal xml:lang="en">shipping and receiving of samples SOP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/GENEPIO_0000005"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000057</IRI>
         <Literal>reference genome datum which represent reference genome edition</Literal>
     </AnnotationAssertion>
@@ -25985,6 +26005,11 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">information about cloud storage bucket</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000089</IRI>
+        <Literal>A personal name that designates the human being donated specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000089</IRI>
         <Literal xml:lang="en">name of specimen donor</Literal>
@@ -25992,7 +26017,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000092</IRI>
-        <Literal>a document which represent a contract that governs the transfer of tangible research materials between two organizations, when the recipient intends to use it for his or her own research purposes.</Literal>
+        <Literal>A document which represent a contract that governs the transfer of tangible research materials between two organizations, when the recipient intends to use it for his or her own research purposes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26070,6 +26095,11 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">insulated shipping container</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000103</IRI>
+        <Literal>a one-dimensional temporal region that is a period of an duration of standard operation procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000103</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dalia Alghamdi</Literal>
@@ -26142,7 +26172,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000123</IRI>
-        <Literal>gene expression level analysis is a bioinformatics analysis that compares the RNA expression levels of multiple genes (profiling) and/or multiple samples (screening)</Literal>
+        <Literal>A gene expression level analysis is a bioinformatics analysis that compares the RNA expression levels of multiple genes (profiling) and/or multiple samples (screening)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26215,11 +26245,6 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">sequence clustring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000139</IRI>
-        <Literal xml:lang="en">structure visualisation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000140</IRI>
         <Literal>A file format which represent alignment files are produced from Blastz, an alignment tool available from Webb Miller&apos;s lab at Penn State University. The axtNet and axtChain alignments are produced by processing the alignment files with additional utilities written by Jim Kent at UCSC</Literal>
@@ -26277,7 +26302,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000157</IRI>
-        <Literal>a specimen that derives from an organism and might contain infectious materials.</Literal>
+        <Literal>A specimen that derives from an organism and might contain infectious materials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26305,6 +26330,11 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">training manual</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000161</IRI>
+        <Literal>a data item infromation content entity that represent any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000161</IRI>
         <Literal>Dalia Alghamdi</Literal>
@@ -26313,11 +26343,6 @@ Add as annotation triples in the granting ontology</Literal>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000161</IRI>
         <Literal>https://searchfinancialsecurity.techtarget.com/definition/personally-identifiable-information</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000161</IRI>
-        <Literal>a data item infromation content entity that represent any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26382,7 +26407,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000181</IRI>
-        <Literal>a bioinformatics analysis that produces data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure</Literal>
+        <Literal>A bioinformatics analysis that produces data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26512,7 +26537,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000198</IRI>
-        <Literal xml:lang="en">single molecule real time sequencing data is DNA sequence data generated from parallelized single molecule DNA sequencing method.</Literal>
+        <Literal xml:lang="en">A single molecule real time sequencing data is DNA sequence data generated from parallelized single molecule DNA sequencing method.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26555,14 +26580,14 @@ Add as annotation triples in the granting ontology</Literal>
         <Literal xml:lang="en">whole genome sequence data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000200</IRI>
+        <Literal xml:lang="en">DNA sequence data which represent genomic DNA obtained from environmental samples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000200</IRI>
         <Literal xml:lang="en">Dalia Alghamdi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#comment"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000200</IRI>
-        <Literal xml:lang="en">DNA sequence data which represent genomic DNA obtained from environmental samples</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26662,7 +26687,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000216</IRI>
-        <Literal xml:lang="en">a sequence alignment which align every residue in every sequence</Literal>
+        <Literal xml:lang="en">A sequence alignment which align every residue in every sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26682,7 +26707,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000217</IRI>
-        <Literal>a sequence alignment which align dissimilar sequences that are suspected to contain regions of similarity or similar sequence motifs within their larger sequence context</Literal>
+        <Literal>A sequence alignment which align dissimilar sequences that are suspected to contain regions of similarity or similar sequence motifs within their larger sequence context</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26727,7 +26752,7 @@ Add as annotation triples in the granting ontology</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000219</IRI>
-        <Literal>a sequence alignment bioinformatics analysis which identify regions of similarity that may indicate functional, structural and/or evolutionary relationships between two biological sequences (protein or nucleic acid)</Literal>
+        <Literal>A sequence alignment bioinformatics analysis which identify regions of similarity that may indicate functional, structural and/or evolutionary relationships between two biological sequences (protein or nucleic acid)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26809,7 +26834,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000232</IRI>
-        <Literal>a planned process which ensure data have undergone data cleansing to ensure they have data quality, that is, that they are both correct and useful.</Literal>
+        <Literal>A planned process which ensure data have undergone data cleansing to ensure they have data quality, that is, that they are both correct and useful.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26827,14 +26852,14 @@ command line parameter</Literal>
         <Literal xml:lang="en">data validation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000233</IRI>
-        <Literal>Dalia Alghamdi</Literal>
+        <Literal>format validation is a process that checks that the data is in a specified format (template), e.g., dates have to be in the format DD/ MM/YYYY is correct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000233</IRI>
-        <Literal>format validation is a process that checks that the data is in a specified format (template), e.g., dates have to be in the format DD/ MM/YYYY is correct</Literal>
+        <Literal>Dalia Alghamdi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -26854,7 +26879,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000235</IRI>
-        <Literal>data validating whech validate sequencing quality scores and measure the probability that a base is called incorrectly.</Literal>
+        <Literal>A data validating whech validate sequencing quality scores and measure the probability that a base is called incorrectly.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26874,7 +26899,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000236</IRI>
-        <Literal>processed material which contain a set of articles or equipment needed for a specific purpose.</Literal>
+        <Literal>A processed material which contain a set of articles or equipment needed for a specific purpose.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26949,7 +26974,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000246</IRI>
-        <Literal>data file URL is URL relative to a path variable, where file is stored</Literal>
+        <Literal>A data file URL is URL relative to a path variable, where file is stored</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26959,7 +26984,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000248</IRI>
-        <Literal xml:lang="en">database is an information content entity that describe a structured set of data held in a computer, especially one that is accessible in various ways.</Literal>
+        <Literal xml:lang="en">A database is an information content entity that describe a structured set of data held in a computer, especially one that is accessible in various ways.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -26975,16 +27000,6 @@ command line parameter</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000248</IRI>
         <Literal xml:lang="en">database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000249</IRI>
-        <Literal xml:lang="en">has_version</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000250</IRI>
-        <Literal xml:lang="en">is_version_of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/GENEPIO_0000005"/>
@@ -27044,10 +27059,10 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000259</IRI>
-        <Literal xml:lang="en">data item that represent sort of archive that contains one or more files that have been reduced in size through file compression process</Literal>
+        <Literal xml:lang="en">A data item that represent sort of archive that contains one or more files that have been reduced in size through file compression process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000259</IRI>
         <Literal xml:lang="en">inferred from https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5</Literal>
     </AnnotationAssertion>
@@ -27129,7 +27144,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000270</IRI>
-        <Literal>molecular quality that describe changes in copy number that have arisen in somatic tissues.</Literal>
+        <Literal>A molecular quality that describe changes in copy number that have arisen in somatic tissues.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27177,6 +27192,11 @@ command line parameter</Literal>
         <Literal xml:lang="en">secure file transfer protocol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000273</IRI>
+        <Literal>a protocol plan specification which describes the process of data transfer between two entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000273</IRI>
         <Literal xml:lang="en">data transfer protocol</Literal>
@@ -27204,7 +27224,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000276</IRI>
-        <Literal>a protocol plan specification which describes the process of generating a collection of DNA fragments for sequencing</Literal>
+        <Literal>A protocol plan specification which describes the process of generating a collection of DNA fragments for sequencing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27269,7 +27289,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000283</IRI>
-        <Literal>specimen that is divided into separate parts which are typically stored in separate containers as individual samples</Literal>
+        <Literal>A specimen that is divided into separate parts which are typically stored in separate containers as individual samples</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27284,7 +27304,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000286</IRI>
-        <Literal>a protocol that ensure that biospecimens can be tracked accurately from the collection site through biospecimen arrival and subsequent</Literal>
+        <Literal>A protocol that ensure that biospecimens can be tracked accurately from the collection site through biospecimen arrival and subsequent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27334,7 +27354,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000292</IRI>
-        <Literal>version number denotes standard operating procedure</Literal>
+        <Literal>A version number denotes standard operating procedure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27354,7 +27374,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000293</IRI>
-        <Literal>unique SOP name which captures the essence of the practice described.</Literal>
+        <Literal>A unique SOP name which captures the essence of the practice described.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27394,7 +27414,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000298</IRI>
-        <Literal>planned process with the objective to destroy an entire collection or specific specimen.</Literal>
+        <Literal>A planned process with the objective to destroy an entire collection or specific specimen.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27409,7 +27429,7 @@ command line parameter</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000299</IRI>
-        <Literal>specimen culling is the process of reviewing and eliminating specimens in a collection or an entire collection either by destruction or transfer to a new custodian</Literal>
+        <Literal>A specimen culling is the process of reviewing and eliminating specimens in a collection or an entire collection either by destruction or transfer to a new custodian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27417,7 +27437,7 @@ command line parameter</Literal>
         <Literal xml:lang="en">specimen culling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000302</IRI>
         <Literal>A data item representing a variant’s significance in relation to a disease or phenotype.</Literal>
     </AnnotationAssertion>
@@ -27432,17 +27452,17 @@ command line parameter</Literal>
         <Literal>inferred from College of American Pathologists (CAP) requirments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000303</IRI>
+        <Literal>a clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000303</IRI>
         <Literal>disease causing mutation
 predisposing variant
 sasceptibility gene
 susceptibility gene mutation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000303</IRI>
-        <Literal>a clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27455,7 +27475,7 @@ susceptibility gene mutation</Literal>
         <Literal>inferred from College of American Pathologists (CAP) requirments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000304</IRI>
         <Literal>a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.</Literal>
     </AnnotationAssertion>
@@ -27470,15 +27490,15 @@ susceptibility gene mutation</Literal>
         <Literal>inferred from College of American Pathologists (CAP) requirments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000305</IRI>
+        <Literal>a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000305</IRI>
         <Literal>VUS
 variant of uncertain significance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000305</IRI>
-        <Literal>a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27493,7 +27513,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000306</IRI>
-        <Literal>a clinical variant interpretation that represents a sequence variant that is previously unreported and is probably not causative of disease</Literal>
+        <Literal>A clinical variant interpretation that represents a sequence variant that is previously unreported and is probably not causative of disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27508,7 +27528,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000307</IRI>
-        <Literal>a clinical variant interpretation that represents a sequence variant previously classified or reported as a recognized neutral variant</Literal>
+        <Literal>A clinical variant interpretation that represents a sequence variant previously classified or reported as a recognized neutral variant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27558,7 +27578,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000320</IRI>
-        <Literal xml:lang="en">data item which indicates availability of specimen associated data</Literal>
+        <Literal xml:lang="en">A data item which indicates availability of specimen associated data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27616,14 +27636,14 @@ variant of uncertain significance</Literal>
         <Literal xml:lang="en">omics data generation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000354</IRI>
+        <Literal xml:lang="en">a protocol that describe the process of assigning a formal classification to the detected variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000354</IRI>
         <Literal xml:lang="en">Dalia Alghamdi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000354</IRI>
-        <Literal xml:lang="en">a protocol that describe the process of assigning a formal classification to the detected variant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27654,11 +27674,6 @@ variant of uncertain significance</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000355</IRI>
         <Literal xml:lang="en">ACMG guidelines for classification of variants</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000358</IRI>
-        <Literal xml:lang="en">target region enrichment function</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/GENEPIO_0000005"/>
@@ -27698,7 +27713,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000360</IRI>
-        <Literal xml:lang="en">a protocol which describes the process of attaching synthetic oligonucleotides with known sequences to both or either ends of complementary DNA (cDNA) fragments as a prepration for sequencing</Literal>
+        <Literal xml:lang="en">A protocol which describes the process of attaching synthetic oligonucleotides with known sequences to both or either ends of complementary DNA (cDNA) fragments as a prepration for sequencing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
@@ -27723,7 +27738,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000362</IRI>
-        <Literal>a protocol which describe the process of validation of known variant</Literal>
+        <Literal>A protocol which describe the process of validation of known variant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27748,7 +27763,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000364</IRI>
-        <Literal xml:lang="en">a protocol which describes the process of Allele-specific polymerase chain reaction (PCR)</Literal>
+        <Literal xml:lang="en">A protocol which describes the process of Allele-specific polymerase chain reaction (PCR)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27766,14 +27781,14 @@ variant of uncertain significance</Literal>
         <Literal xml:lang="en">inferred from ISBER</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000365</IRI>
-        <Literal xml:lang="en">Dalia Alghamdi</Literal>
+        <Literal xml:lang="en">a protocol plan specification which describes the process of  reducing the likelihood that the data can identify an individual.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000365</IRI>
-        <Literal xml:lang="en">a protocol plan specification which describes the process of  reducing the likelihood that the data can identify an individual.</Literal>
+        <Literal xml:lang="en">Dalia Alghamdi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27781,14 +27796,14 @@ variant of uncertain significance</Literal>
         <Literal xml:lang="en">data anonymization protocol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000377</IRI>
+        <Literal>Bioinformatics analysis which performs gapped alignment for single-end reads, supports paired-end mapping, generates mapping quality, and gives multiple hits if required</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000377</IRI>
         <Literal>inferred from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2705234/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000377</IRI>
-        <Literal>Bioinformatics analysis which performs gapped alignment for single-end reads, supports paired-end mapping, generates mapping quality, and gives multiple hits if required</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27796,9 +27811,19 @@ variant of uncertain significance</Literal>
         <Literal xml:lang="en">BWA assembly process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000380</IRI>
+        <Literal>a relation that is used to follow traceability of specimen activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000380</IRI>
         <Literal xml:lang="en">trace_from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000381</IRI>
+        <Literal>a relation that is used to track specimen activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27828,7 +27853,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000394</IRI>
-        <Literal>an objective specification to determine attaching synthetic oligonucleotides with known sequences to both or either ends of complementary DNA (cDNA) fragments</Literal>
+        <Literal>An objective specification to determine attaching synthetic oligonucleotides with known sequences to both or either ends of complementary DNA (cDNA) fragments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27858,7 +27883,7 @@ variant of uncertain significance</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000395</IRI>
-        <Literal>a protocol which describes the workflow to capture specific regions of interest after library preparation for NGS and has many advantages over whole genome sequencing (WGS).</Literal>
+        <Literal>A protocol which describes the workflow to capture specific regions of interest after library preparation for NGS and has many advantages over whole genome sequencing (WGS).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -27879,7 +27904,7 @@ use case clinial report</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000397</IRI>
-        <Literal>data item that which represent information about subset of genes or specific regions of interest of the genome.</Literal>
+        <Literal>A data item that which represent information about subset of genes or specific regions of interest of the genome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ebi.ac.uk/efo/definition_citation"/>
@@ -27890,6 +27915,11 @@ use case clinial report</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000397</IRI>
         <Literal xml:lang="en">target sequence information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000399</IRI>
+        <Literal>an information content entity that is about the location of data storage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27979,7 +28009,7 @@ use case clinial report</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000407</IRI>
-        <Literal>data file which contain the output of data transformation process</Literal>
+        <Literal>A data file which contain the output of data transformation process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
@@ -27994,7 +28024,7 @@ use case clinial report</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000408</IRI>
-        <Literal>data file which contain the input for data transformation process</Literal>
+        <Literal>A data file which contain the input for data transformation process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
@@ -28014,12 +28044,12 @@ use case clinial report</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000409</IRI>
-        <Literal xml:lang="en">information about bioinformatics software</Literal>
+        <Literal xml:lang="en">information about software</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000410</IRI>
-        <Literal>name of bioinformatics software</Literal>
+        <Literal>Information about software includes software name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28027,14 +28057,29 @@ use case clinial report</Literal>
         <Literal xml:lang="en">bioinformatics software name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000411</IRI>
+        <Literal>Information about software includes information on software version number.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000411</IRI>
         <Literal xml:lang="en">bioinformatics software version number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000412</IRI>
+        <Literal>Information about software includes information on software parameter value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000412</IRI>
         <Literal xml:lang="en">bioinformatics software parameter value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000413</IRI>
+        <Literal>Information about software includes information on software parameter name.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28043,8 +28088,48 @@ use case clinial report</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6000626</IRI>
-        <Literal xml:lang="en">sequencing quality check protocol</Literal>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000414</IRI>
+        <Literal xml:lang="en">bioinformatics analysis execution date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000415</IRI>
+        <Literal>Information about software includes software description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000415</IRI>
+        <Literal xml:lang="en">Bioinformatics software description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000416</IRI>
+        <Literal>Information about software includes software documentation URI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000416</IRI>
+        <Literal xml:lang="en">Bioinformatics software Documentation URI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000417</IRI>
+        <Literal xml:lang="en">software run identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000418</IRI>
+        <Literal xml:lang="en">data file description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000419</IRI>
+        <Literal>A document part of relevant notes or instructions regarding data generation assay execution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000419</IRI>
+        <Literal xml:lang="en">assay execution note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -28077,9 +28162,24 @@ use case clinial report</Literal>
         <Literal xml:lang="en">bioinformatics pipeline</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000689</IRI>
+        <Literal>information content entity about user information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#comment"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000689</IRI>
+        <Literal>This term is used for to store users information regestred in a federated service https://github.com/Dalalghamdi/NGBOSemanticWebApplication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000689</IRI>
         <Literal xml:lang="en">user information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000690</IRI>
+        <Literal>A data property that set user email ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28087,14 +28187,29 @@ use case clinial report</Literal>
         <Literal xml:lang="en">userEmailId</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000691</IRI>
+        <Literal>A data property that set user ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000691</IRI>
         <Literal xml:lang="en">userID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000692</IRI>
+        <Literal>A data property that set user password</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000692</IRI>
         <Literal xml:lang="en">userPassword</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NGBO_6000693</IRI>
+        <Literal>A data property that set user name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28105,11 +28220,6 @@ use case clinial report</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/NGBO_6000695</IRI>
         <Literal xml:lang="en">User01</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/NGBO_6005731</IRI>
-        <Literal xml:lang="en">material transfer process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>

@@ -28,7 +28,7 @@ dependencies:
  - id: bfo
 tracker: https://github.com/Dalalghamdi/next-generation-biobanking-ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
+  url: http://creativecommons.org/licenses/by/4.0/
   label: CC-BY
 ---
 
