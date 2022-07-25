@@ -9,9 +9,7 @@ build:
   checkout: git clone https://github.com/Dalalghamdi/next-generation-biobanking-ontology.git
   system: git
   path: "."
-contact:
-  email: dal.alghamdi92@gmail.com
-  label: dalalghamdi
+
 description: next generation biobanking ontology is an open application ontology
 representing omics contextual data
 
@@ -29,8 +27,8 @@ dependencies:
  - id: po
  - id: bfo
 tracker: https://github.com/Dalalghamdi/next-generation-biobanking-ontology/issues
-license: http://creativecommons.org/licenses/by/4.0/.
-  url: (http://creativecommons.org/licenses/by/4.0/.)
+license: http://creativecommons.org/licenses/by/4.0/
+  url: (http://creativecommons.org/licenses/by/4.0/)
   label: CC-BY
   usages:
 - user: https://shgp.kacst.edu.sa/index.en.html
