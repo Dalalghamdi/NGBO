@@ -27,19 +27,17 @@ dependencies:
  - id: po
  - id: bfo
 tracker: https://github.com/Dalalghamdi/next-generation-biobanking-ontology/issues
-<<<<<<< HEAD
 license:
   url: http://creativecommons.org/licenses/by/4.0/
 =======
 license: http://creativecommons.org/licenses/by/4.0/
-  url: (http://creativecommons.org/licenses/by/4.0/)
->>>>>>> 04e11bde5c80a10dd5d6712beca98d62ba164077
+  url: http://creativecommons.org/licenses/by/4.0/
   label: CC-BY
   usages:
 - user: https://shgp.kacst.edu.sa/index.en.html
   description: Saudi Human Genome Program
   examples:
-   - url: (https://github.com/Dalalghamdi/NGBOSemanticWebApplication)
+   - url: https://github.com/Dalalghamdi/NGBOSemanticWebApplication
      description: an ontology-based
 web application for end-users with appropriate functions to discover and request the
 specimen-derived data from SPARQL endpoints using a data federation approach
