@@ -1353,7 +1353,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NGBO_6000380">
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000381"/>
-        <rdfs:comment>a relation that is used to follow traceability of specimen activity</rdfs:comment>
+        <obo:IAO_0000115>a relation that is used to follow traceability of specimen activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">trace_from</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1362,7 +1362,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/NGBO_6000381 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NGBO_6000381">
-        <rdfs:comment>a relation that is used to track specimen activity</rdfs:comment>
+        <obo:IAO_0000115>a relation that is used to track specimen activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">track_to</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3017,7 +3017,7 @@ Environmental exposures include those imposed by natural environments, experimen
     <!-- http://purl.obolibrary.org/obo/NGBO_6000690 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NGBO_6000690">
-        <dc:description>A data property that set user email ID</dc:description>
+        <obo:IAO_0000115>A data property that set user email ID</obo:IAO_0000115>
         <rdfs:label xml:lang="en">userEmailId</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -10651,7 +10651,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000052"/>
-        <obo:IAO_0000115>fixed tissue slide specimen that is contain unstained tissue section(s)</obo:IAO_0000115>
+        <obo:IAO_0000115>A fixed tissue slide specimen that is contain unstained tissue section(s)</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">inferred from KFMC SOP</obo:IAO_0000117>
         <rdfs:label xml:lang="en">unstained fixed tissue slide</rdfs:label>
     </owl:Class>
@@ -10710,7 +10710,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
-        <obo:IAO_0000115>standard operating procedure for shipping and receiving of sample</obo:IAO_0000115>
+        <obo:IAO_0000115>A standard operating procedure for shipping and receiving of sample</obo:IAO_0000115>
         <rdfs:label xml:lang="en">shipping and receiving of samples SOP</rdfs:label>
     </owl:Class>
     
@@ -10721,7 +10721,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000129"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000244"/>
-        <obo:IAO_0000115>reference genome datum which represent reference genome edition</obo:IAO_0000115>
+        <obo:IAO_0000115>A reference genome datum which represent reference genome edition</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reference genome version number</rdfs:label>
     </owl:Class>
     
@@ -10825,7 +10825,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
-        <obo:IAO_0000115>a one-dimensional temporal region that is a period of an duration of standard operation procedure</obo:IAO_0000115>
+        <obo:IAO_0000115>A one-dimensional temporal region that is a period of an duration of standard operation procedure</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dalia Alghamdi</obo:IAO_0000117>
         <dc:description rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">When a procedure is discontinued or replaced, a paper or electronic copy is maintained for at least 2 years, recording initial date of use, and retirement date.</dc:description>
         <rdfs:label xml:lang="en">standard operating procedure actual use duration</rdfs:label>
@@ -11025,7 +11025,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115>a data item infromation content entity that represent any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data item infromation content entity that represent any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.</obo:IAO_0000115>
         <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
         <obo:IAO_0000119>https://searchfinancialsecurity.techtarget.com/definition/personally-identifiable-information</obo:IAO_0000119>
         <rdfs:label xml:lang="en">personally identifiable information</rdfs:label>
@@ -11310,7 +11310,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
         <obo:GENEPIO_0000005 xml:lang="en">inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
         <obo:IAO_0000112>appropriate command line flags for running bioinformatics pipline, for example, bwa - Burrows-Wheeler Alignment Tool options found here: 
 http://bio-bwa.sourceforge.net/bwa.shtml</obo:IAO_0000112>
-        <obo:IAO_0000115>a symbol that is used to specify options for command line programs.</obo:IAO_0000115>
+        <obo:IAO_0000115>A symbol that is used to specify options for command line programs.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">command line argument 
 command line parameter</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">command line flag</rdfs:label>
@@ -11345,7 +11345,7 @@ command line parameter</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000232"/>
-        <obo:IAO_0000115>format validation is a process that checks that the data is in a specified format (template), e.g., dates have to be in the format DD/ MM/YYYY is correct</obo:IAO_0000115>
+        <obo:IAO_0000115>A data validation process that checks that the data is in a specified format (template), e.g., dates have to be in the format DD/ MM/YYYY is correct</obo:IAO_0000115>
         <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Data_validation</obo:IAO_0000119>
         <rdfs:label xml:lang="en">format validation</rdfs:label>
@@ -11572,7 +11572,7 @@ command line parameter</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000115>a protocol plan specification which describes the process of data transfer between two entities</obo:IAO_0000115>
+        <obo:IAO_0000115>A protocol plan specification which describes the process of data transfer between two entities</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data transfer protocol</rdfs:label>
     </owl:Class>
     
@@ -11777,7 +11777,7 @@ command line parameter</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000302"/>
         <obo:GENEPIO_0000005>inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
-        <obo:IAO_0000115>a clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.</obo:IAO_0000115>
         <oboInOwl:hasSynonym>disease causing mutation
 predisposing variant
 sasceptibility gene
@@ -11862,7 +11862,7 @@ susceptibility gene mutation</oboInOwl:hasSynonym>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000302"/>
         <obo:GENEPIO_0000005>inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
-        <obo:IAO_0000115>a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">likely pathogenic variant</rdfs:label>
     </owl:Class>
     
@@ -11873,7 +11873,7 @@ susceptibility gene mutation</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000302"/>
         <obo:GENEPIO_0000005>inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
-        <obo:IAO_0000115>a clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.</obo:IAO_0000115>
         <oboInOwl:hasSynonym>VUS
 variant of uncertain significance</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">variant of unknown significance</rdfs:label>
@@ -12135,7 +12135,7 @@ variant of uncertain significance</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <obo:GENEPIO_0000005 xml:lang="en">inferred from ISBER</obo:GENEPIO_0000005>
-        <obo:IAO_0000115 xml:lang="en">a protocol plan specification which describes the process of  reducing the likelihood that the data can identify an individual.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A protocol plan specification which describes the process of  reducing the likelihood that the data can identify an individual.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Dalia Alghamdi</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data anonymization protocol</rdfs:label>
     </owl:Class>
@@ -12214,7 +12214,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000385"/>
-        <obo:IAO_0000115>an information content entity that is about the location of data storage</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that is about the location of data storage</obo:IAO_0000115>
         <rdfs:label xml:lang="en">information about data storage location</rdfs:label>
     </owl:Class>
     
@@ -12341,6 +12341,7 @@ use case clinial report</obo:GENEPIO_0000005>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>A time measurement datum of the bioinformatics analysis execution date.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bioinformatics analysis execution date</rdfs:label>
     </owl:Class>
     
@@ -12370,6 +12371,7 @@ use case clinial report</obo:GENEPIO_0000005>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000417">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000115"/>
+        <obo:IAO_0000115>An identifier which denotes the bioinformatics analysis ID.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">software run identifier</rdfs:label>
     </owl:Class>
     
@@ -12379,6 +12381,7 @@ use case clinial report</obo:GENEPIO_0000005>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000418">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000136"/>
+        <obo:IAO_0000115>A description of the file that contain raw data generated by a measurement device.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data file description</rdfs:label>
     </owl:Class>
     
@@ -12420,8 +12423,8 @@ use case clinial report</obo:GENEPIO_0000005>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000689">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>information content entity about user information</obo:IAO_0000115>
-        <oboInOwl:comment>This term is used for to store users information regestred in a federated service https://github.com/Dalalghamdi/NGBOSemanticWebApplication</oboInOwl:comment>
+        <obo:IAO_0000115>An information content entity about user authentication information.</obo:IAO_0000115>
+        <oboInOwl:comment>This term is used for to store users information registered in a federated service https://github.com/Dalalghamdi/NGBOSemanticWebApplication</oboInOwl:comment>
         <rdfs:label xml:lang="en">user information</rdfs:label>
     </owl:Class>
     
@@ -24064,7 +24067,6 @@ However, Shaw explicates:
     <!-- http://purl.obolibrary.org/obo/NGBO_6000695 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000695">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000689"/>
         <rdfs:label xml:lang="en">User01</rdfs:label>
     </owl:NamedIndividual>
     
