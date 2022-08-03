@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi/2020-12-16/obi.owl" uri="file:/Users/dalia/Downloads/obi.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obib/2021-02-02/obib.owl" uri="file:/Users/dalia/Downloads/obib.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ngbo/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ngbo/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ngbo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
-</catalog>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"/>

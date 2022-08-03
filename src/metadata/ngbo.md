@@ -22,9 +22,9 @@ contact:
  email: dal.alghamdi92@gmail.com
  label: Dalia Alghamdi
  github: dalalghamdi
+ orcid: 0000-0002-2801-0767
 dependencies:
  - id: ro
- - id: po
  - id: bfo
 tracker: https://github.com/Dalalghamdi/next-generation-biobanking-ontology/issues
 license:
