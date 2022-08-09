@@ -20,8 +20,6 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ngbo/imports/bfo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ngbo/imports/ro_import.owl"/>
         <dc:description>The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dc:description>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:title>Next generation biobanking ontology (NGBO)</dc:title>
@@ -602,6 +600,54 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/title"/>
     
 
 
@@ -11424,7 +11470,7 @@ command line parameter</oboInOwl:hasSynonym>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:GENEPIO_0000005 xml:lang="en">inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
-        <obo:IAO_0000115>A data file URL is URL relative to a path variable, where file is stored</obo:IAO_0000115>
+        <obo:IAO_0000115>A URL at which the data file file is stored.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data file URL</rdfs:label>
     </owl:Class>
     
@@ -12159,6 +12205,16 @@ variant of uncertain significance</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <obo:IAO_0000115>A software designed to extract meaningful information from the mass of molecular biology data</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bioinformatics analysis software</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NGBO_6000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000385">
@@ -12312,7 +12368,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000411">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes information on software version number.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">bioinformatics software version number</rdfs:label>
+        <rdfs:label xml:lang="en">software version number</rdfs:label>
     </owl:Class>
     
 
@@ -12322,7 +12378,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes information on software parameter value.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">bioinformatics software parameter value</rdfs:label>
+        <rdfs:label xml:lang="en">software parameter value</rdfs:label>
     </owl:Class>
     
 
@@ -12352,7 +12408,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes software description.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Bioinformatics software description</rdfs:label>
+        <rdfs:label xml:lang="en">software description</rdfs:label>
     </owl:Class>
     
 
@@ -12362,7 +12418,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000416">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes software documentation URI</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Bioinformatics software Documentation URI</rdfs:label>
+        <rdfs:label xml:lang="en">software Documentation URI</rdfs:label>
     </owl:Class>
     
 
@@ -12393,6 +12449,16 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>A document part of relevant notes or instructions regarding data generation assay execution</obo:IAO_0000115>
         <rdfs:label xml:lang="en">assay execution note</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion based on data about a permanent change in the DNA sequence that makes up a gene</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">detected gene mutation</rdfs:label>
     </owl:Class>
     
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ngbo.owl"
-     xml:base="http://purl.obolibrary.org/obo/ngbo.owl"
-     xmlns:dc="http://purl.org/dc/terms/1.1/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ngbo/2020-08-01/ngbo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ngbo/2020-08-01/ngbo.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,21 +10,20 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:obda="https://w3id.org/obda/vocabulary#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms="http://purl.org/dc/terms/1.1/"
      xmlns:schema="http://schema.org/"
+     xmlns:terms1="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ngbo/imports/bfo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ngbo/imports/ro_import.owl"/>
-        <dc:description>The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dc:description>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:title>Next generation biobanking ontology (NGBO)</dc:title>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo/2020-08-01/ngbo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ngbo/2020-08-01/ngbo.owl"/>
+        <terms:description>The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</terms:description>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>Next generation biobanking ontology (NGBO)</terms:title>
         <owl:versionInfo>2022-06-14</owl:versionInfo>
     </owl:Ontology>
     
@@ -447,9 +446,9 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
-        <dc:description xml:lang="en-us">Examples of a Contributor include a person, an 
+        <terms:description xml:lang="en-us">Examples of a Contributor include a person, an 
          organisation, or a service.  Typically, the name of a 
-         Contributor should be used to indicate the entity.</dc:description>
+         Contributor should be used to indicate the entity.</terms:description>
         <rdfs:comment xml:lang="en-us">An entity responsible for making contributions to the
          content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
@@ -462,9 +461,9 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
-        <dc:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
+        <terms:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
          or a service.  Typically, the name of a Creator should 
-         be used to indicate the entity.</dc:description>
+         be used to indicate the entity.</terms:description>
         <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/creator</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dc-creator</oboInOwl:id>
@@ -483,10 +482,10 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
-        <dc:description xml:lang="en-us">Typically, Date will be associated with the creation or
+        <terms:description xml:lang="en-us">Typically, Date will be associated with the creation or
          availability of the resource.  Recommended best practice
          for encoding the date value is defined in a profile of
-         ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</dc:description>
+         ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</terms:description>
         <rdfs:comment xml:lang="en-us">A date associated with an event in the life cycle of the
          resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
@@ -499,9 +498,9 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
-        <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
+        <terms:description xml:lang="en-us">Description may include but is not limited to: an abstract,
          table of contents, reference to a graphical representation
-         of content or a free-text account of the content.</dc:description>
+         of content or a free-text account of the content.</terms:description>
         <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Description</rdfs:label>
@@ -513,13 +512,13 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/format -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
-        <dc:description xml:lang="en-us">Typically, Format may include the media-type or dimensions of
+        <terms:description xml:lang="en-us">Typically, Format may include the media-type or dimensions of
          the resource. Format may be used to determine the software,
          hardware or other equipment needed to display or operate the
          resource. Examples of dimensions include size and duration.
          Recommended best practice is to select a value from a
          controlled vocabulary (for example, the list of Internet Media
-         Types [MIME] defining computer media formats).</dc:description>
+         Types [MIME] defining computer media formats).</terms:description>
         <rdfs:comment xml:lang="en-us">The physical or digital manifestation of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Format</rdfs:label>
@@ -555,10 +554,10 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
-        <dc:description xml:lang="en-us">The present resource may be derived from the Source resource
+        <terms:description xml:lang="en-us">The present resource may be derived from the Source resource
          in whole or in part.  Recommended best practice is to reference
          the resource by means of a string or number conforming to a
-         formal identification system.</dc:description>
+         formal identification system.</terms:description>
         <rdfs:comment xml:lang="en-us">A reference to a resource from which the present resource
          is derived.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
@@ -571,11 +570,11 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/subject -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
-        <dc:description xml:lang="en-us">Typically, a Subject will be expressed as keywords,
+        <terms:description xml:lang="en-us">Typically, a Subject will be expressed as keywords,
          key phrases or classification codes that describe a topic
          of the resource.  Recommended best practice is to select 
          a value from a controlled vocabulary or formal 
-         classification scheme.</dc:description>
+         classification scheme.</terms:description>
         <rdfs:comment xml:lang="en-us">The topic of the content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Subject and Keywords</rdfs:label>
@@ -587,10 +586,10 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
-        <dc:description xml:lang="en-us">
+        <terms:description xml:lang="en-us">
         Typically, a Title will be a name by which the resource is
          formally known.
-    </dc:description>
+    </terms:description>
         <rdfs:comment xml:lang="en-us">A name given to the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Title</rdfs:label>
@@ -602,6 +601,54 @@ Add as annotation triples in the granting ontology</obo:IAO_0000115>
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/1.1/title"/>
     
 
 
@@ -1066,7 +1113,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/BFO_0000060 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000060">
-        <dc:creator>OBO Foundry</dc:creator>
+        <terms:creator>OBO Foundry</terms:creator>
         <rdfs:comment>Please note that, as stated on one of the RO documentation pages (https://code.google.com/p/obo-relations/wiki/ROAndBFO), some of the relations RO makes use are either uncontroversial (non-temporalized) parts of BFO2, or will be incorporated in the future. In the case of BFO_0000063, it is not currently in BFO2, but may be in the future. The RO ontologists assume this is the transitive form. For a full definition, refer to the inverse of this property, BFO_0000060. (Allyson Lister)</rdfs:comment>
         <rdfs:label>preceded by</rdfs:label>
     </owl:ObjectProperty>
@@ -1100,7 +1147,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115 xml:lang="en">x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) &lt;= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
         <obo:IAO_0000119>Modified by Allyson Lister from the preceded_by (which is the inverse of precedes / &apos;followed by&apos;) definition within RO: http://www.obofoundry.org/ro/ro.owl</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <dc:creator>OBO Foundry</dc:creator>
+        <terms:creator>OBO Foundry</terms:creator>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco"/>
         <rdfs:comment>Please note that, as stated on one of the RO documentation pages (https://code.google.com/p/obo-relations/wiki/ROAndBFO), some of the relations RO makes use are either uncontroversial (non-temporalized) parts of BFO2, or will be incorporated in the future. In the case of BFO_0000060, it is not currently in BFO2, but may be in the future. The RO ontologists assume this is the transitive form. (Allyson Lister)</rdfs:comment>
         <rdfs:label>followed by</rdfs:label>
@@ -1636,7 +1683,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
             </owl:Class>
         </rdfs:range>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <dc:source>Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204.</dc:source>
+        <terms:source>Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204.</terms:source>
         <rdfs:label xml:lang="en">owns</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1793,7 +1840,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
+        <terms:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</terms:source>
         <rdfs:label xml:lang="en">has participant</rdfs:label>
         <rdfs:label>has_participant</rdfs:label>
     </owl:ObjectProperty>
@@ -2061,7 +2108,7 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000118 xml:lang="en">located_in</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</dc:source>
+        <terms:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</terms:source>
         <oboInOwl:hasDbXref>RO:0001025</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand>located_in</oboInOwl:shorthand>
@@ -2102,12 +2149,12 @@ range: spatial region or site (immaterial continuant)
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
         <obo:IAO_0000115>A relation that applies between a cell(c) and a gene(g) , where the process of &apos;transcription, DNA templated (GO_0006351)&apos; is occuring in in cell c and that process has input gene g.</obo:IAO_0000115>
         <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
-        <dc:description>x &apos;cell expresses&apos; y iff:
+        <terms:description>x &apos;cell expresses&apos; y iff:
 cell(x)
 AND gene(y)
 AND exists some &apos;transcription, DNA templated (GO_0006351)&apos;(t)
 AND t occurs_in x
-AND t has_input y</dc:description>
+AND t has_input y</terms:description>
         <rdfs:label>cell expresses</rdfs:label>
     </owl:ObjectProperty>
     
@@ -2297,7 +2344,7 @@ AND t has_input y</dc:description>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002302">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
         <obo:IAO_0000115>Inverse of &apos;is substance that treats&apos;</obo:IAO_0000115>
-        <dc:creator>cjm</dc:creator>
+        <terms:creator>cjm</terms:creator>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/RO_0002259"/>
         <rdfs:label>is treated by substance</rdfs:label>
     </owl:ObjectProperty>
@@ -2738,10 +2785,10 @@ Environmental exposures include those imposed by natural environments, experimen
         <obo:IAO_0000112>An inflammatory disease that is realized in response to an inflammatory process occurring in the gut (which is itself the realization of a process realized in response to harmful stimuli in the mucosal lining of th gut)</obo:IAO_0000112>
         <obo:IAO_0000112>Environmental polymorphism in butterflies: These butterflies have a &apos;responsivity to day length trait&apos; that is realized in response to the duration of the day, and is realized in developmental processes that lead to increased or decreased pigmentation in the adult morph.</obo:IAO_0000112>
         <obo:IAO_0000115>r &apos;realized in response to&apos; s iff, r is a realizable (e.g. a plant trait such as responsivity to drought), s is an environmental stimulus (a process), and s directly causes the realization of r.</obo:IAO_0000115>
-        <dc:contributor>Austin Meier</dc:contributor>
-        <dc:contributor>Chris Mungall</dc:contributor>
-        <dc:contributor>David Osumi-Sutherland</dc:contributor>
-        <dc:contributor>Marie Angelique Laporte</dc:contributor>
+        <terms:contributor>Austin Meier</terms:contributor>
+        <terms:contributor>Chris Mungall</terms:contributor>
+        <terms:contributor>David Osumi-Sutherland</terms:contributor>
+        <terms:contributor>Marie Angelique Laporte</terms:contributor>
         <oboInOwl:hasExactSynonym>triggered by process</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">realized in response to</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1KWhZxVBhIPkV6_daHta0h6UyHbjY2eIrnON1WIRGgdY/edit</rdfs:seeAlso>
@@ -2819,7 +2866,7 @@ Environmental exposures include those imposed by natural environments, experimen
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000001">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <dc:identifier>SIO_000001</dc:identifier>
+        <terms:identifier>SIO_000001</terms:identifier>
         <schema:comment>&apos;is related to&apos; is the top level relation in SIO</schema:comment>
         <resource:subset>core</resource:subset>
         <resource:subset>relations+</resource:subset>
@@ -2834,7 +2881,7 @@ Environmental exposures include those imposed by natural environments, experimen
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000008">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000001"/>
         <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
-        <dc:identifier>SIO_000008</dc:identifier>
+        <terms:identifier>SIO_000008</terms:identifier>
         <resource:subset>core</resource:subset>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">has attribute</rdfs:label>
@@ -2846,7 +2893,7 @@ Environmental exposures include those imposed by natural environments, experimen
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000011">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000001"/>
-        <dc:identifier>SIO_000011</dc:identifier>
+        <terms:identifier>SIO_000011</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">is attribute of</rdfs:label>
     </owl:ObjectProperty>
@@ -2859,7 +2906,7 @@ Environmental exposures include those imposed by natural environments, experimen
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
         <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000255"/>
         <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
-        <dc:identifier>SIO_000254</dc:identifier>
+        <terms:identifier>SIO_000254</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">is annotation of</rdfs:label>
     </owl:ObjectProperty>
@@ -2871,7 +2918,7 @@ Environmental exposures include those imposed by natural environments, experimen
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000255">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
         <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
-        <dc:identifier>SIO_000255</dc:identifier>
+        <terms:identifier>SIO_000255</terms:identifier>
         <resource:example xml:lang="en">document x is annotated with the keywords &apos;ontology&apos;,&apos;semantic web&apos;</resource:example>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">has annotation</rdfs:label>
@@ -2885,7 +2932,7 @@ Environmental exposures include those imposed by natural environments, experimen
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
         <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000672"/>
         <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000115"/>
-        <dc:identifier>SIO_000671</dc:identifier>
+        <terms:identifier>SIO_000671</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">has identifier</rdfs:label>
     </owl:ObjectProperty>
@@ -2897,7 +2944,7 @@ Environmental exposures include those imposed by natural environments, experimen
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000672">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
         <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000115"/>
-        <dc:identifier>SIO_000672</dc:identifier>
+        <terms:identifier>SIO_000672</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">is identifier for</rdfs:label>
     </owl:ObjectProperty>
@@ -2911,7 +2958,7 @@ Environmental exposures include those imposed by natural environments, experimen
         <owl:inverseOf rdf:resource="http://semanticscience.org/resource/SIO_000674"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000675"/>
-        <dc:identifier>SIO_000673</dc:identifier>
+        <terms:identifier>SIO_000673</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">has unique identifier</rdfs:label>
     </owl:ObjectProperty>
@@ -2924,7 +2971,7 @@ Environmental exposures include those imposed by natural environments, experimen
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000672"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000675"/>
-        <dc:identifier>SIO_000674</dc:identifier>
+        <terms:identifier>SIO_000674</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">is unique identifier for</rdfs:label>
     </owl:ObjectProperty>
@@ -2957,7 +3004,7 @@ Environmental exposures include those imposed by natural environments, experimen
         <obo:IAO_0000112>Microsoft version 2007 is directly preceded by Microsoft version 2003.</obo:IAO_0000112>
         <obo:IAO_0000115>Entity A is &apos;directly preceded by&apos; entity B if there are no intermediate entities temporally between the two entities. WIthin SWO this property is mainly used to describe versions of entities such as software.</obo:IAO_0000115>
         <obo:IAO_0000119>Allyson Lister</obo:IAO_0000119>
-        <dc:creator>OBO Foundry</dc:creator>
+        <terms:creator>OBO Foundry</terms:creator>
         <rdfs:label>directly preceded by</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3385,6 +3432,18 @@ Environmental exposures include those imposed by natural environments, experimen
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/100-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedTarget xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000003"/>
@@ -3407,18 +3466,6 @@ Environmental exposures include those imposed by natural environments, experimen
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/119-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/100-001"/>
     </owl:Axiom>
     
 
@@ -10827,7 +10874,7 @@ damaging effect on the gene or gene product</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
         <obo:IAO_0000115>A one-dimensional temporal region that is a period of an duration of standard operation procedure</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dalia Alghamdi</obo:IAO_0000117>
-        <dc:description rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">When a procedure is discontinued or replaced, a paper or electronic copy is maintained for at least 2 years, recording initial date of use, and retirement date.</dc:description>
+        <terms:description rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">When a procedure is discontinued or replaced, a paper or electronic copy is maintained for at least 2 years, recording initial date of use, and retirement date.</terms:description>
         <rdfs:label xml:lang="en">standard operating procedure actual use duration</rdfs:label>
     </owl:Class>
     
@@ -11424,7 +11471,7 @@ command line parameter</oboInOwl:hasSynonym>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:GENEPIO_0000005 xml:lang="en">inferred from College of American Pathologists (CAP) requirments</obo:GENEPIO_0000005>
-        <obo:IAO_0000115>A data file URL is URL relative to a path variable, where file is stored</obo:IAO_0000115>
+        <obo:IAO_0000115>A URL at which the data file file is stored.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data file URL</rdfs:label>
     </owl:Class>
     
@@ -12159,6 +12206,16 @@ variant of uncertain significance</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <obo:IAO_0000115>A software designed to extract meaningful information from the mass of molecular biology data</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bioinformatics analysis software</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NGBO_6000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000385">
@@ -12238,7 +12295,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
         <obo:IAO_0000115>A personal name that designates the person who executed the sequencing run.</obo:IAO_0000115>
-        <dc:creator>Dalia Alghamdi</dc:creator>
+        <terms:creator>Dalia Alghamdi</terms:creator>
         <rdfs:label xml:lang="en">name of data generation assay executor</rdfs:label>
     </owl:Class>
     
@@ -12270,7 +12327,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000407">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400267"/>
         <obo:IAO_0000115>A data file which contain the output of data transformation process</obo:IAO_0000115>
-        <dc:creator>Dalia Alghamdi</dc:creator>
+        <terms:creator>Dalia Alghamdi</terms:creator>
         <rdfs:label xml:lang="en">output data file</rdfs:label>
     </owl:Class>
     
@@ -12281,7 +12338,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000408">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400267"/>
         <obo:IAO_0000115>A data file which contain the input for data transformation process</obo:IAO_0000115>
-        <dc:creator>Dalia Alghamdi</dc:creator>
+        <terms:creator>Dalia Alghamdi</terms:creator>
         <rdfs:label xml:lang="en">input data file</rdfs:label>
     </owl:Class>
     
@@ -12312,7 +12369,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000411">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes information on software version number.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">bioinformatics software version number</rdfs:label>
+        <rdfs:label xml:lang="en">software version number</rdfs:label>
     </owl:Class>
     
 
@@ -12322,7 +12379,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes information on software parameter value.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">bioinformatics software parameter value</rdfs:label>
+        <rdfs:label xml:lang="en">software parameter value</rdfs:label>
     </owl:Class>
     
 
@@ -12352,7 +12409,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes software description.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Bioinformatics software description</rdfs:label>
+        <rdfs:label xml:lang="en">software description</rdfs:label>
     </owl:Class>
     
 
@@ -12362,7 +12419,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000416">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000409"/>
         <obo:IAO_0000115>Information about software includes software documentation URI</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Bioinformatics software Documentation URI</rdfs:label>
+        <rdfs:label xml:lang="en">software Documentation URI</rdfs:label>
     </owl:Class>
     
 
@@ -12393,6 +12450,16 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>A document part of relevant notes or instructions regarding data generation assay execution</obo:IAO_0000115>
         <rdfs:label xml:lang="en">assay execution note</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion based on data about a permanent change in the DNA sequence that makes up a gene</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">detected gene mutation</rdfs:label>
     </owl:Class>
     
 
@@ -17437,7 +17504,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Assembly Algorithm</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">sequence assembly algorithm</rdfs:label>
     </owl:Class>
     
@@ -17471,7 +17538,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001847>study description</obo:OBI_0001847>
         <obo:OBI_0001886 xml:lang="en">project description</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <oboInOwl:inSubset>NCBI BioProject</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">investigation description</rdfs:label>
     </owl:Class>
@@ -17497,7 +17564,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Specimen ID</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <oboInOwl:hasSynonym xml:lang="en">sample identifier</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">specimen identifier</rdfs:label>
     </owl:Class>
@@ -17514,7 +17581,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Depth of Coverage - Average</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">average depth of sequence coverage</rdfs:label>
     </owl:Class>
     
@@ -17546,7 +17613,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">collection date</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Specimen Collection Date</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">specimen collection time measurement datum</rdfs:label>
     </owl:Class>
     
@@ -17576,7 +17643,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Annotation Algorithm</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">sequence annotation algorithm</rdfs:label>
     </owl:Class>
     
@@ -17592,7 +17659,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">BRC</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Website: http://en.wikipedia.org/wiki/Bioinformatics_Resource_Centers</obo:IAO_0000119>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">Bioinformatics Resource Center</rdfs:label>
     </owl:Class>
     
@@ -17733,7 +17800,7 @@ http://en.wikipedia.org/wiki/Strain_%28biology%29</obo:IAO_0000119>
         <obo:IAO_0000115>A library preparation that results in the creation of a library of the 5&apos; and 3&apos; ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process. </obo:IAO_0000115>
         <obo:IAO_0000117>Person: Venkat Malladi, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>Venkat Malladi, Jie Zheng</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label xml:lang="en">paired-end library preparation</rdfs:label>
     </owl:Class>
     
@@ -17936,7 +18003,7 @@ changed to restrictions by adding 2 possible specified outputs (N50 and genome c
         <obo:IAO_0000117>PERSON: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">sequence assembly process</rdfs:label>
     </owl:Class>
     
@@ -17974,7 +18041,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Sample Provider PI&apos;s Institution</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">organization of specimen provider principal investigator</rdfs:label>
     </owl:Class>
     
@@ -17990,7 +18057,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Bioinformatics Resource Center Contact&apos;s Institution</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">organization of Bioinformatics Resource Center contact person</rdfs:label>
     </owl:Class>
     
@@ -18007,7 +18074,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Specimen Repository</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">specimen repository organization</rdfs:label>
     </owl:Class>
     
@@ -18024,7 +18091,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Sequencing Facility</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">sequencing facility organization</rdfs:label>
     </owl:Class>
     
@@ -18064,7 +18131,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:OBI_0001886>Project Objectives</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">specification of data to be generated in an investigation</rdfs:label>
     </owl:Class>
     
@@ -18081,7 +18148,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Specimen Collector&apos;s Institution</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">organization of specimen collector</rdfs:label>
     </owl:Class>
     
@@ -18098,7 +18165,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Sequencing Facility Contact&apos;s Institution</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">organization of sequencing facility contact person</rdfs:label>
     </owl:Class>
     
@@ -18116,7 +18183,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Specimen Repository Sample ID</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">specimen identifier assigned by specimen repository</rdfs:label>
     </owl:Class>
     
@@ -18134,7 +18201,7 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Sample ID - Sequencing Facility</obo:OBI_0001886>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">specimen identifier assigned by sequencing facility</rdfs:label>
     </owl:Class>
     
@@ -18332,7 +18399,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         <obo:IAO_0000118>funding organization</obo:IAO_0000118>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">grant agency</rdfs:label>
         <rdfs:seeAlso>&apos;funding organization&apos;
 http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
@@ -18367,7 +18434,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115>A plan specification that specifies a chain encoded in software of processing elements (processes, threads, coroutines, etc.), arranged so that the output of each element is the input of the next. Usually some amount of buffering is provided between consecutive elements.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Pipeline_%28software%29</obo:IAO_0000119>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">software pipeline</rdfs:label>
     </owl:Class>
     
@@ -18383,7 +18450,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115 xml:lang="en">A sequence annotation bioinformatics analysis that identifies and reports sequence features (e.g. protein coding regions) in sequence data.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <terms:source>NIAID GSCID-BRC</terms:source>
         <rdfs:label xml:lang="en">sequence annotation</rdfs:label>
     </owl:Class>
     
@@ -18458,7 +18525,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.illumina.com/products/methylation_450_beadchip_kits.ilmn</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Methylation 450K BeadChip</rdfs:label>
         <rdfs:label xml:lang="en">surgical cancer treatment</rdfs:label>
     </owl:Class>
@@ -18480,7 +18547,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://res.illumina.com/documents/products/datasheets/datasheet_dna_methylation_analysis.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Methylation 27K BeadChip</rdfs:label>
         <rdfs:label xml:lang="en">specimen gross appearance of metastatic tumor</rdfs:label>
     </owl:Class>
@@ -18502,7 +18569,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.illumina.com/technology/infinium_hd_assay.ilmn</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>1M-Duo Infinium HD BeadChip</rdfs:label>
         <rdfs:label xml:lang="en">specimen gross appearance of tumor center</rdfs:label>
     </owl:Class>
@@ -18524,7 +18591,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www3.appliedbiosystems.com/cms/groups/mcb_marketing/documents/generaldocuments/cms_072050.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>SOLiD 3 Plus System</rdfs:label>
         <rdfs:label xml:lang="en">specimen gross appearance of tumor edge</rdfs:label>
     </owl:Class>
@@ -18546,7 +18613,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.nimblegen.com/downloads/support/05434483001_NG_CGHLOH_UGuide_v9p1.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Mouse 385K Whole Genome CGH Tiling Array</rdfs:label>
         <rdfs:label xml:lang="en">research authorization for post mortem specimen donation for a specific tissue or fluid</rdfs:label>
     </owl:Class>
@@ -18567,7 +18634,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.nimblegen.com/downloads/support/05434483001_NG_CGHLOH_UGuide_v9p1.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label xml:lang="en">0-non autolyis</rdfs:label>
         <rdfs:label>Mouse 3x720K Whole Genome CGH Tiling Array</rdfs:label>
     </owl:Class>
@@ -18588,7 +18655,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.nimblegen.com/downloads/support/05434483001_NG_CGHLOH_UGuide_v9p1.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label xml:lang="en">1-slight autolysis</rdfs:label>
         <rdfs:label>Human 3x720K Whole Genome CGH Tiling Array</rdfs:label>
     </owl:Class>
@@ -18609,7 +18676,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.nimblegen.com/downloads/support/05434483001_NG_CGHLOH_UGuide_v9p1.pdf</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label xml:lang="en">2-moderate autolysis</rdfs:label>
         <rdfs:label>Human 2.1M Whole-Genome CGH Tiling Array v2.0</rdfs:label>
     </owl:Class>
@@ -18630,7 +18697,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.pacificbiosciences.com/products/</obo:IAO_0000119>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label xml:lang="en">3-severe autolysis</rdfs:label>
         <rdfs:label>PacBio RS II</rdfs:label>
     </owl:Class>
@@ -18674,7 +18741,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000117>Person: Venkat Malladi, Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Illumina NextSeq 500</obo:IAO_0000118>
         <obo:IAO_0000119>http://systems.illumina.com/systems/nextseq-sequencer.html</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>NextSeq 500</rdfs:label>
     </owl:Class>
     
@@ -18689,7 +18756,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000117>Person: Venkat Malladi, Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>HiSeq 1000</obo:IAO_0000118>
         <obo:IAO_0000119>http://res.illumina.com/documents/products/datasheets/datasheet_hiseq_systems.pdf</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Illumina HiSeq 1000</rdfs:label>
     </owl:Class>
     
@@ -18706,7 +18773,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000118>HG-U133 Plus 2</obo:IAO_0000118>
         <obo:IAO_0000118>HG-U133 Plus 2 array</obo:IAO_0000118>
         <obo:IAO_0000119>http://www.affymetrix.com/estore/esearch/search.jsp?pd=131455&amp;N=4294967292</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Human Genome U133 Plus 2.0 tiling array</rdfs:label>
     </owl:Class>
     
@@ -18722,7 +18789,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000118>Applied Biosystems SOLiD 4 System</obo:IAO_0000118>
         <obo:IAO_0000118>SOLiD 4</obo:IAO_0000118>
         <obo:IAO_0000119>http://www.appliedbiosystems.com/absite/us/en/home/applications-technologies/solid-next-generation-sequencing/next-generation-systems/solid-4-system.html?CID=FL-091411_solid4</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>SOLiD 4 System</rdfs:label>
     </owl:Class>
     
@@ -18739,7 +18806,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000118>Human Exon 1.0</obo:IAO_0000118>
         <obo:IAO_0000118>Human Exon 1.0 ST Array</obo:IAO_0000118>
         <obo:IAO_0000119>http://www.affymetrix.com/catalog/131453/AFFY/Human+Gene+ST+Arrays#1_1</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Human Exon 1.0 ST tilling array</rdfs:label>
     </owl:Class>
     
@@ -18756,7 +18823,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000118>HG-U133</obo:IAO_0000118>
         <obo:IAO_0000118>HG-U133 array</obo:IAO_0000118>
         <obo:IAO_0000119>http://www.affymetrix.com/estore/esearch/search.jsp?pd=131441&amp;N=4294967292</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Human Genome U133 tiling array</rdfs:label>
     </owl:Class>
     
@@ -18772,7 +18839,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000118>Illumina GA IIe</obo:IAO_0000118>
         <obo:IAO_0000118>Illumina Genome Analyzer IIe</obo:IAO_0000118>
         <obo:IAO_0000119>http://res.illumina.com/documents/products/datasheets/datasheet_genome_analyzer_iie.pdf</obo:IAO_0000119>
-        <dc:source>ENCODE project</dc:source>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>Genome Analyzer IIe</rdfs:label>
     </owl:Class>
     
@@ -18977,7 +19044,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000116>Details see tracker: https://sourceforge.net/p/obi/obi-terms/778/</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>OBIB, OBI</obo:IAO_0000119>
-        <dc:source>Biobank</dc:source>
+        <terms:source>Biobank</terms:source>
         <rdfs:label xml:lang="en">collection of specimens</rdfs:label>
     </owl:Class>
     
@@ -18993,7 +19060,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/792/</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
-        <dc:source xml:lang="en">Biobank</dc:source>
+        <terms:source xml:lang="en">Biobank</terms:source>
         <rdfs:comment xml:lang="en">Specimen containers are typically constructed or treated in a particular manner in order to perform their containing a specimen function. This will be a defined class so that any container (e.g., cryotube, vacutainer, conical test tube) with the function of containing a specimen will be inferred to be a specimen container.</rdfs:comment>
         <rdfs:label xml:lang="en">specimen container</rdfs:label>
     </owl:Class>
@@ -19149,7 +19216,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
         <obo:IAO_0000118>Illumina Genome Analyzer I</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/technology/next-generation-sequencing/solexa-technology.html</obo:IAO_0000119>
-        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <terms:source xml:lang="en">ENCODE project</terms:source>
         <rdfs:label xml:lang="en">Illumina Genome Analyzer</rdfs:label>
     </owl:Class>
     
@@ -19164,7 +19231,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton, Sagar Jain, Richard Scheuermann</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">HiSeq X Ten</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/systems/hiseq-x-sequencing-system/system.html</obo:IAO_0000119>
-        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <terms:source xml:lang="en">ENCODE project</terms:source>
         <rdfs:label xml:lang="en">Illumina HiSeq X Ten</rdfs:label>
     </owl:Class>
     
@@ -19178,7 +19245,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115 xml:lang="en">An Illumina BeadChip which is an array that interrogates over 4.3 million whole-genome variants for genotyping and copy number variation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/products/by-type/microarray-kits/infinium-omni5-exome.html</obo:IAO_0000119>
-        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <terms:source xml:lang="en">ENCODE project</terms:source>
         <rdfs:label xml:lang="en">Illumina Infinium Omni5Exome-4 Kit</rdfs:label>
     </owl:Class>
     
@@ -19192,7 +19259,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115 xml:lang="en">An Illumina methylation BeadChip which is an array that interrogates ~ 850,000 methylation sites per sample at single-nucleotide resolution.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/humanmethylationepic-data-sheet-1070-2015-008.pdf</obo:IAO_0000119>
-        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <terms:source xml:lang="en">ENCODE project</terms:source>
         <rdfs:label xml:lang="en">Illumina Infinium MethylationEPIC BeadChip</rdfs:label>
     </owl:Class>
     
@@ -20584,8 +20651,8 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115>A mouse array which is manufacutred by NanoString Technologies. Built upon color-coded molecular barcodes technology, the array profiles miRNA with increased specificity and sensitivty than microarrays.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Venkat Malladi, Chris Stoeckert, Jie Zheng, Alan Ruttenberg.  Mark A. Miller added based on http://purl.obolibrary.org/obo/OBI_0002013</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nanostring.com/products/mirna-assays/mirna-panels</obo:IAO_0000119>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T14:04:41Z</dc:date>
-        <dc:source>ENCODE project</dc:source>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T14:04:41Z</terms:date>
+        <terms:source>ENCODE project</terms:source>
         <rdfs:label>nCounter Mouse miRNA Expression array</rdfs:label>
     </owl:Class>
     
@@ -20635,7 +20702,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115>A RNA extraction process in which only RNAs lacking a polyA tail are retained</obo:IAO_0000115>
         <obo:IAO_0000117>Mark A. Miller, based on OBI_0000848</obo:IAO_0000117>
         <obo:IAO_0000119>UPenn Group</obo:IAO_0000119>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T15:01:14Z</dc:date>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T15:01:14Z</terms:date>
         <rdfs:label>RNA extraction with polyA depletion</rdfs:label>
     </owl:Class>
     
@@ -23213,7 +23280,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <dc:identifier>SIO_000026</dc:identifier>
+        <terms:identifier>SIO_000026</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">object quality</rdfs:label>
     </owl:Class>
@@ -23224,7 +23291,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <dc:identifier>SIO_000078</dc:identifier>
+        <terms:identifier>SIO_000078</terms:identifier>
         <resource:subset>nlp+</resource:subset>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">language entity</rdfs:label>
@@ -23236,7 +23303,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000079">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
-        <dc:identifier>SIO_000079</dc:identifier>
+        <terms:identifier>SIO_000079</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">visual language entity</rdfs:label>
     </owl:Class>
@@ -23248,7 +23315,7 @@ However, Shaw explicates:
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000179"/>
-        <dc:identifier>SIO_000115</dc:identifier>
+        <terms:identifier>SIO_000115</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">identifier</rdfs:label>
     </owl:Class>
@@ -23259,7 +23326,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000116">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000179"/>
-        <dc:identifier>SIO_000116</dc:identifier>
+        <terms:identifier>SIO_000116</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">name</rdfs:label>
     </owl:Class>
@@ -23270,7 +23337,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000119">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000116"/>
-        <dc:identifier>SIO_000119</dc:identifier>
+        <terms:identifier>SIO_000119</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">brand name</rdfs:label>
     </owl:Class>
@@ -23281,7 +23348,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000120">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000116"/>
-        <dc:identifier>SIO_000120</dc:identifier>
+        <terms:identifier>SIO_000120</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">scientific name</rdfs:label>
     </owl:Class>
@@ -23292,7 +23359,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000136">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
-        <dc:identifier>SIO_000136</dc:identifier>
+        <terms:identifier>SIO_000136</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">description</rdfs:label>
     </owl:Class>
@@ -23304,7 +23371,7 @@ However, Shaw explicates:
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000179">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000179"/>
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000651"/>
-        <dc:identifier>SIO_000179</dc:identifier>
+        <terms:identifier>SIO_000179</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </owl:Class>
@@ -23315,7 +23382,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000181">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000116"/>
-        <dc:identifier>SIO_000181</dc:identifier>
+        <terms:identifier>SIO_000181</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">first name</rdfs:label>
     </owl:Class>
@@ -23326,7 +23393,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000182">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000116"/>
-        <dc:identifier>SIO_000182</dc:identifier>
+        <terms:identifier>SIO_000182</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">last name</rdfs:label>
     </owl:Class>
@@ -23337,7 +23404,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000183">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000116"/>
-        <dc:identifier>SIO_000183</dc:identifier>
+        <terms:identifier>SIO_000183</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">personal name</rdfs:label>
     </owl:Class>
@@ -23348,7 +23415,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000184">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000183"/>
-        <dc:identifier>SIO_000184</dc:identifier>
+        <terms:identifier>SIO_000184</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">legal name</rdfs:label>
     </owl:Class>
@@ -23359,7 +23426,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000651">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000079"/>
-        <dc:identifier>SIO_000651</dc:identifier>
+        <terms:identifier>SIO_000651</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">textual entity</rdfs:label>
     </owl:Class>
@@ -23370,7 +23437,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000653">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000115"/>
-        <dc:identifier>SIO_000653</dc:identifier>
+        <terms:identifier>SIO_000653</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">version label</rdfs:label>
     </owl:Class>
@@ -23381,7 +23448,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000675">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000115"/>
-        <dc:identifier>SIO_000675</dc:identifier>
+        <terms:identifier>SIO_000675</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">unique identifier</rdfs:label>
     </owl:Class>
@@ -23392,7 +23459,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000785">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000136"/>
-        <dc:identifier>SIO_000785</dc:identifier>
+        <terms:identifier>SIO_000785</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">answer</rdfs:label>
     </owl:Class>
@@ -23414,7 +23481,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000942">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000179"/>
-        <dc:identifier>SIO_000942</dc:identifier>
+        <terms:identifier>SIO_000942</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">numeric label</rdfs:label>
     </owl:Class>
@@ -23425,7 +23492,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <dc:identifier>SIO_001041</dc:identifier>
+        <terms:identifier>SIO_001041</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
@@ -23436,7 +23503,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001166">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000136"/>
-        <dc:identifier>SIO_001166</dc:identifier>
+        <terms:identifier>SIO_001166</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">annotation</rdfs:label>
     </owl:Class>
@@ -23447,7 +23514,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001196">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000136"/>
-        <dc:identifier>SIO_001196</dc:identifier>
+        <terms:identifier>SIO_001196</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">history</rdfs:label>
     </owl:Class>
@@ -23458,8 +23525,8 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001383">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000120"/>
-        <dc:description xml:lang="en">a gene symbol is a short name assigned to a gene.</dc:description>
-        <dc:identifier>SIO_001383</dc:identifier>
+        <terms:description xml:lang="en">a gene symbol is a short name assigned to a gene.</terms:description>
+        <terms:identifier>SIO_001383</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">gene symbol</rdfs:label>
     </owl:Class>
@@ -23470,7 +23537,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010053">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_001196"/>
-        <dc:identifier>SIO_010053</dc:identifier>
+        <terms:identifier>SIO_010053</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">evolutionary lineage</rdfs:label>
     </owl:Class>
@@ -23481,7 +23548,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010060">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_001196"/>
-        <dc:identifier>SIO_010060</dc:identifier>
+        <terms:identifier>SIO_010060</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">family history</rdfs:label>
     </owl:Class>
@@ -23492,7 +23559,7 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010673">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_001196"/>
-        <dc:identifier>SIO_010673</dc:identifier>
+        <terms:identifier>SIO_010673</terms:identifier>
         <rdfs:isDefinedBy rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <rdfs:label xml:lang="en">medical history</rdfs:label>
     </owl:Class>
@@ -24117,5 +24184,5 @@ However, Shaw explicates:
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

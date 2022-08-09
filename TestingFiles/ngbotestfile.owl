@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ngbo.owl"
      xml:base="http://purl.obolibrary.org/obo/ngbo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10427,6 +10428,114 @@ interpreter.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <rdfs:label xml:lang="en">adenocarcinoma specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <rdfs:label xml:lang="en">King Fahad Medical City Biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <rdfs:label xml:lang="en">King Faisal Hospital Biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:label xml:lang="en">detected gene mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000439"/>
+        <rdfs:label xml:lang="en">KRAS mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label xml:lang="en">life stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000444"/>
+        <rdfs:label xml:lang="en">aging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000452">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:label xml:lang="en">autism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000444"/>
+        <rdfs:label xml:lang="en">pediatric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:label xml:lang="en">bladder cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000439"/>
+        <rdfs:label xml:lang="en">FGFR3 mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000439"/>
+        <rdfs:label xml:lang="en">PIK3CA mutation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029">
@@ -19983,6 +20092,15 @@ Manual editing of automatically recorded data in an anesthesia information manag
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label xml:lang="en">diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000000">
@@ -23810,6 +23928,229 @@ use case clinial report</obo:GENEPIO_0000005>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000432 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000432">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000436"/>
+        <rdfs:label xml:lang="en">adenocarcinoma specimen 001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000433 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000433">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000436"/>
+        <rdfs:label xml:lang="en">adenocarcinoma specimen 002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000434 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000434">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000432"/>
+        <rdfs:label xml:lang="en">adenocarcinoma DNA sequence data 001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000435 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000435">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005362"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000433"/>
+        <rdfs:label xml:lang="en">adenocarcinoma DNA sequence data 002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000442 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000442">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000441"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000434"/>
+        <rdfs:label xml:lang="en">KRAS mutation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000448 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000448">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 004</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000449 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000449">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 015</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000450 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000450">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 016</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000454 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000454">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000452"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000448"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000449"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000450"/>
+        <rdfs:label xml:lang="en">autism</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000456 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000456">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000455"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000448"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000449"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000450"/>
+        <rdfs:label xml:lang="en">pediatric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000457 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000457">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000448"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000449"/>
+        <rdfs:label xml:lang="en">collecting specimen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000458 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000458">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000006"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005613"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005624"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005625"/>
+        <rdfs:label xml:lang="en">FASTA format</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000459 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000459">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000515"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000462"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000465"/>
+        <rdfs:label xml:lang="en">current smoker for less than 15 years history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000460 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000460">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000514"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000448"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000461"/>
+        <rdfs:label xml:lang="en">current smoker for more than 15 years history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000461 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000461">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000462 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000462">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000463 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000463">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000464 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000464">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 005</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000465 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000465">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001079"/>
+        <rdfs:label xml:lang="en">patient 006</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000467 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000467">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000466"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000461"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000462"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000465"/>
+        <rdfs:label xml:lang="en">bladder cancer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000470 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000470">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000469"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005630"/>
+        <rdfs:label xml:lang="en">PIK3CA mutation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NGBO_6000471 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000471">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000468"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005630"/>
+        <rdfs:label xml:lang="en">FGFR3 mutation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000695">
@@ -23824,6 +24165,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <!-- http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000437"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
         <rdfs:label xml:lang="en">KFMC biobank</rdfs:label>
     </owl:NamedIndividual>
@@ -23833,6 +24175,7 @@ use case clinial report</obo:GENEPIO_0000005>
     <!-- http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005362 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005362">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000438"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
         <rdfs:label xml:lang="en">KFSHI biobank</rdfs:label>
     </owl:NamedIndividual>
@@ -24205,6 +24548,7 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005363"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000461"/>
         <rdfs:label>specimen 001</rdfs:label>
     </owl:NamedIndividual>
     
@@ -24216,6 +24560,7 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005364"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000462"/>
         <rdfs:label>specimen 002</rdfs:label>
     </owl:NamedIndividual>
     
@@ -24238,6 +24583,7 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005366"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000448"/>
         <rdfs:label>specimen 004</rdfs:label>
     </owl:NamedIndividual>
     
@@ -24260,6 +24606,7 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005368"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000465"/>
         <rdfs:label>specimen 006</rdfs:label>
     </owl:NamedIndividual>
     
@@ -24359,6 +24706,7 @@ use case clinial report</obo:GENEPIO_0000005>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005377"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000449"/>
         <rdfs:label>specimen 015</rdfs:label>
     </owl:NamedIndividual>
     
@@ -24369,7 +24717,10 @@ use case clinial report</obo:GENEPIO_0000005>
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005418">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000462"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000465"/>
         <obo:IAO_0000219 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005378"/>
+        <ro:derives_from rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000450"/>
         <rdfs:label>specimen 016</rdfs:label>
     </owl:NamedIndividual>
     
@@ -25559,6 +25910,7 @@ sequencing library was amplified using PCR.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005613">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005406"/>
         <rdfs:label>KFMCexomedata004</rdfs:label>
     </owl:NamedIndividual>
@@ -25669,6 +26021,7 @@ sequencing library was amplified using PCR.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005624">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005417"/>
         <rdfs:label>KFMCexomedata015</rdfs:label>
     </owl:NamedIndividual>
@@ -25679,6 +26032,7 @@ sequencing library was amplified using PCR.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005625">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005361"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6005418"/>
         <rdfs:label>KFMCexomedata016</rdfs:label>
     </owl:NamedIndividual>
@@ -26825,22 +27179,22 @@ sequencing library was amplified using PCR.</rdfs:label>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="#Entity">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Entity">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#tracking">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#tracking">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#exomeAssay">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#exomeAssay">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#Tracing">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Tracing">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#Specimen36">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Specimen36">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#tracing">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#tracing">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -26855,7 +27209,7 @@ sequencing library was amplified using PCR.</rdfs:label>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-                        <swrl:argument1 rdf:resource="#Entity"/>
+                        <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#Entity"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -26865,8 +27219,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000024"/>
-                                <swrl:argument1 rdf:resource="#Entity"/>
-                                <swrl:argument2 rdf:resource="#tracking"/>
+                                <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#Entity"/>
+                                <swrl:argument2 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#tracking"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -26882,8 +27236,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
                         <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
                         <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="#Entity"/>
-                            <rdf:Description rdf:about="#tracking"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Entity"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#tracking"/>
                         </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
@@ -26903,7 +27257,7 @@ sequencing library was amplified using PCR.</rdfs:label>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/OBI_0002118"/>
-                        <swrl:argument1 rdf:resource="#exomeAssay"/>
+                        <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#exomeAssay"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -26913,8 +27267,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000023"/>
-                                <swrl:argument1 rdf:resource="#exomeAssay"/>
-                                <swrl:argument2 rdf:resource="#Tracing"/>
+                                <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#exomeAssay"/>
+                                <swrl:argument2 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#Tracing"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -26930,8 +27284,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
                         <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
                         <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="#exomeAssay"/>
-                            <rdf:Description rdf:about="#Tracing"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#exomeAssay"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Tracing"/>
                         </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
@@ -26951,8 +27305,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_0000023"/>
-                        <swrl:argument1 rdf:resource="#Specimen36"/>
-                        <swrl:argument2 rdf:resource="#tracing"/>
+                        <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#Specimen36"/>
+                        <swrl:argument2 rdf:resource="http://purl.obolibrary.org/obo/ngbo.owl#tracing"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -26966,8 +27320,8 @@ sequencing library was amplified using PCR.</rdfs:label>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
                         <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
                         <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="#Specimen36"/>
-                            <rdf:Description rdf:about="#tracing"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#Specimen36"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ngbo.owl#tracing"/>
                         </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
