@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ngbo.owl"
      xml:base="http://purl.obolibrary.org/obo/ngbo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -21,9 +22,9 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo.owl">
-        <terms:description>The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</terms:description>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <terms:title>Next generation biobanking ontology (NGBO)</terms:title>
+        <dcterms:description>The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dcterms:description>
+        <dcterms:license> "http://creativecommons.org/licenses/by/4.0/" </dcterms:license>
+        <dcterms:title> Next generation biobanking ontology (NGBO) </dcterms:title>
         <owl:versionInfo>2022-06-14</owl:versionInfo>
     </owl:Ontology>
     
