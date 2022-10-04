@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/ngbo
+
+idspace: NGBO
+base_url: /obo/ngbo
+
+products:
+- ngbo.owl: https://raw.githubusercontent.com/Dalalghamdi/next-generation-biobanking-ontology/master/ngbo.owl
+- ngbo.obo: https://raw.githubusercontent.com/Dalalghamdi/next-generation-biobanking-ontology/master/ngbo.obo
+
+term_browser: ontobee
+example_terms:
+- NGBO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/Dalalghamdi/next-generation-biobanking-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/Dalalghamdi/next-generation-biobanking-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/NGBO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/Dalalghamdi/next-generation-biobanking-ontology/master/
