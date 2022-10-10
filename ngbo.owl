@@ -21,11 +21,11 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ngbo/2022-10-05/ngbo.owl"/>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Next generation biobanking ontology(NGBO).</dc:title>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-05</owl:versionInfo>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ngbo/2022-10-05/ngbo.owl"/>
     </owl:Ontology>
     
 
@@ -1443,7 +1443,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NGBO_6000380">
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/NGBO_6000381"/>
-        <obo:IAO_0000115>a relation that is used to follow traceability of specimen activity</obo:IAO_0000115>
+        <obo:IAO_0000115>A relation that is used to follow traceability of specimen activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">trace_from</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1452,7 +1452,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/NGBO_6000381 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NGBO_6000381">
-        <obo:IAO_0000115>a relation that is used to track specimen activity</obo:IAO_0000115>
+        <obo:IAO_0000115>A relation that is used to track specimen activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">track_to</rdfs:label>
     </owl:ObjectProperty>
     
@@ -12106,7 +12106,7 @@ variant of uncertain significance</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NGBO_6000354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000115 xml:lang="en">a protocol that describe the process of assigning a formal classification to the detected variant</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A protocol that describe the process of assigning a formal classification to the detected variant</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Dalia Alghamdi</obo:IAO_0000117>
         <rdfs:label xml:lang="en">interpretation of clinical variant protocol</rdfs:label>
     </owl:Class>
