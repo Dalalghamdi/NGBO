@@ -1,7 +1,8 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-<a href="https://obofoundry.org/obo-nor.github.io/dashboard/ngbo/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fobi%2Fdashboard-score-badge.json" /></a>
-<a href="https://obofoundry.org/obo-nor.github.io/dashboard/ngbo/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fobi%2Fdashboard-qc-badge.json" /></a>
 
+
+
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-nor.github.io%2Fmaster%2Fdashboard%2Fngbo%2Fdashboard-qc-badge.json" />
 
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
