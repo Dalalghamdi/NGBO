@@ -1,17 +1,6 @@
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
-
-
 <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-nor.github.io%2Fmaster%2Fdashboard%2Fngbo%2Fdashboard-qc-badge.json" />
 
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-
-
-
-
+The Next Generation Biobanking Ontology (NGBO) is licensed under CC BY 4.0
 
 
 # next-generation-biobanking-ontology
