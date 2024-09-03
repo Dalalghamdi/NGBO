@@ -22,10 +22,10 @@
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ngbo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ngbo/2022-10-05/ngbo.owl"/>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dc:description>
-        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Next generation biobanking ontology(NGBO).</dc:title>
+        <dc:description> Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank. The ontology focuses on capturing the information about three main activities: wet bench analysis used to generate omics data, bioinformatics analysis used to analyze and interpret data, and data management.</dc:description>
+        <dc:title> Next generation biobanking ontology(NGBO).</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-05</owl:versionInfo>
+        <owl:versionInfo>2022-10-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1085,11 +1085,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
@@ -1597,11 +1592,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000111>is_specified_output_of</obo:IAO_0000111>
@@ -1822,11 +1812,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
@@ -1867,11 +1852,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
@@ -1972,11 +1952,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/RO_0000085 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000085">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000079"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -1993,11 +1968,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
@@ -2014,11 +1984,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
@@ -2114,11 +2079,6 @@ range: spatial region or site (immaterial continuant)
     <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:domain>
@@ -2430,11 +2390,6 @@ AND t has_input y</terms:description>
     <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <obo:IAO_0000115>has member is a mereological relation between a collection and an item.</obo:IAO_0000115>
         <obo:IAO_0000119>SIO</obo:IAO_0000119>
@@ -23360,6 +23315,17 @@ However, Shaw explicates:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ngbo.owl/NGBO_6000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001483"/>
+        <obo:IAO_0000115>A cell collecting process used to isolate PBMCs, including T cells, from whole blood using density gradient centrifugation (e.g., Ficoll-Paque).</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>PBMC Separation</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">peripheral blood mononuclear cell isolation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000026 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000026">
@@ -24215,14 +24181,6 @@ However, Shaw explicates:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NGBO_6000695 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NGBO_6000695">
-        <rdfs:label xml:lang="en">User01</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -24268,5 +24226,5 @@ However, Shaw explicates:
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
